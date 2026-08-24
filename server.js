@@ -1,40 +1,37 @@
 const path = require('path');
+const crypto = require('crypto');
 const http = require('http');
 const express = require('express');
 const { Server } = require('socket.io');
 
 const PORT = process.env.PORT || 3001;
 const ROUND_SECONDS = 60;
-const prompts = ['太阳镜', '小猫', '火箭', '冰淇淋', '雨伞', '恐龙', '自行车', '汉堡', '城堡', '企鹅', '机器人', '彩虹', '向日葵', '热气球', '魔法棒', '鲸鱼'];
+const RECONNECT_GRACE = 90_000;
+const prompts = `苹果、香蕉、橙子、西瓜、草莓、葡萄、樱桃、菠萝、芒果、桃子、梨、柠檬、石榴、火龙果、猕猴桃、蓝莓、柿子、椰子、玉米、胡萝卜、土豆、西红柿、黄瓜、茄子、南瓜、白菜、蘑菇、辣椒、洋葱、大蒜、鸡蛋、面包、蛋糕、饼干、冰淇淋、汉堡、薯条、披萨、饺子、包子、面条、米饭、粥、寿司、火锅、烤肉、三明治、热狗、爆米花、糖葫芦、巧克力、棒棒糖、奶茶、咖啡、果汁、牛奶、可乐、啤酒、茶壶、饭碗、筷子、勺子、锅、菜刀、冰箱、微波炉、烤箱、洗衣机、吸尘器、电风扇、空调、电视、电脑、手机、平板、耳机、相机、手表、闹钟、台灯、雨伞、太阳镜、帽子、围巾、手套、鞋子、袜子、书包、钱包、钥匙、眼镜、牙刷、牙膏、毛巾、香皂、梳子、镜子、衣架、剪刀、胶水、铅笔、橡皮、尺子、书本、字典、日历、信封、邮票、纸飞机、气球、礼物、蜡烛、雨衣、拖鞋、沙发、椅子、桌子、床、枕头、被子、窗帘、地毯、门、窗户、楼梯、电梯、房子、公寓、学校、教室、医院、商店、超市、餐厅、咖啡馆、电影院、图书馆、公园、游乐园、动物园、海边、山、桥、道路、红绿灯、公交车站、机场、火车站、汽车、公交车、出租车、火车、飞机、轮船、自行车、电动车、摩托车、救护车、消防车、警车、卡车、拖拉机、火箭、热气球、轮胎、方向盘、信号灯、地图、足球、篮球、排球、羽毛球、网球、乒乓球、棒球、风筝、跳绳、滑板、溜冰鞋、哑铃、棋盘、扑克牌、骰子、积木、玩具车、机器人、布娃娃、玩具熊、拼图、陀螺、魔方、画笔、颜料、画架、吉他、钢琴、小提琴、鼓、麦克风、喇叭、书签、相册、邮筒、电话、电脑鼠标、键盘、充电器、插座、遥控器、手电筒、电池、雨伞、太阳、月亮、星星、彩虹、云朵、闪电、雪花、雪人、火、烟、树、花、向日葵、玫瑰、仙人掌、草、叶子、松树、竹子、蘑菇、山洞、瀑布、河流、湖泊、岛、沙滩、贝壳、海浪、珊瑚、猫、狗、兔子、老鼠、仓鼠、金鱼、乌龟、鸟、鸽子、鸭子、鸡、鹅、猪、牛、羊、马、猴子、大象、狮子、老虎、熊、熊猫、长颈鹿、斑马、河马、鳄鱼、蛇、青蛙、海豚、鲸鱼、鲨鱼、章鱼、螃蟹、蝴蝶、蜜蜂、蜗牛、蚂蚁、蜘蛛、恐龙、企鹅、北极熊、圣诞老人、雪糕车、厨师、医生、护士、老师、学生、警察、消防员、运动员、歌手、画家、宇航员、魔术师、农民、邮递员、理发师、工人、婴儿、家庭、朋友、生日、婚礼、聚会、旅行、露营、野餐、购物、做饭、刷牙、洗澡、睡觉、跑步、跳舞、唱歌、读书、写字、画画、拍照、钓鱼、游泳、骑车、爬山、打电话、看电视、玩游戏、上班、上学、开门、打伞、戴帽子、穿鞋、喝水、吃饭、笑脸、哭脸、爱心、问号、感叹号、数字、音乐、电影、故事、城堡、宝箱、皇冠、宝剑、盾牌、怪兽、精灵、独角兽、外星人、机器人、宇宙、地球、太阳系、望远镜、显微镜、沙漏、指南针、放大镜、锁、钥匙孔、邮票、奖杯、奖牌、皇冠、蛋、礼盒、圣诞树、雪橇、南瓜灯、面具、烟花、风车、帐篷、睡袋、篝火、烧烤、照相机、行李箱、护照、地图、游泳圈、救生衣、沙堡、冰山、帆船、灯塔、摩天轮、过山车、旋转木马`.split('、');
 const rooms = new Map();
-const app = express();
-const server = http.createServer(app);
-const io = new Server(server);
-app.use(express.static(path.join(__dirname, 'public')));
-
-function code() { const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; let value; do value = Array.from({ length: 4 }, () => chars[Math.floor(Math.random() * chars.length)]).join(''); while (rooms.has(value)); return value; }
-function freshRoom(id) { return { id, players: new Map(), drawerIndex: 0, round: 0, prompt: '', strokes: [], guesses: [], scores: [0, 0], started: false, timeLeft: ROUND_SECONDS, timer: null, message: '' }; }
-function publicState(room) { return { id: room.id, players: [...room.players].map(([socketId, player]) => ({ socketId, name: player.name, index: player.index, online: io.sockets.sockets.has(socketId) })), drawerIndex: room.drawerIndex, round: room.round, strokes: room.strokes, guesses: room.guesses.slice(-8), scores: room.scores, started: room.started, timeLeft: room.timeLeft, message: room.message }; }
-function sendState(room) { io.to(room.id).emit('state', publicState(room)); for (const [socketId, player] of room.players) io.to(socketId).emit('privatePrompt', player.index === room.drawerIndex && room.started ? room.prompt : ''); }
-function choosePrompt() { return prompts[Math.floor(Math.random() * prompts.length)]; }
-function beginRound(room) {
-  room.round += 1; room.prompt = choosePrompt(); room.strokes = []; room.guesses = []; room.timeLeft = ROUND_SECONDS; room.started = true; room.message = '';
-  clearInterval(room.timer);
-  room.timer = setInterval(() => { room.timeLeft -= 1; if (room.timeLeft <= 0) { room.timeLeft = 0; room.message = `时间到！答案是：${room.prompt}`; room.started = false; clearInterval(room.timer); setTimeout(() => { if (rooms.get(room.id) === room) beginRound(room); }, 2600); } sendState(room); }, 1000);
-  sendState(room);
-}
-function playerFor(room, socket) { return room.players.get(socket.id); }
-function roomFor(socket) { const id = [...socket.rooms].find((roomId) => roomId !== socket.id); return id && rooms.get(id); }
-
-io.on('connection', (socket) => {
-  socket.on('createRoom', ({ name } = {}, cb = () => {}) => { const id = code(); const room = freshRoom(id); room.players.set(socket.id, { name: String(name || '玩家 1').slice(0, 12), index: 0 }); rooms.set(id, room); socket.join(id); cb({ ok: true, id, index: 0 }); sendState(room); });
-  socket.on('joinRoom', ({ id, name } = {}, cb = () => {}) => { const room = rooms.get(String(id || '').toUpperCase()); if (!room) return cb({ ok: false, message: '房间不存在。' }); if (room.players.size >= 2) return cb({ ok: false, message: '房间已满。' }); room.players.set(socket.id, { name: String(name || '玩家 2').slice(0, 12), index: 1 }); socket.join(room.id); cb({ ok: true, id: room.id, index: 1 }); if (room.players.size === 2 && !room.started) beginRound(room); else sendState(room); });
-  socket.on('start', () => { const room = roomFor(socket); if (room && room.players.size === 2 && !room.started) beginRound(room); });
-  socket.on('stroke', (stroke) => { const room = roomFor(socket); const player = room && playerFor(room, socket); if (!room || !room.started || !player || player.index !== room.drawerIndex) return; if (!stroke || !Array.isArray(stroke.points) || stroke.points.length < 2) return; room.strokes.push({ color: stroke.color === '#ef8354' ? '#ef8354' : '#2c3340', size: Math.min(24, Math.max(2, Number(stroke.size) || 6)), points: stroke.points.slice(0, 180) }); socket.to(room.id).emit('stroke', room.strokes.at(-1)); });
-  socket.on('clearCanvas', () => { const room = roomFor(socket); const player = room && playerFor(room, socket); if (!room || !player || player.index !== room.drawerIndex) return; room.strokes = []; io.to(room.id).emit('canvasCleared'); });
-  socket.on('guess', (text, cb = () => {}) => { const room = roomFor(socket); const player = room && playerFor(room, socket); const guess = String(text || '').trim().slice(0, 40); if (!room || !room.started || !player || player.index === room.drawerIndex || !guess) return cb({ ok: false, message: '现在不能提交这个答案。' }); const correct = guess.replace(/\s/g, '').toLowerCase() === room.prompt.replace(/\s/g, '').toLowerCase(); room.guesses.push({ name: player.name, text: guess, correct }); if (correct) { room.scores[player.index] += 1; room.scores[room.drawerIndex] += 1; room.message = `${player.name} 猜中了！答案是：${room.prompt}`; room.started = false; clearInterval(room.timer); setTimeout(() => { if (rooms.get(room.id) === room) { room.drawerIndex = room.drawerIndex === 0 ? 1 : 0; beginRound(room); } }, 2600); } sendState(room); cb({ ok: true, correct }); });
-  socket.on('nextRound', () => { const room = roomFor(socket); const player = room && playerFor(room, socket); if (room && player && player.index === room.drawerIndex && !room.started) beginRound(room); });
-  socket.on('disconnect', () => { const room = [...rooms.values()].find((item) => item.players.has(socket.id)); if (!room) return; room.message = '对方已离线，等待重新连接。'; sendState(room); if ([...room.players].every(([id]) => !io.sockets.sockets.has(id))) { clearInterval(room.timer); rooms.delete(room.id); } });
+const app = express(); const server = http.createServer(app); const io = new Server(server, { pingInterval: 10_000, pingTimeout: 20_000, maxHttpBufferSize: 1e6 });
+app.use(express.static(path.join(__dirname, 'public'))); app.get('/health', (_, res) => res.json({ ok: true }));
+function code(){const chars='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';let v;do v=Array.from({length:4},()=>chars[Math.floor(Math.random()*chars.length)]).join('');while(rooms.has(v));return v}
+function freshRoom(id){return{id,players:new Map(),drawerIndex:0,round:0,prompt:'',strokes:[],activeStrokes:new Map(),guesses:[],chat:[],scores:[0,0],started:false,timeLeft:ROUND_SECONDS,timer:null,message:'',removeTimer:null}}
+function publicState(r){return{id:r.id,players:[...r.players].map(([socketId,p])=>({socketId,name:p.name,index:p.index,online:io.sockets.sockets.has(socketId)})),drawerIndex:r.drawerIndex,round:r.round,strokes:r.strokes,guesses:r.guesses.slice(-8),chat:r.chat.slice(-30),scores:r.scores,started:r.started,timeLeft:r.timeLeft,message:r.message}}
+function sendState(r){io.to(r.id).emit('state',publicState(r));for(const [id,p] of r.players)io.to(id).emit('privatePrompt',p.index===r.drawerIndex&&r.started?r.prompt:'')}
+function roomFor(s){return s.roomId&&rooms.get(s.roomId)} function playerFor(r,s){return r&&r.players.get(s.id)} function choosePrompt(){return prompts[Math.floor(Math.random()*prompts.length)]}
+function beginRound(r){r.round++;r.prompt=choosePrompt();r.strokes=[];r.activeStrokes.clear();r.guesses=[];r.timeLeft=ROUND_SECONDS;r.started=true;r.message='';clearInterval(r.timer);r.timer=setInterval(()=>{r.timeLeft--;if(r.timeLeft<=0){r.timeLeft=0;r.message=`时间到！答案是：${r.prompt}`;r.started=false;clearInterval(r.timer);setTimeout(()=>{if(rooms.get(r.id)===r)beginRound(r)},2600)}sendState(r)},1000);sendState(r)}
+function safeName(n,fallback){return String(n||fallback).replace(/[<>]/g,'').slice(0,12)}
+function joinSocket(s,r,p){p.online=true;s.join(r.id);s.roomId=r.id;clearTimeout(r.removeTimer);r.players.set(s.id,p);sendState(r)}
+io.on('connection',s=>{
+  s.on('createRoom',({name}={},cb=()=>{})=>{const id=code(),r=freshRoom(id),p={name:safeName(name,'玩家 1'),index:0,token:crypto.randomBytes(12).toString('hex')};rooms.set(id,r);joinSocket(s,r,p);cb({ok:true,id,index:0,token:p.token})});
+  s.on('joinRoom',({id,name}={},cb=()=>{})=>{const r=rooms.get(String(id||'').toUpperCase());if(!r)return cb({ok:false,message:'房间不存在。'});if([...r.players.values()].some(p=>p.online)&&r.players.size>=2)return cb({ok:false,message:'房间已满。'});const used=[...r.players.values()].map(p=>p.index),index=used.includes(0)?1:0,p={name:safeName(name,'玩家 2'),index,token:crypto.randomBytes(12).toString('hex')};joinSocket(s,r,p);cb({ok:true,id:r.id,index,token:p.token});if([...r.players.values()].filter(p=>p.online).length===2&&!r.started)beginRound(r)});
+  s.on('reconnectRoom',({id,token}={},cb=()=>{})=>{const r=rooms.get(String(id||'').toUpperCase());const found=r&&[...r.players].find(([,p])=>p.token===token);if(!r||!found)return cb({ok:false});const [oldId,p]=found;r.players.delete(oldId);joinSocket(s,r,p);cb({ok:true,id:r.id,index:p.index,token:p.token});sendState(r)});
+  s.on('start',()=>{const r=roomFor(s);if(r&&[...r.players.values()].filter(p=>p.online).length===2&&!r.started)beginRound(r)});
+  s.on('strokeStart',({strokeId,color,size}={})=>{const r=roomFor(s),p=playerFor(r,s);if(!r||!r.started||!p||p.index!==r.drawerIndex)return;const item={id:String(strokeId||Date.now()),color:/^#[0-9a-f]{6}$/i.test(color)?color:'#2c3340',size:Math.min(24,Math.max(2,Number(size)||6)),points:[]};r.activeStrokes.set(item.id,{player:s.id,item});s.to(r.id).emit('strokeBegin',{id:item.id,color:item.color,size:item.size})});
+  s.on('strokePoints',({strokeId,points}={})=>{const r=roomFor(s),a=r&&r.activeStrokes.get(String(strokeId));if(!a||a.player!==s.id||!Array.isArray(points))return;const clean=points.slice(-80).filter(p=>Number.isFinite(p?.x)&&Number.isFinite(p?.y)).map(p=>({x:Math.max(0,Math.min(900,p.x)),y:Math.max(0,Math.min(560,p.y))}));if(!clean.length)return;a.item.points.push(...clean);a.item.points=a.item.points.slice(-500);s.to(r.id).emit('strokePoints',{id:a.item.id,points:clean})});
+  s.on('strokeEnd',({strokeId}={})=>{const r=roomFor(s),a=r&&r.activeStrokes.get(String(strokeId));if(!a||a.player!==s.id)return;r.activeStrokes.delete(String(strokeId));if(a.item.points.length>=2){r.strokes.push(a.item);s.to(r.id).emit('strokeEnd',a.item);sendState(r)}});
+  s.on('stroke',stroke=>{const r=roomFor(s),p=playerFor(r,s);if(!r||!r.started||!p||p.index!==r.drawerIndex||!Array.isArray(stroke?.points))return;const item={color:/^#[0-9a-f]{6}$/i.test(stroke.color)?stroke.color:'#2c3340',size:Math.min(24,Math.max(2,Number(stroke.size)||6)),points:stroke.points.slice(0,500)};r.strokes.push(item);s.to(r.id).emit('stroke',item);sendState(r)});
+  s.on('clearCanvas',()=>{const r=roomFor(s),p=playerFor(r,s);if(!r||!p||p.index!==r.drawerIndex)return;r.strokes=[];r.activeStrokes.clear();io.to(r.id).emit('canvasCleared');sendState(r)});
+  s.on('guess',(text,cb=()=>{})=>{const r=roomFor(s),p=playerFor(r,s),guess=String(text||'').trim().slice(0,40);if(!r||!r.started||!p||p.index===r.drawerIndex||!guess)return cb({ok:false,message:'现在不能提交这个答案。'});const correct=guess.replace(/\s/g,'').toLowerCase()===r.prompt.replace(/\s/g,'').toLowerCase();r.guesses.push({name:p.name,text:guess,correct});if(correct){r.scores[p.index]++;r.scores[r.drawerIndex]++;r.message=`${p.name} 猜中了！答案是：${r.prompt}`;r.started=false;clearInterval(r.timer);setTimeout(()=>{if(rooms.get(r.id)===r){r.drawerIndex=r.drawerIndex===0?1:0;beginRound(r)}},2600)}sendState(r);cb({ok:true,correct})});
+  s.on('chat',text=>{const r=roomFor(s),p=playerFor(r,s),message=String(text||'').replace(/[<>]/g,'').trim().slice(0,160);if(!r||!p||!message)return;const item={name:p.name,index:p.index,text:message,time:Date.now()};r.chat.push(item);r.chat=r.chat.slice(-40);io.to(r.id).emit('chatMessage',item);sendState(r)});
+  s.on('nextRound',()=>{const r=roomFor(s),p=playerFor(r,s);if(r&&p&&p.index===r.drawerIndex&&!r.started)beginRound(r)});
+  s.on('disconnect',()=>{const r=roomFor(s),p=playerFor(r,s);if(!r||!p)return;p.online=false;r.message='对方网络暂时断开，正在等待重连…';sendState(r);clearTimeout(r.removeTimer);r.removeTimer=setTimeout(()=>{if(rooms.get(r.id)===r&&[...r.players].every(([id])=>!io.sockets.sockets.has(id))){clearInterval(r.timer);rooms.delete(r.id)}},RECONNECT_GRACE)});
 });
-
-server.listen(PORT, () => console.log(`Draw & Guess running at http://localhost:${PORT}`));
+server.listen(PORT,()=>console.log(`Draw & Guess running on ${PORT}; prompts: ${prompts.length}`));
