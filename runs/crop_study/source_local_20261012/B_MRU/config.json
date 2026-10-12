@@ -1,0 +1,13 @@
+{
+  "local_size_gate_original": 128,
+  "score_scale": 0.9,
+  "global_conf": 0.25,
+  "global_size_threshold_val_space": 96,
+  "protection_iou": 0.5,
+  "final_iou": 0.7,
+  "maxdet": 500,
+  "frozen_rois_sha256": "659d22fd9f68d1f1639b07a20dc8eabb94222c9363935d8d60606dbaf0f54b01",
+  "GT_input": false,
+  "source": "https://github.com/JiajunChen223/MRU-YOLO/blob/main/dla_yolo/mru/validator.py",
+  "note": "Published HYBRID fusion transplanted to S2 raw multi-label pools, native640 ROIs and max500. NOT full MRU reproduction; same detector/ROI/evaluation as B0."
+}

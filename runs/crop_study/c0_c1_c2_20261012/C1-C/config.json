@@ -1,0 +1,37 @@
+{
+  "scheme": "C1-C",
+  "GT_Oracle": false,
+  "global_imgsz": 640,
+  "roi_imgsz": 640,
+  "roi_policy": "fixed",
+  "budget": null,
+  "images": 548,
+  "immutable": {
+    "checkpoint_sha256": "ea7a1f071cfc5e0b4b3dc4016c38f36727b1f0302a9a9bc5c0192da39df1d16f",
+    "label_content_sha256": "7319e005d6c9cad147454b3a5eb042600c5add510611fffd137c25a2932ba65b",
+    "original_annotations_sha256": "b05cf4368c2d3668341f5d8055d78a4fa091bd4a4afb9553c76ebf03186db52e",
+    "image_content_sha256": "abcd3e973ed15c2d39962d7a09606f04bfe7d3e2cb083dd7cd6dd290fe24fe10",
+    "annotation_sha256": "437d6d9f984c3749b456635b884bdef45775a0ca93336f08000d30cd3c932b4a",
+    "val_manifest_sha256": "5bab02f66f40d80fd10494a37e202e8034b76e5abaa153fd512d20bf77c4b044"
+  },
+  "postprocess": {
+    "conf": 0.001,
+    "roi_nms_iou": 0.7,
+    "fusion_main_iou": 0.7,
+    "fusion_sensitivity": [
+      0.5,
+      0.6
+    ],
+    "max_nms": 30000,
+    "intermediate_max_det": 10000,
+    "final_max_det": 500,
+    "multi_label": true,
+    "edge_suppression": "disabled; geometry-only hook for future studies; edge candidates counted at 2px"
+  },
+  "start": "2026-10-12T04:42:05.057306+00:00",
+  "timing": "Sequential image end-to-end, synchronized GPU, includes disk decode, resize/ROI crop, forward, both NMS stages, mapping and CPU transfer. Excludes model load/initial 30 warmups, JSON serialization, scoring. Oracle selection geometry INCLUDED and separately timed. No reused/cached-forward cost masquerading as measured latency.",
+  "smoke": false,
+  "warmup": "30 square640 at model load; 3 forward repeats per unique shape before each scheme; excluded from timed/costed calls",
+  "status": "inference_complete",
+  "finish": "2026-10-12T04:43:55.457558+00:00"
+}

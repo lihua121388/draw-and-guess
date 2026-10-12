@@ -1,0 +1,2772 @@
+{
+  "evaluations": {
+    "E0": {
+      "images": 548,
+      "ultralytics": {
+        "metrics/precision(B)": 0.4546937226286364,
+        "metrics/recall(B)": 0.4155826157018601,
+        "metrics/mAP50(B)": 0.3969884971619098,
+        "metrics/mAP50-95(B)": 0.23662333685563555,
+        "fitness": 0.25265985288626297
+      },
+      "per_class": [
+        {
+          "class_id": 0,
+          "name": "pedestrian",
+          "Precision": 0.5062083020171233,
+          "Recall": 0.4929529438508752,
+          "AP50": 0.4968680107027331,
+          "AP50_95": 0.23427142727987568
+        },
+        {
+          "class_id": 1,
+          "name": "people",
+          "Precision": 0.5465064421743847,
+          "Recall": 0.31996870721689813,
+          "AP50": 0.3650502819906638,
+          "AP50_95": 0.14561234706514073
+        },
+        {
+          "class_id": 2,
+          "name": "bicycle",
+          "Precision": 0.23057032145730288,
+          "Recall": 0.2004698512137823,
+          "AP50": 0.1230021777811482,
+          "AP50_95": 0.05017113454594432
+        },
+        {
+          "class_id": 3,
+          "name": "car",
+          "Precision": 0.6003332342720819,
+          "Recall": 0.8509405621915457,
+          "AP50": 0.8044983609470855,
+          "AP50_95": 0.5693756048277714
+        },
+        {
+          "class_id": 4,
+          "name": "van",
+          "Precision": 0.4699083729444348,
+          "Recall": 0.4645030425963489,
+          "AP50": 0.43979171834498615,
+          "AP50_95": 0.3098252360685864
+        },
+        {
+          "class_id": 5,
+          "name": "truck",
+          "Precision": 0.3809997527205675,
+          "Recall": 0.3582887700534759,
+          "AP50": 0.322256841401009,
+          "AP50_95": 0.21393003235637997
+        },
+        {
+          "class_id": 6,
+          "name": "tricycle",
+          "Precision": 0.3880139630902121,
+          "Recall": 0.27490421455938696,
+          "AP50": 0.25427953145121324,
+          "AP50_95": 0.1454277064166911
+        },
+        {
+          "class_id": 7,
+          "name": "awning-tricycle",
+          "Precision": 0.3471646656634504,
+          "Recall": 0.17222459426942743,
+          "AP50": 0.15978648951762708,
+          "AP50_95": 0.10126613181955106
+        },
+        {
+          "class_id": 8,
+          "name": "bus",
+          "Precision": 0.5236956612002529,
+          "Recall": 0.5653324380682956,
+          "AP50": 0.5464380105608484,
+          "AP50_95": 0.3909786530174503
+        },
+        {
+          "class_id": 9,
+          "name": "motor",
+          "Precision": 0.5535365107465534,
+          "Recall": 0.4562410329985653,
+          "AP50": 0.4579135489217837,
+          "AP50_95": 0.20537509515896493
+        }
+      ],
+      "coco_supplemental": {
+        "mAP50_95": 0.23106556998383362,
+        "mAP50": 0.3956723090710656,
+        "AP_small": 0.16628690401686633,
+        "AR_small": 0.3517738149272687,
+        "AP_medium": 0.2957366487637407,
+        "AP_large": 0.41597522526285124,
+        "max_det": 500,
+        "small_area": "original-image area <= 32^2 pixels",
+        "protocol": "supplemental standard COCO; VisDrone ignored regions approximated as classwise crowds",
+        "per_class": [
+          {
+            "category_id": 1,
+            "name": "pedestrian",
+            "AP50": 0.5066676056779877,
+            "AP50_95": 0.2333864670691942,
+            "AP_small": 0.20859517557877755,
+            "AR_small": 0.37778499091145157
+          },
+          {
+            "category_id": 2,
+            "name": "people",
+            "AP50": 0.3598617705075403,
+            "AP50_95": 0.13829809820637204,
+            "AP_small": 0.1362013668320697,
+            "AR_small": 0.30919913419913414
+          },
+          {
+            "category_id": 3,
+            "name": "bicycle",
+            "AP50": 0.13214213050038054,
+            "AP50_95": 0.05159436532722107,
+            "AP_small": 0.04553842956254884,
+            "AR_small": 0.24055608820709495
+          },
+          {
+            "category_id": 4,
+            "name": "car",
+            "AP50": 0.8042387740760484,
+            "AP50_95": 0.558866496776727,
+            "AP_small": 0.41467837412248054,
+            "AR_small": 0.5649063779988296
+          },
+          {
+            "category_id": 5,
+            "name": "van",
+            "AP50": 0.43328677483414574,
+            "AP50_95": 0.3019843200030162,
+            "AP_small": 0.15738789558653263,
+            "AR_small": 0.4108021390374332
+          },
+          {
+            "category_id": 6,
+            "name": "truck",
+            "AP50": 0.3194383751474381,
+            "AP50_95": 0.2098250807594897,
+            "AP_small": 0.10271966025554881,
+            "AR_small": 0.3059233449477352
+          },
+          {
+            "category_id": 7,
+            "name": "tricycle",
+            "AP50": 0.24769241154454677,
+            "AP50_95": 0.1390641290279903,
+            "AP_small": 0.11150291204776708,
+            "AR_small": 0.30870967741935484
+          },
+          {
+            "category_id": 8,
+            "name": "awning-tricycle",
+            "AP50": 0.15254343228713974,
+            "AP50_95": 0.09473155600232412,
+            "AP_small": 0.08046388950863041,
+            "AR_small": 0.2587458745874588
+          },
+          {
+            "category_id": 9,
+            "name": "bus",
+            "AP50": 0.534873701417008,
+            "AP50_95": 0.37865666732259273,
+            "AP_small": 0.20856058088088977,
+            "AR_small": 0.33839285714285716
+          },
+          {
+            "category_id": 10,
+            "name": "motor",
+            "AP50": 0.46597811471842054,
+            "AP50_95": 0.20424851934340899,
+            "AP_small": 0.19722075579341816,
+            "AR_small": 0.4027176648213387
+          }
+        ]
+      },
+      "original_size": {
+        "<8": {
+          "targets": 2303,
+          "matched": 615,
+          "errors": {
+            "low_conf_005_025": 590,
+            "very_low_conf_0001_005": 79,
+            "assignment_competition": 3,
+            "wrong_class_proxy": 35,
+            "localization_proxy": 77,
+            "no_qualifying_output": 904
+          },
+          "recall": 0.267042987407729,
+          "missed": 1688,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.3495260663507109,
+            "very_low_conf_0001_005": 0.046800947867298576,
+            "assignment_competition": 0.0017772511848341231,
+            "wrong_class_proxy": 0.020734597156398103,
+            "localization_proxy": 0.04561611374407583,
+            "no_qualifying_output": 0.5355450236966824
+          }
+        },
+        "8-16": {
+          "targets": 9536,
+          "matched": 4504,
+          "errors": {
+            "low_conf_005_025": 2261,
+            "very_low_conf_0001_005": 220,
+            "assignment_competition": 15,
+            "wrong_class_proxy": 266,
+            "localization_proxy": 202,
+            "no_qualifying_output": 2068
+          },
+          "recall": 0.47231543624161076,
+          "missed": 5032,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.44932432432432434,
+            "very_low_conf_0001_005": 0.04372019077901431,
+            "assignment_competition": 0.0029809220985691576,
+            "wrong_class_proxy": 0.05286168521462639,
+            "localization_proxy": 0.04014308426073132,
+            "no_qualifying_output": 0.4109697933227345
+          }
+        },
+        "16-32": {
+          "targets": 14580,
+          "matched": 8717,
+          "errors": {
+            "low_conf_005_025": 2889,
+            "very_low_conf_0001_005": 232,
+            "assignment_competition": 20,
+            "wrong_class_proxy": 371,
+            "localization_proxy": 197,
+            "no_qualifying_output": 2154
+          },
+          "recall": 0.5978737997256516,
+          "missed": 5863,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.49275115128773667,
+            "very_low_conf_0001_005": 0.039570185911649326,
+            "assignment_competition": 0.0034112229234180454,
+            "wrong_class_proxy": 0.06327818522940475,
+            "localization_proxy": 0.03360054579566775,
+            "no_qualifying_output": 0.3673887088521235
+          }
+        },
+        ">=32": {
+          "targets": 12168,
+          "matched": 9629,
+          "errors": {
+            "low_conf_005_025": 1233,
+            "very_low_conf_0001_005": 143,
+            "assignment_competition": 9,
+            "wrong_class_proxy": 289,
+            "localization_proxy": 67,
+            "no_qualifying_output": 798
+          },
+          "recall": 0.7913379355687048,
+          "missed": 2539,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.4856242615202836,
+            "very_low_conf_0001_005": 0.056321386372587635,
+            "assignment_competition": 0.0035447026388341868,
+            "wrong_class_proxy": 0.11382434029145333,
+            "localization_proxy": 0.026388341866876722,
+            "no_qualifying_output": 0.31429696730996454
+          }
+        }
+      },
+      "density_size": {
+        "<8": {
+          "dense": {
+            "targets": 2101,
+            "matched": 550,
+            "errors": {
+              "low_conf_005_025": 545,
+              "very_low_conf_0001_005": 70,
+              "assignment_competition": 3,
+              "wrong_class_proxy": 30,
+              "localization_proxy": 75,
+              "no_qualifying_output": 828
+            },
+            "recall": 0.2617801047120419,
+            "missed": 1551,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.3513862024500322,
+              "very_low_conf_0001_005": 0.04513217279174726,
+              "assignment_competition": 0.0019342359767891683,
+              "wrong_class_proxy": 0.019342359767891684,
+              "localization_proxy": 0.048355899419729204,
+              "no_qualifying_output": 0.5338491295938105
+            }
+          },
+          "sparse": {
+            "targets": 202,
+            "matched": 65,
+            "errors": {
+              "low_conf_005_025": 45,
+              "very_low_conf_0001_005": 9,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 5,
+              "localization_proxy": 2,
+              "no_qualifying_output": 76
+            },
+            "recall": 0.3217821782178218,
+            "missed": 137,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.3284671532846715,
+              "very_low_conf_0001_005": 0.06569343065693431,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.0364963503649635,
+              "localization_proxy": 0.014598540145985401,
+              "no_qualifying_output": 0.5547445255474452
+            }
+          },
+          "undefined": {
+            "targets": 0,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 0,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 0,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": null,
+            "missed": 0,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": null,
+              "very_low_conf_0001_005": null,
+              "assignment_competition": null,
+              "wrong_class_proxy": null,
+              "localization_proxy": null,
+              "no_qualifying_output": null
+            }
+          }
+        },
+        "8-16": {
+          "dense": {
+            "targets": 8797,
+            "matched": 4140,
+            "errors": {
+              "low_conf_005_025": 2099,
+              "very_low_conf_0001_005": 197,
+              "assignment_competition": 15,
+              "wrong_class_proxy": 252,
+              "localization_proxy": 197,
+              "no_qualifying_output": 1897
+            },
+            "recall": 0.4706149823803569,
+            "missed": 4657,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.45071934721923984,
+              "very_low_conf_0001_005": 0.04230191110156753,
+              "assignment_competition": 0.0032209576980888983,
+              "wrong_class_proxy": 0.05411208932789349,
+              "localization_proxy": 0.04230191110156753,
+              "no_qualifying_output": 0.4073437835516427
+            }
+          },
+          "sparse": {
+            "targets": 739,
+            "matched": 364,
+            "errors": {
+              "low_conf_005_025": 162,
+              "very_low_conf_0001_005": 23,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 14,
+              "localization_proxy": 5,
+              "no_qualifying_output": 171
+            },
+            "recall": 0.4925575101488498,
+            "missed": 375,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.432,
+              "very_low_conf_0001_005": 0.06133333333333333,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.037333333333333336,
+              "localization_proxy": 0.013333333333333334,
+              "no_qualifying_output": 0.456
+            }
+          },
+          "undefined": {
+            "targets": 0,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 0,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 0,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": null,
+            "missed": 0,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": null,
+              "very_low_conf_0001_005": null,
+              "assignment_competition": null,
+              "wrong_class_proxy": null,
+              "localization_proxy": null,
+              "no_qualifying_output": null
+            }
+          }
+        },
+        "16-32": {
+          "dense": {
+            "targets": 13560,
+            "matched": 8071,
+            "errors": {
+              "low_conf_005_025": 2708,
+              "very_low_conf_0001_005": 205,
+              "assignment_competition": 20,
+              "wrong_class_proxy": 349,
+              "localization_proxy": 195,
+              "no_qualifying_output": 2012
+            },
+            "recall": 0.5952064896755163,
+            "missed": 5489,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.4933503370377118,
+              "very_low_conf_0001_005": 0.037347422116961196,
+              "assignment_competition": 0.0036436509382401167,
+              "wrong_class_proxy": 0.06358170887229003,
+              "localization_proxy": 0.035525596647841134,
+              "no_qualifying_output": 0.3665512843869557
+            }
+          },
+          "sparse": {
+            "targets": 1020,
+            "matched": 646,
+            "errors": {
+              "low_conf_005_025": 181,
+              "very_low_conf_0001_005": 27,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 22,
+              "localization_proxy": 2,
+              "no_qualifying_output": 142
+            },
+            "recall": 0.6333333333333333,
+            "missed": 374,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.4839572192513369,
+              "very_low_conf_0001_005": 0.07219251336898395,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.058823529411764705,
+              "localization_proxy": 0.0053475935828877,
+              "no_qualifying_output": 0.37967914438502676
+            }
+          },
+          "undefined": {
+            "targets": 0,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 0,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 0,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": null,
+            "missed": 0,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": null,
+              "very_low_conf_0001_005": null,
+              "assignment_competition": null,
+              "wrong_class_proxy": null,
+              "localization_proxy": null,
+              "no_qualifying_output": null
+            }
+          }
+        },
+        ">=32": {
+          "dense": {
+            "targets": 11062,
+            "matched": 8714,
+            "errors": {
+              "low_conf_005_025": 1149,
+              "very_low_conf_0001_005": 124,
+              "assignment_competition": 9,
+              "wrong_class_proxy": 266,
+              "localization_proxy": 64,
+              "no_qualifying_output": 736
+            },
+            "recall": 0.7877418188392695,
+            "missed": 2348,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.4893526405451448,
+              "very_low_conf_0001_005": 0.05281090289608177,
+              "assignment_competition": 0.0038330494037478705,
+              "wrong_class_proxy": 0.11328790459965929,
+              "localization_proxy": 0.027257240204429302,
+              "no_qualifying_output": 0.313458262350937
+            }
+          },
+          "sparse": {
+            "targets": 1104,
+            "matched": 915,
+            "errors": {
+              "low_conf_005_025": 83,
+              "very_low_conf_0001_005": 19,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 22,
+              "localization_proxy": 3,
+              "no_qualifying_output": 62
+            },
+            "recall": 0.8288043478260869,
+            "missed": 189,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.43915343915343913,
+              "very_low_conf_0001_005": 0.10052910052910052,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.1164021164021164,
+              "localization_proxy": 0.015873015873015872,
+              "no_qualifying_output": 0.328042328042328
+            }
+          },
+          "undefined": {
+            "targets": 2,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 1,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 1,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": 0.0,
+            "missed": 2,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.5,
+              "very_low_conf_0001_005": 0.0,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.5,
+              "localization_proxy": 0.0,
+              "no_qualifying_output": 0.0
+            }
+          }
+        }
+      },
+      "all_diagnostics": {
+        "targets": 38587,
+        "matched": 23465,
+        "errors": {
+          "low_conf_005_025": 6973,
+          "very_low_conf_0001_005": 674,
+          "assignment_competition": 47,
+          "wrong_class_proxy": 961,
+          "localization_proxy": 543,
+          "no_qualifying_output": 5924
+        },
+        "recall": 0.6081063570632597,
+        "missed": 15122,
+        "error_fraction_of_misses": {
+          "low_conf_005_025": 0.46111625446369525,
+          "very_low_conf_0001_005": 0.04457082396508398,
+          "assignment_competition": 0.003108054490146806,
+          "wrong_class_proxy": 0.06354979500066128,
+          "localization_proxy": 0.0359079486840365,
+          "no_qualifying_output": 0.39174712339637613
+        }
+      },
+      "protocol": "Shared offline original-coordinate Ultralytics AP; COCO small and VisDrone reference separate.",
+      "visdrone_reference_python": {
+        "protocol": "Python reproduction of public MATLAB toolkit conventions; NOT MATLAB cross-validated",
+        "source": "https://github.com/VisDrone/VisDrone2018-DET-toolkit",
+        "images": 548,
+        "AP50_95": 0.23720939054659848,
+        "AP50": 0.42160751167523564,
+        "AP75": 0.22516775709917955,
+        "macro_AP50_95": 0.2291769707769997,
+        "macro_AP50": 0.3945630230417298,
+        "category_image_presence": [
+          520,
+          482,
+          364,
+          515,
+          421,
+          265,
+          337,
+          219,
+          130,
+          485
+        ],
+        "per_category_AP50_95": [
+          0.23118050456152303,
+          0.13581319665782013,
+          0.05048643467315629,
+          0.560004452457008,
+          0.30022963850314477,
+          0.2065890408664613,
+          0.13495288354914767,
+          0.09229079312615732,
+          0.3774875939761898,
+          0.20273516939938913
+        ],
+        "per_category_AP50": [
+          0.5069372619483359,
+          0.35803648187617215,
+          0.12963337501800434,
+          0.8083522725559896,
+          0.4335972425024069,
+          0.3160111585854269,
+          0.2433046059841388,
+          0.14910635789552215,
+          0.5350742432045458,
+          0.4655772308467554
+        ],
+        "recall": {
+          "AR1": 0.007549953531668952,
+          "AR10": 0.06413934839735487,
+          "AR100": 0.30238957493001944,
+          "AR500": 0.42987332652284194
+        },
+        "conventions": "Category-0 union raster filtering, MATLAB rounding and integral indexing; score=0 GT ignored in matching; per-image global top-k before category filtering; continuous VOC precision envelope. Category11 is outside evaluated classes, not a category0 region. Toolkit repeated-class aggregation and GT denominator reproduced literally; macro aggregate also given. APsmall is not defined by this toolkit."
+      }
+    },
+    "E1": {
+      "images": 548,
+      "ultralytics": {
+        "metrics/precision(B)": 0.4689056149326536,
+        "metrics/recall(B)": 0.4159515430144487,
+        "metrics/mAP50(B)": 0.4064431593167586,
+        "metrics/mAP50-95(B)": 0.2438595736373318,
+        "fitness": 0.26011793220527446
+      },
+      "per_class": [
+        {
+          "class_id": 0,
+          "name": "pedestrian",
+          "Precision": 0.5088743526067177,
+          "Recall": 0.49486876210469444,
+          "AP50": 0.5007829424207288,
+          "AP50_95": 0.23605209339491195
+        },
+        {
+          "class_id": 1,
+          "name": "people",
+          "Precision": 0.5454793511896153,
+          "Recall": 0.32231566594954036,
+          "AP50": 0.36616166656100196,
+          "AP50_95": 0.14587291598613103
+        },
+        {
+          "class_id": 2,
+          "name": "bicycle",
+          "Precision": 0.23326794357373967,
+          "Recall": 0.20125293657008614,
+          "AP50": 0.12355580543540198,
+          "AP50_95": 0.05028575164717214
+        },
+        {
+          "class_id": 3,
+          "name": "car",
+          "Precision": 0.6290099802246132,
+          "Recall": 0.8505114083398898,
+          "AP50": 0.8356581509452478,
+          "AP50_95": 0.5957126065127563
+        },
+        {
+          "class_id": 4,
+          "name": "van",
+          "Precision": 0.49335236068196325,
+          "Recall": 0.4579107505070994,
+          "AP50": 0.45385889115318384,
+          "AP50_95": 0.32339512605465254
+        },
+        {
+          "class_id": 5,
+          "name": "truck",
+          "Precision": 0.406918848540348,
+          "Recall": 0.356951871657754,
+          "AP50": 0.3316784427841089,
+          "AP50_95": 0.22344524579941788
+        },
+        {
+          "class_id": 6,
+          "name": "tricycle",
+          "Precision": 0.39330104516480563,
+          "Recall": 0.2738357578128659,
+          "AP50": 0.25661222614075396,
+          "AP50_95": 0.1469741609270417
+        },
+        {
+          "class_id": 7,
+          "name": "awning-tricycle",
+          "Precision": 0.35049401532970664,
+          "Recall": 0.17170264128293716,
+          "AP50": 0.16171661166930165,
+          "AP50_95": 0.10242214918623896
+        },
+        {
+          "class_id": 8,
+          "name": "bus",
+          "Precision": 0.5660373120840878,
+          "Recall": 0.5708502024291497,
+          "AP50": 0.5679509684309114,
+          "AP50_95": 0.40496378148063467
+        },
+        {
+          "class_id": 9,
+          "name": "motor",
+          "Precision": 0.5623209399309379,
+          "Recall": 0.4593154334904694,
+          "AP50": 0.4664558876269457,
+          "AP50_95": 0.2094719053843606
+        }
+      ],
+      "coco_supplemental": {
+        "mAP50_95": 0.23827590831714993,
+        "mAP50": 0.40539912110352294,
+        "AP_small": 0.1701785998480216,
+        "AR_small": 0.35312243304963326,
+        "AP_medium": 0.30549280395721656,
+        "AP_large": 0.42637622395469615,
+        "max_det": 500,
+        "small_area": "original-image area <= 32^2 pixels",
+        "protocol": "supplemental standard COCO; VisDrone ignored regions approximated as classwise crowds",
+        "per_class": [
+          {
+            "category_id": 1,
+            "name": "pedestrian",
+            "AP50": 0.5109918979435413,
+            "AP50_95": 0.23537966210337105,
+            "AP_small": 0.21000548087041304,
+            "AR_small": 0.3791482731757985
+          },
+          {
+            "category_id": 2,
+            "name": "people",
+            "AP50": 0.3608500516265282,
+            "AP50_95": 0.13866560346126564,
+            "AP_small": 0.13665890133892328,
+            "AR_small": 0.31069264069264074
+          },
+          {
+            "category_id": 3,
+            "name": "bicycle",
+            "AP50": 0.1328022700945145,
+            "AP50_95": 0.05181049656175722,
+            "AP_small": 0.04575119418160797,
+            "AR_small": 0.24122722914669223
+          },
+          {
+            "category_id": 4,
+            "name": "car",
+            "AP50": 0.8358189174872857,
+            "AP50_95": 0.5851716457020735,
+            "AP_small": 0.42910271531739125,
+            "AR_small": 0.5653891164423639
+          },
+          {
+            "category_id": 5,
+            "name": "van",
+            "AP50": 0.4473516753634268,
+            "AP50_95": 0.3154038856785567,
+            "AP_small": 0.16460113705639381,
+            "AR_small": 0.4133689839572193
+          },
+          {
+            "category_id": 6,
+            "name": "truck",
+            "AP50": 0.32886681917293736,
+            "AP50_95": 0.21900976380037634,
+            "AP_small": 0.10494010376745076,
+            "AR_small": 0.30766550522648084
+          },
+          {
+            "category_id": 7,
+            "name": "tricycle",
+            "AP50": 0.25005400070372524,
+            "AP50_95": 0.1405928493080653,
+            "AP_small": 0.1120180400994399,
+            "AR_small": 0.31
+          },
+          {
+            "category_id": 8,
+            "name": "awning-tricycle",
+            "AP50": 0.15407539436043208,
+            "AP50_95": 0.09538379624835738,
+            "AP_small": 0.08149706597677431,
+            "AR_small": 0.26171617161716176
+          },
+          {
+            "category_id": 9,
+            "name": "bus",
+            "AP50": 0.5570359061214832,
+            "AP50_95": 0.3925011785303186,
+            "AP_small": 0.21769613535951837,
+            "AR_small": 0.33839285714285716
+          },
+          {
+            "category_id": 10,
+            "name": "motor",
+            "AP50": 0.47614427816135413,
+            "AP50_95": 0.2088402017773576,
+            "AP_small": 0.19951522451230352,
+            "AR_small": 0.4036235530951182
+          }
+        ]
+      },
+      "original_size": {
+        "<8": {
+          "targets": 2303,
+          "matched": 614,
+          "errors": {
+            "low_conf_005_025": 595,
+            "very_low_conf_0001_005": 83,
+            "assignment_competition": 3,
+            "wrong_class_proxy": 34,
+            "localization_proxy": 76,
+            "no_qualifying_output": 898
+          },
+          "recall": 0.26660877116804166,
+          "missed": 1689,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.35227945529899346,
+            "very_low_conf_0001_005": 0.04914150384843102,
+            "assignment_competition": 0.0017761989342806395,
+            "wrong_class_proxy": 0.020130254588513915,
+            "localization_proxy": 0.044997039668442866,
+            "no_qualifying_output": 0.5316755476613381
+          }
+        },
+        "8-16": {
+          "targets": 9536,
+          "matched": 4492,
+          "errors": {
+            "low_conf_005_025": 2277,
+            "very_low_conf_0001_005": 239,
+            "assignment_competition": 14,
+            "wrong_class_proxy": 258,
+            "localization_proxy": 200,
+            "no_qualifying_output": 2056
+          },
+          "recall": 0.4710570469798658,
+          "missed": 5044,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.4514274385408406,
+            "very_low_conf_0001_005": 0.04738302934179223,
+            "assignment_competition": 0.0027755749405233942,
+            "wrong_class_proxy": 0.05114988104678826,
+            "localization_proxy": 0.03965107057890563,
+            "no_qualifying_output": 0.4076130055511499
+          }
+        },
+        "16-32": {
+          "targets": 14580,
+          "matched": 8698,
+          "errors": {
+            "low_conf_005_025": 2913,
+            "very_low_conf_0001_005": 246,
+            "assignment_competition": 20,
+            "wrong_class_proxy": 360,
+            "localization_proxy": 195,
+            "no_qualifying_output": 2148
+          },
+          "recall": 0.5965706447187928,
+          "missed": 5882,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.49523971438286296,
+            "very_low_conf_0001_005": 0.04182250935056103,
+            "assignment_competition": 0.0034002040122407345,
+            "wrong_class_proxy": 0.06120367222033322,
+            "localization_proxy": 0.033151989119347164,
+            "no_qualifying_output": 0.3651819109146549
+          }
+        },
+        ">=32": {
+          "targets": 12168,
+          "matched": 9586,
+          "errors": {
+            "low_conf_005_025": 1269,
+            "very_low_conf_0001_005": 154,
+            "assignment_competition": 8,
+            "wrong_class_proxy": 289,
+            "localization_proxy": 59,
+            "no_qualifying_output": 803
+          },
+          "recall": 0.7878040762656148,
+          "missed": 2582,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.4914794732765298,
+            "very_low_conf_0001_005": 0.05964368706429125,
+            "assignment_competition": 0.003098373353989156,
+            "wrong_class_proxy": 0.11192873741285825,
+            "localization_proxy": 0.022850503485670023,
+            "no_qualifying_output": 0.31099922540666153
+          }
+        }
+      },
+      "density_size": {
+        "<8": {
+          "dense": {
+            "targets": 2101,
+            "matched": 549,
+            "errors": {
+              "low_conf_005_025": 551,
+              "very_low_conf_0001_005": 72,
+              "assignment_competition": 3,
+              "wrong_class_proxy": 29,
+              "localization_proxy": 74,
+              "no_qualifying_output": 823
+            },
+            "recall": 0.2613041408852927,
+            "missed": 1552,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.3550257731958763,
+              "very_low_conf_0001_005": 0.04639175257731959,
+              "assignment_competition": 0.0019329896907216496,
+              "wrong_class_proxy": 0.018685567010309278,
+              "localization_proxy": 0.04768041237113402,
+              "no_qualifying_output": 0.5302835051546392
+            }
+          },
+          "sparse": {
+            "targets": 202,
+            "matched": 65,
+            "errors": {
+              "low_conf_005_025": 44,
+              "very_low_conf_0001_005": 11,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 5,
+              "localization_proxy": 2,
+              "no_qualifying_output": 75
+            },
+            "recall": 0.3217821782178218,
+            "missed": 137,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.32116788321167883,
+              "very_low_conf_0001_005": 0.08029197080291971,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.0364963503649635,
+              "localization_proxy": 0.014598540145985401,
+              "no_qualifying_output": 0.5474452554744526
+            }
+          },
+          "undefined": {
+            "targets": 0,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 0,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 0,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": null,
+            "missed": 0,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": null,
+              "very_low_conf_0001_005": null,
+              "assignment_competition": null,
+              "wrong_class_proxy": null,
+              "localization_proxy": null,
+              "no_qualifying_output": null
+            }
+          }
+        },
+        "8-16": {
+          "dense": {
+            "targets": 8797,
+            "matched": 4132,
+            "errors": {
+              "low_conf_005_025": 2111,
+              "very_low_conf_0001_005": 215,
+              "assignment_competition": 14,
+              "wrong_class_proxy": 244,
+              "localization_proxy": 195,
+              "no_qualifying_output": 1886
+            },
+            "recall": 0.469705581448221,
+            "missed": 4665,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.452518756698821,
+              "very_low_conf_0001_005": 0.04608788853161844,
+              "assignment_competition": 0.0030010718113612006,
+              "wrong_class_proxy": 0.05230439442658092,
+              "localization_proxy": 0.04180064308681672,
+              "no_qualifying_output": 0.4042872454448017
+            }
+          },
+          "sparse": {
+            "targets": 739,
+            "matched": 360,
+            "errors": {
+              "low_conf_005_025": 166,
+              "very_low_conf_0001_005": 24,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 14,
+              "localization_proxy": 5,
+              "no_qualifying_output": 170
+            },
+            "recall": 0.4871447902571042,
+            "missed": 379,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.43799472295514513,
+              "very_low_conf_0001_005": 0.0633245382585752,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.036939313984168866,
+              "localization_proxy": 0.013192612137203167,
+              "no_qualifying_output": 0.44854881266490765
+            }
+          },
+          "undefined": {
+            "targets": 0,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 0,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 0,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": null,
+            "missed": 0,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": null,
+              "very_low_conf_0001_005": null,
+              "assignment_competition": null,
+              "wrong_class_proxy": null,
+              "localization_proxy": null,
+              "no_qualifying_output": null
+            }
+          }
+        },
+        "16-32": {
+          "dense": {
+            "targets": 13560,
+            "matched": 8054,
+            "errors": {
+              "low_conf_005_025": 2731,
+              "very_low_conf_0001_005": 219,
+              "assignment_competition": 20,
+              "wrong_class_proxy": 338,
+              "localization_proxy": 193,
+              "no_qualifying_output": 2005
+            },
+            "recall": 0.593952802359882,
+            "missed": 5506,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.49600435888122046,
+              "very_low_conf_0001_005": 0.03977479113694152,
+              "assignment_competition": 0.003632401017072285,
+              "wrong_class_proxy": 0.061387577188521614,
+              "localization_proxy": 0.03505266981474755,
+              "no_qualifying_output": 0.36414820196149655
+            }
+          },
+          "sparse": {
+            "targets": 1020,
+            "matched": 644,
+            "errors": {
+              "low_conf_005_025": 182,
+              "very_low_conf_0001_005": 27,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 22,
+              "localization_proxy": 2,
+              "no_qualifying_output": 143
+            },
+            "recall": 0.6313725490196078,
+            "missed": 376,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.48404255319148937,
+              "very_low_conf_0001_005": 0.07180851063829788,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.05851063829787234,
+              "localization_proxy": 0.005319148936170213,
+              "no_qualifying_output": 0.3803191489361702
+            }
+          },
+          "undefined": {
+            "targets": 0,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 0,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 0,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": null,
+            "missed": 0,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": null,
+              "very_low_conf_0001_005": null,
+              "assignment_competition": null,
+              "wrong_class_proxy": null,
+              "localization_proxy": null,
+              "no_qualifying_output": null
+            }
+          }
+        },
+        ">=32": {
+          "dense": {
+            "targets": 11062,
+            "matched": 8674,
+            "errors": {
+              "low_conf_005_025": 1184,
+              "very_low_conf_0001_005": 132,
+              "assignment_competition": 8,
+              "wrong_class_proxy": 267,
+              "localization_proxy": 56,
+              "no_qualifying_output": 741
+            },
+            "recall": 0.7841258361959863,
+            "missed": 2388,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.49581239530988275,
+              "very_low_conf_0001_005": 0.05527638190954774,
+              "assignment_competition": 0.0033500837520938024,
+              "wrong_class_proxy": 0.11180904522613065,
+              "localization_proxy": 0.023450586264656615,
+              "no_qualifying_output": 0.3103015075376884
+            }
+          },
+          "sparse": {
+            "targets": 1104,
+            "matched": 912,
+            "errors": {
+              "low_conf_005_025": 84,
+              "very_low_conf_0001_005": 22,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 21,
+              "localization_proxy": 3,
+              "no_qualifying_output": 62
+            },
+            "recall": 0.8260869565217391,
+            "missed": 192,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.4375,
+              "very_low_conf_0001_005": 0.11458333333333333,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.109375,
+              "localization_proxy": 0.015625,
+              "no_qualifying_output": 0.3229166666666667
+            }
+          },
+          "undefined": {
+            "targets": 2,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 1,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 1,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": 0.0,
+            "missed": 2,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.5,
+              "very_low_conf_0001_005": 0.0,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.5,
+              "localization_proxy": 0.0,
+              "no_qualifying_output": 0.0
+            }
+          }
+        }
+      },
+      "all_diagnostics": {
+        "targets": 38587,
+        "matched": 23390,
+        "errors": {
+          "low_conf_005_025": 7054,
+          "very_low_conf_0001_005": 722,
+          "assignment_competition": 45,
+          "wrong_class_proxy": 941,
+          "localization_proxy": 530,
+          "no_qualifying_output": 5905
+        },
+        "recall": 0.6061626972814679,
+        "missed": 15197,
+        "error_fraction_of_misses": {
+          "low_conf_005_025": 0.4641705599789432,
+          "very_low_conf_0001_005": 0.047509376850694215,
+          "assignment_competition": 0.0029611107455418833,
+          "wrong_class_proxy": 0.06192011581233138,
+          "localization_proxy": 0.03487530433638218,
+          "no_qualifying_output": 0.3885635322761071
+        }
+      },
+      "protocol": "Shared offline original-coordinate Ultralytics AP; COCO small and VisDrone reference separate.",
+      "visdrone_reference_python": {
+        "protocol": "Python reproduction of public MATLAB toolkit conventions; NOT MATLAB cross-validated",
+        "source": "https://github.com/VisDrone/VisDrone2018-DET-toolkit",
+        "images": 548,
+        "AP50_95": 0.2447152992081668,
+        "AP50": 0.43143778707060443,
+        "AP75": 0.23413416832006514,
+        "macro_AP50_95": 0.23648655326194182,
+        "macro_AP50": 0.4042270149922992,
+        "category_image_presence": [
+          520,
+          482,
+          364,
+          515,
+          421,
+          265,
+          337,
+          219,
+          130,
+          485
+        ],
+        "per_category_AP50_95": [
+          0.23339168271470984,
+          0.13628566889242405,
+          0.0507790189769747,
+          0.586556563742476,
+          0.3141124856916057,
+          0.2157740599394244,
+          0.1364457369544581,
+          0.09298963993923806,
+          0.3913340192131113,
+          0.20719665655499564
+        ],
+        "per_category_AP50": [
+          0.5117724220918163,
+          0.3595067536856364,
+          0.13059964643202038,
+          0.8402221896467317,
+          0.44788456882597805,
+          0.3252852819536552,
+          0.24529709954346363,
+          0.15038189011011158,
+          0.5563134357454268,
+          0.4750068618881512
+        ],
+        "recall": {
+          "AR1": 0.007485071012829724,
+          "AR10": 0.06564575692869598,
+          "AR100": 0.3052164947061884,
+          "AR500": 0.43123167827091075
+        },
+        "conventions": "Category-0 union raster filtering, MATLAB rounding and integral indexing; score=0 GT ignored in matching; per-image global top-k before category filtering; continuous VOC precision envelope. Category11 is outside evaluated classes, not a category0 region. Toolkit repeated-class aggregation and GT denominator reproduced literally; macro aggregate also given. APsmall is not defined by this toolkit."
+      }
+    },
+    "E2": {
+      "images": 548,
+      "ultralytics": {
+        "metrics/precision(B)": 0.5017863650775258,
+        "metrics/recall(B)": 0.43144505182757165,
+        "metrics/mAP50(B)": 0.4316716072221589,
+        "metrics/mAP50-95(B)": 0.26173634172456817,
+        "fitness": 0.2787298682743273
+      },
+      "per_class": [
+        {
+          "class_id": 0,
+          "name": "pedestrian",
+          "Precision": 0.5828172745373144,
+          "Recall": 0.4963763898087578,
+          "AP50": 0.5349442412827702,
+          "AP50_95": 0.26406589602731056
+        },
+        {
+          "class_id": 1,
+          "name": "people",
+          "Precision": 0.5960558204557688,
+          "Recall": 0.3440060246133148,
+          "AP50": 0.40647296343155837,
+          "AP50_95": 0.16953466265293932
+        },
+        {
+          "class_id": 2,
+          "name": "bicycle",
+          "Precision": 0.3252777729441542,
+          "Recall": 0.19342208300704777,
+          "AP50": 0.17533155341567602,
+          "AP50_95": 0.0747440201656422
+        },
+        {
+          "class_id": 3,
+          "name": "car",
+          "Precision": 0.6351078134375175,
+          "Recall": 0.8536479579663313,
+          "AP50": 0.8171205187275389,
+          "AP50_95": 0.5900843141920704
+        },
+        {
+          "class_id": 4,
+          "name": "van",
+          "Precision": 0.5297002229680241,
+          "Recall": 0.47920892494929007,
+          "AP50": 0.47084834386179125,
+          "AP50_95": 0.3345742127211193
+        },
+        {
+          "class_id": 5,
+          "name": "truck",
+          "Precision": 0.4323923477005837,
+          "Recall": 0.39037433155080214,
+          "AP50": 0.3549247707104427,
+          "AP50_95": 0.24151961346758405
+        },
+        {
+          "class_id": 6,
+          "name": "tricycle",
+          "Precision": 0.4583604106127673,
+          "Recall": 0.284513834048369,
+          "AP50": 0.3049985724848433,
+          "AP50_95": 0.17829322372152295
+        },
+        {
+          "class_id": 7,
+          "name": "awning-tricycle",
+          "Precision": 0.31187575776227056,
+          "Recall": 0.19128787878787878,
+          "AP50": 0.1765087248326099,
+          "AP50_95": 0.11542927779321328
+        },
+        {
+          "class_id": 8,
+          "name": "bus",
+          "Precision": 0.5600463482701649,
+          "Recall": 0.5870445344129555,
+          "AP50": 0.5679228448931397,
+          "AP50_95": 0.41449230371474466
+        },
+        {
+          "class_id": 9,
+          "name": "motor",
+          "Precision": 0.5862298820866941,
+          "Recall": 0.4945685591309695,
+          "AP50": 0.5076435385812182,
+          "AP50_95": 0.23462589278953505
+        }
+      ],
+      "coco_supplemental": {
+        "mAP50_95": 0.25758409717306313,
+        "mAP50": 0.4330702872102542,
+        "AP_small": 0.19250142167508452,
+        "AR_small": 0.38019768948873894,
+        "AP_medium": 0.32664521984976863,
+        "AP_large": 0.4245567820484179,
+        "max_det": 500,
+        "small_area": "original-image area <= 32^2 pixels",
+        "protocol": "supplemental standard COCO; VisDrone ignored regions approximated as classwise crowds",
+        "per_class": [
+          {
+            "category_id": 1,
+            "name": "pedestrian",
+            "AP50": 0.5438995925611345,
+            "AP50_95": 0.26231129971576084,
+            "AP_small": 0.2392245472294215,
+            "AR_small": 0.4046741106206181
+          },
+          {
+            "category_id": 2,
+            "name": "people",
+            "AP50": 0.4012692523797683,
+            "AP50_95": 0.16256432755908934,
+            "AP_small": 0.16029970405334143,
+            "AR_small": 0.33261904761904765
+          },
+          {
+            "category_id": 3,
+            "name": "bicycle",
+            "AP50": 0.18798371867565059,
+            "AP50_95": 0.0786234319061433,
+            "AP_small": 0.06612356295307206,
+            "AR_small": 0.25407478427612656
+          },
+          {
+            "category_id": 4,
+            "name": "car",
+            "AP50": 0.8198538388275941,
+            "AP50_95": 0.5804915199276455,
+            "AP_small": 0.4367303055638075,
+            "AR_small": 0.580163838502048
+          },
+          {
+            "category_id": 5,
+            "name": "van",
+            "AP50": 0.46616392025761577,
+            "AP50_95": 0.327768291760165,
+            "AP_small": 0.18572637706771747,
+            "AR_small": 0.446096256684492
+          },
+          {
+            "category_id": 6,
+            "name": "truck",
+            "AP50": 0.35672273714586583,
+            "AP50_95": 0.24023554104386588,
+            "AP_small": 0.11936755182795038,
+            "AR_small": 0.3348432055749129
+          },
+          {
+            "category_id": 7,
+            "name": "tricycle",
+            "AP50": 0.3022064436931791,
+            "AP50_95": 0.17425785637645388,
+            "AP_small": 0.14895109525409453,
+            "AR_small": 0.3391935483870968
+          },
+          {
+            "category_id": 8,
+            "name": "awning-tricycle",
+            "AP50": 0.1733624947430233,
+            "AP50_95": 0.11144766886780194,
+            "AP_small": 0.0942129908706269,
+            "AR_small": 0.3056105610561056
+          },
+          {
+            "category_id": 9,
+            "name": "bus",
+            "AP50": 0.5592173483486381,
+            "AP50_95": 0.40299161973579606,
+            "AP_small": 0.250667415399651,
+            "AR_small": 0.38303571428571426
+          },
+          {
+            "category_id": 10,
+            "name": "motor",
+            "AP50": 0.5200235254700722,
+            "AP50_95": 0.23514941483790985,
+            "AP_small": 0.22371066653116256,
+            "AR_small": 0.421665827881228
+          }
+        ]
+      },
+      "original_size": {
+        "<8": {
+          "targets": 2303,
+          "matched": 619,
+          "errors": {
+            "low_conf_005_025": 537,
+            "very_low_conf_0001_005": 80,
+            "assignment_competition": 2,
+            "wrong_class_proxy": 40,
+            "localization_proxy": 114,
+            "no_qualifying_output": 911
+          },
+          "recall": 0.2687798523664785,
+          "missed": 1684,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.3188836104513064,
+            "very_low_conf_0001_005": 0.047505938242280284,
+            "assignment_competition": 0.0011876484560570072,
+            "wrong_class_proxy": 0.023752969121140142,
+            "localization_proxy": 0.06769596199524941,
+            "no_qualifying_output": 0.5409738717339667
+          }
+        },
+        "8-16": {
+          "targets": 9536,
+          "matched": 4681,
+          "errors": {
+            "low_conf_005_025": 2221,
+            "very_low_conf_0001_005": 262,
+            "assignment_competition": 22,
+            "wrong_class_proxy": 242,
+            "localization_proxy": 202,
+            "no_qualifying_output": 1906
+          },
+          "recall": 0.490876677852349,
+          "missed": 4855,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.45746652935118437,
+            "very_low_conf_0001_005": 0.05396498455200824,
+            "assignment_competition": 0.004531410916580845,
+            "wrong_class_proxy": 0.04984552008238929,
+            "localization_proxy": 0.04160659114315139,
+            "no_qualifying_output": 0.3925849639546859
+          }
+        },
+        "16-32": {
+          "targets": 14580,
+          "matched": 9374,
+          "errors": {
+            "low_conf_005_025": 2582,
+            "very_low_conf_0001_005": 260,
+            "assignment_competition": 33,
+            "wrong_class_proxy": 333,
+            "localization_proxy": 169,
+            "no_qualifying_output": 1829
+          },
+          "recall": 0.6429355281207133,
+          "missed": 5206,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.49596619285439875,
+            "very_low_conf_0001_005": 0.049942374183634265,
+            "assignment_competition": 0.006338839800230503,
+            "wrong_class_proxy": 0.06396465616596235,
+            "localization_proxy": 0.032462543219362275,
+            "no_qualifying_output": 0.3513253937764118
+          }
+        },
+        ">=32": {
+          "targets": 12168,
+          "matched": 9843,
+          "errors": {
+            "low_conf_005_025": 1194,
+            "very_low_conf_0001_005": 158,
+            "assignment_competition": 8,
+            "wrong_class_proxy": 253,
+            "localization_proxy": 50,
+            "no_qualifying_output": 662
+          },
+          "recall": 0.8089250493096647,
+          "missed": 2325,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.5135483870967742,
+            "very_low_conf_0001_005": 0.06795698924731183,
+            "assignment_competition": 0.0034408602150537634,
+            "wrong_class_proxy": 0.10881720430107526,
+            "localization_proxy": 0.021505376344086023,
+            "no_qualifying_output": 0.2847311827956989
+          }
+        }
+      },
+      "density_size": {
+        "<8": {
+          "dense": {
+            "targets": 2101,
+            "matched": 558,
+            "errors": {
+              "low_conf_005_025": 489,
+              "very_low_conf_0001_005": 76,
+              "assignment_competition": 2,
+              "wrong_class_proxy": 32,
+              "localization_proxy": 113,
+              "no_qualifying_output": 831
+            },
+            "recall": 0.2655878153260352,
+            "missed": 1543,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.3169151004536617,
+              "very_low_conf_0001_005": 0.0492546986390149,
+              "assignment_competition": 0.0012961762799740765,
+              "wrong_class_proxy": 0.020738820479585224,
+              "localization_proxy": 0.07323395981853532,
+              "no_qualifying_output": 0.5385612443292288
+            }
+          },
+          "sparse": {
+            "targets": 202,
+            "matched": 61,
+            "errors": {
+              "low_conf_005_025": 48,
+              "very_low_conf_0001_005": 4,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 8,
+              "localization_proxy": 1,
+              "no_qualifying_output": 80
+            },
+            "recall": 0.30198019801980197,
+            "missed": 141,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.3404255319148936,
+              "very_low_conf_0001_005": 0.028368794326241134,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.05673758865248227,
+              "localization_proxy": 0.0070921985815602835,
+              "no_qualifying_output": 0.5673758865248227
+            }
+          },
+          "undefined": {
+            "targets": 0,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 0,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 0,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": null,
+            "missed": 0,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": null,
+              "very_low_conf_0001_005": null,
+              "assignment_competition": null,
+              "wrong_class_proxy": null,
+              "localization_proxy": null,
+              "no_qualifying_output": null
+            }
+          }
+        },
+        "8-16": {
+          "dense": {
+            "targets": 8797,
+            "matched": 4320,
+            "errors": {
+              "low_conf_005_025": 2044,
+              "very_low_conf_0001_005": 233,
+              "assignment_competition": 22,
+              "wrong_class_proxy": 226,
+              "localization_proxy": 200,
+              "no_qualifying_output": 1752
+            },
+            "recall": 0.49107650335341596,
+            "missed": 4477,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.45655572928300203,
+              "very_low_conf_0001_005": 0.05204377931650659,
+              "assignment_competition": 0.004914004914004914,
+              "wrong_class_proxy": 0.05048023229841412,
+              "localization_proxy": 0.04467277194549922,
+              "no_qualifying_output": 0.39133348224257314
+            }
+          },
+          "sparse": {
+            "targets": 739,
+            "matched": 361,
+            "errors": {
+              "low_conf_005_025": 177,
+              "very_low_conf_0001_005": 29,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 16,
+              "localization_proxy": 2,
+              "no_qualifying_output": 154
+            },
+            "recall": 0.4884979702300406,
+            "missed": 378,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.46825396825396826,
+              "very_low_conf_0001_005": 0.07671957671957672,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.042328042328042326,
+              "localization_proxy": 0.005291005291005291,
+              "no_qualifying_output": 0.4074074074074074
+            }
+          },
+          "undefined": {
+            "targets": 0,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 0,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 0,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": null,
+            "missed": 0,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": null,
+              "very_low_conf_0001_005": null,
+              "assignment_competition": null,
+              "wrong_class_proxy": null,
+              "localization_proxy": null,
+              "no_qualifying_output": null
+            }
+          }
+        },
+        "16-32": {
+          "dense": {
+            "targets": 13560,
+            "matched": 8696,
+            "errors": {
+              "low_conf_005_025": 2412,
+              "very_low_conf_0001_005": 230,
+              "assignment_competition": 33,
+              "wrong_class_proxy": 312,
+              "localization_proxy": 167,
+              "no_qualifying_output": 1710
+            },
+            "recall": 0.6412979351032448,
+            "missed": 4864,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.49588815789473684,
+              "very_low_conf_0001_005": 0.047286184210526314,
+              "assignment_competition": 0.006784539473684211,
+              "wrong_class_proxy": 0.06414473684210527,
+              "localization_proxy": 0.034333881578947366,
+              "no_qualifying_output": 0.3515625
+            }
+          },
+          "sparse": {
+            "targets": 1020,
+            "matched": 678,
+            "errors": {
+              "low_conf_005_025": 170,
+              "very_low_conf_0001_005": 30,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 21,
+              "localization_proxy": 2,
+              "no_qualifying_output": 119
+            },
+            "recall": 0.6647058823529411,
+            "missed": 342,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.49707602339181284,
+              "very_low_conf_0001_005": 0.08771929824561403,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.06140350877192982,
+              "localization_proxy": 0.005847953216374269,
+              "no_qualifying_output": 0.347953216374269
+            }
+          },
+          "undefined": {
+            "targets": 0,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 0,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 0,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": null,
+            "missed": 0,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": null,
+              "very_low_conf_0001_005": null,
+              "assignment_competition": null,
+              "wrong_class_proxy": null,
+              "localization_proxy": null,
+              "no_qualifying_output": null
+            }
+          }
+        },
+        ">=32": {
+          "dense": {
+            "targets": 11062,
+            "matched": 8922,
+            "errors": {
+              "low_conf_005_025": 1108,
+              "very_low_conf_0001_005": 135,
+              "assignment_competition": 8,
+              "wrong_class_proxy": 231,
+              "localization_proxy": 48,
+              "no_qualifying_output": 610
+            },
+            "recall": 0.8065449285843428,
+            "missed": 2140,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.5177570093457944,
+              "very_low_conf_0001_005": 0.0630841121495327,
+              "assignment_competition": 0.003738317757009346,
+              "wrong_class_proxy": 0.10794392523364486,
+              "localization_proxy": 0.022429906542056073,
+              "no_qualifying_output": 0.2850467289719626
+            }
+          },
+          "sparse": {
+            "targets": 1104,
+            "matched": 921,
+            "errors": {
+              "low_conf_005_025": 85,
+              "very_low_conf_0001_005": 23,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 21,
+              "localization_proxy": 2,
+              "no_qualifying_output": 52
+            },
+            "recall": 0.8342391304347826,
+            "missed": 183,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.4644808743169399,
+              "very_low_conf_0001_005": 0.12568306010928962,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.11475409836065574,
+              "localization_proxy": 0.01092896174863388,
+              "no_qualifying_output": 0.28415300546448086
+            }
+          },
+          "undefined": {
+            "targets": 2,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 1,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 1,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": 0.0,
+            "missed": 2,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.5,
+              "very_low_conf_0001_005": 0.0,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.5,
+              "localization_proxy": 0.0,
+              "no_qualifying_output": 0.0
+            }
+          }
+        }
+      },
+      "all_diagnostics": {
+        "targets": 38587,
+        "matched": 24517,
+        "errors": {
+          "low_conf_005_025": 6534,
+          "very_low_conf_0001_005": 760,
+          "assignment_competition": 65,
+          "wrong_class_proxy": 868,
+          "localization_proxy": 535,
+          "no_qualifying_output": 5308
+        },
+        "recall": 0.6353694249358592,
+        "missed": 14070,
+        "error_fraction_of_misses": {
+          "low_conf_005_025": 0.46439232409381664,
+          "very_low_conf_0001_005": 0.05401563610518834,
+          "assignment_competition": 0.004619758351101635,
+          "wrong_class_proxy": 0.061691542288557215,
+          "localization_proxy": 0.03802416488983653,
+          "no_qualifying_output": 0.37725657427149967
+        }
+      },
+      "protocol": "Shared offline original-coordinate Ultralytics AP; COCO small and VisDrone reference separate.",
+      "visdrone_reference_python": {
+        "protocol": "Python reproduction of public MATLAB toolkit conventions; NOT MATLAB cross-validated",
+        "source": "https://github.com/VisDrone/VisDrone2018-DET-toolkit",
+        "images": 548,
+        "AP50_95": 0.26386845457059765,
+        "AP50": 0.459958369753338,
+        "AP75": 0.25504325819977397,
+        "macro_AP50_95": 0.25542601815024435,
+        "macro_AP50": 0.43184065578054565,
+        "category_image_presence": [
+          520,
+          482,
+          364,
+          515,
+          421,
+          265,
+          337,
+          219,
+          130,
+          485
+        ],
+        "per_category_AP50_95": [
+          0.2611061639844956,
+          0.15966947064825904,
+          0.07571247060503271,
+          0.5818519458272461,
+          0.3262523072240001,
+          0.23704202360068583,
+          0.16952155116796758,
+          0.10693668171080317,
+          0.4024400615225132,
+          0.23372750521143987
+        ],
+        "per_category_AP50": [
+          0.5445849409048997,
+          0.4000260516555167,
+          0.1850745253994695,
+          0.8227887334332531,
+          0.46664799799605794,
+          0.3539114448619933,
+          0.2978647600350209,
+          0.16773649275441121,
+          0.560070288182516,
+          0.5197013225823186
+        ],
+        "recall": {
+          "AR1": 0.008426454126480281,
+          "AR10": 0.0675758092898952,
+          "AR100": 0.3276765701003028,
+          "AR500": 0.4570754260723205
+        },
+        "conventions": "Category-0 union raster filtering, MATLAB rounding and integral indexing; score=0 GT ignored in matching; per-image global top-k before category filtering; continuous VOC precision envelope. Category11 is outside evaluated classes, not a category0 region. Toolkit repeated-class aggregation and GT denominator reproduced literally; macro aggregate also given. APsmall is not defined by this toolkit."
+      }
+    },
+    "E3": {
+      "images": 548,
+      "ultralytics": {
+        "metrics/precision(B)": 0.5160579867626558,
+        "metrics/recall(B)": 0.4311074567608276,
+        "metrics/mAP50(B)": 0.4416630196852297,
+        "metrics/mAP50-95(B)": 0.2696373315701857,
+        "fitness": 0.28683990038169016
+      },
+      "per_class": [
+        {
+          "class_id": 0,
+          "name": "pedestrian",
+          "Precision": 0.5839433306542906,
+          "Recall": 0.4988409989129695,
+          "AP50": 0.5397678442126891,
+          "AP50_95": 0.26663751546556724
+        },
+        {
+          "class_id": 1,
+          "name": "people",
+          "Precision": 0.5964267854674108,
+          "Recall": 0.34969685116370036,
+          "AP50": 0.40751492842962456,
+          "AP50_95": 0.16971183962688408
+        },
+        {
+          "class_id": 2,
+          "name": "bicycle",
+          "Precision": 0.32756838596912136,
+          "Recall": 0.19577133907595928,
+          "AP50": 0.1770645292714099,
+          "AP50_95": 0.07513378378861221
+        },
+        {
+          "class_id": 3,
+          "name": "car",
+          "Precision": 0.663861730423021,
+          "Recall": 0.8536585365853658,
+          "AP50": 0.8474294549028146,
+          "AP50_95": 0.6144109416332904
+        },
+        {
+          "class_id": 4,
+          "name": "van",
+          "Precision": 0.5461419312969844,
+          "Recall": 0.4721095334685598,
+          "AP50": 0.4838505861015377,
+          "AP50_95": 0.3483975098253137
+        },
+        {
+          "class_id": 5,
+          "name": "truck",
+          "Precision": 0.44926223422133593,
+          "Recall": 0.3810160427807487,
+          "AP50": 0.3628080840946366,
+          "AP50_95": 0.25015521123292195
+        },
+        {
+          "class_id": 6,
+          "name": "tricycle",
+          "Precision": 0.47106493150102713,
+          "Recall": 0.28544061302681994,
+          "AP50": 0.30795287362042956,
+          "AP50_95": 0.18100025987763446
+        },
+        {
+          "class_id": 7,
+          "name": "awning-tricycle",
+          "Precision": 0.32103710259349116,
+          "Recall": 0.19128787878787878,
+          "AP50": 0.17897625410214424,
+          "AP50_95": 0.11711223939863165
+        },
+        {
+          "class_id": 8,
+          "name": "bus",
+          "Precision": 0.6046705162053276,
+          "Recall": 0.5870445344129555,
+          "AP50": 0.596058332821179,
+          "AP50_95": 0.43497463535543457
+        },
+        {
+          "class_id": 9,
+          "name": "motor",
+          "Precision": 0.5966029192945473,
+          "Recall": 0.4962082393933183,
+          "AP50": 0.5152073092958318,
+          "AP50_95": 0.23883937949756665
+        }
+      ],
+      "coco_supplemental": {
+        "mAP50_95": 0.26561933821740885,
+        "mAP50": 0.44344061961331727,
+        "AP_small": 0.19787201096790588,
+        "AR_small": 0.3817131266641999,
+        "AP_medium": 0.3364830946743168,
+        "AP_large": 0.4354503088847306,
+        "max_det": 500,
+        "small_area": "original-image area <= 32^2 pixels",
+        "protocol": "supplemental standard COCO; VisDrone ignored regions approximated as classwise crowds",
+        "per_class": [
+          {
+            "category_id": 1,
+            "name": "pedestrian",
+            "AP50": 0.5491130513036436,
+            "AP50_95": 0.2654160325419633,
+            "AP_small": 0.24068238247856608,
+            "AR_small": 0.40562191638535444
+          },
+          {
+            "category_id": 2,
+            "name": "people",
+            "AP50": 0.402266612882052,
+            "AP50_95": 0.16277915963766576,
+            "AP_small": 0.16091479861262145,
+            "AR_small": 0.332965367965368
+          },
+          {
+            "category_id": 3,
+            "name": "bicycle",
+            "AP50": 0.19094262716581903,
+            "AP50_95": 0.0794704408333144,
+            "AP_small": 0.06621973462737966,
+            "AR_small": 0.25397890699904124
+          },
+          {
+            "category_id": 4,
+            "name": "car",
+            "AP50": 0.8506664317890174,
+            "AP50_95": 0.6048358309566101,
+            "AP_small": 0.4512713546280062,
+            "AR_small": 0.5807343475716793
+          },
+          {
+            "category_id": 5,
+            "name": "van",
+            "AP50": 0.47937083568819566,
+            "AP50_95": 0.34152542488536564,
+            "AP_small": 0.1930249145688664,
+            "AR_small": 0.4460962566844919
+          },
+          {
+            "category_id": 6,
+            "name": "truck",
+            "AP50": 0.365375268108531,
+            "AP50_95": 0.24892255538909028,
+            "AP_small": 0.11908864753620194,
+            "AR_small": 0.34216027874564464
+          },
+          {
+            "category_id": 7,
+            "name": "tricycle",
+            "AP50": 0.30528830813982266,
+            "AP50_95": 0.17709367556282435,
+            "AP_small": 0.15155922669359365,
+            "AR_small": 0.34096774193548385
+          },
+          {
+            "category_id": 8,
+            "name": "awning-tricycle",
+            "AP50": 0.17570845734269264,
+            "AP50_95": 0.11291904493770447,
+            "AP_small": 0.09533921166819342,
+            "AR_small": 0.3075907590759076
+          },
+          {
+            "category_id": 9,
+            "name": "bus",
+            "AP50": 0.5876385256887298,
+            "AP50_95": 0.423707250563291,
+            "AP_small": 0.27426372923212117,
+            "AR_small": 0.3848214285714286
+          },
+          {
+            "category_id": 10,
+            "name": "motor",
+            "AP50": 0.5280360780246685,
+            "AP50_95": 0.2395239668662595,
+            "AP_small": 0.22635610963350883,
+            "AR_small": 0.4221942627075994
+          }
+        ]
+      },
+      "original_size": {
+        "<8": {
+          "targets": 2303,
+          "matched": 619,
+          "errors": {
+            "low_conf_005_025": 539,
+            "very_low_conf_0001_005": 81,
+            "assignment_competition": 2,
+            "wrong_class_proxy": 40,
+            "localization_proxy": 113,
+            "no_qualifying_output": 909
+          },
+          "recall": 0.2687798523664785,
+          "missed": 1684,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.32007125890736343,
+            "very_low_conf_0001_005": 0.04809976247030879,
+            "assignment_competition": 0.0011876484560570072,
+            "wrong_class_proxy": 0.023752969121140142,
+            "localization_proxy": 0.0671021377672209,
+            "no_qualifying_output": 0.5397862232779097
+          }
+        },
+        "8-16": {
+          "targets": 9536,
+          "matched": 4664,
+          "errors": {
+            "low_conf_005_025": 2249,
+            "very_low_conf_0001_005": 272,
+            "assignment_competition": 21,
+            "wrong_class_proxy": 237,
+            "localization_proxy": 200,
+            "no_qualifying_output": 1893
+          },
+          "recall": 0.4890939597315436,
+          "missed": 4872,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.4616174055829228,
+            "very_low_conf_0001_005": 0.05582922824302135,
+            "assignment_competition": 0.004310344827586207,
+            "wrong_class_proxy": 0.04864532019704434,
+            "localization_proxy": 0.041050903119868636,
+            "no_qualifying_output": 0.38854679802955666
+          }
+        },
+        "16-32": {
+          "targets": 14580,
+          "matched": 9350,
+          "errors": {
+            "low_conf_005_025": 2606,
+            "very_low_conf_0001_005": 268,
+            "assignment_competition": 34,
+            "wrong_class_proxy": 327,
+            "localization_proxy": 167,
+            "no_qualifying_output": 1828
+          },
+          "recall": 0.6412894375857339,
+          "missed": 5230,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.4982791586998088,
+            "very_low_conf_0001_005": 0.05124282982791587,
+            "assignment_competition": 0.00650095602294455,
+            "wrong_class_proxy": 0.06252390057361376,
+            "localization_proxy": 0.031931166347992354,
+            "no_qualifying_output": 0.34952198852772465
+          }
+        },
+        ">=32": {
+          "targets": 12168,
+          "matched": 9790,
+          "errors": {
+            "low_conf_005_025": 1232,
+            "very_low_conf_0001_005": 175,
+            "assignment_competition": 8,
+            "wrong_class_proxy": 253,
+            "localization_proxy": 45,
+            "no_qualifying_output": 665
+          },
+          "recall": 0.80456936226167,
+          "missed": 2378,
+          "error_fraction_of_misses": {
+            "low_conf_005_025": 0.5180824222035324,
+            "very_low_conf_0001_005": 0.07359125315391085,
+            "assignment_competition": 0.00336417157275021,
+            "wrong_class_proxy": 0.1063919259882254,
+            "localization_proxy": 0.01892346509671993,
+            "no_qualifying_output": 0.2796467619848612
+          }
+        }
+      },
+      "density_size": {
+        "<8": {
+          "dense": {
+            "targets": 2101,
+            "matched": 558,
+            "errors": {
+              "low_conf_005_025": 490,
+              "very_low_conf_0001_005": 78,
+              "assignment_competition": 2,
+              "wrong_class_proxy": 32,
+              "localization_proxy": 112,
+              "no_qualifying_output": 829
+            },
+            "recall": 0.2655878153260352,
+            "missed": 1543,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.31756318859364874,
+              "very_low_conf_0001_005": 0.050550874918988985,
+              "assignment_competition": 0.0012961762799740765,
+              "wrong_class_proxy": 0.020738820479585224,
+              "localization_proxy": 0.07258587167854828,
+              "no_qualifying_output": 0.5372650680492547
+            }
+          },
+          "sparse": {
+            "targets": 202,
+            "matched": 61,
+            "errors": {
+              "low_conf_005_025": 49,
+              "very_low_conf_0001_005": 3,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 8,
+              "localization_proxy": 1,
+              "no_qualifying_output": 80
+            },
+            "recall": 0.30198019801980197,
+            "missed": 141,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.3475177304964539,
+              "very_low_conf_0001_005": 0.02127659574468085,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.05673758865248227,
+              "localization_proxy": 0.0070921985815602835,
+              "no_qualifying_output": 0.5673758865248227
+            }
+          },
+          "undefined": {
+            "targets": 0,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 0,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 0,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": null,
+            "missed": 0,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": null,
+              "very_low_conf_0001_005": null,
+              "assignment_competition": null,
+              "wrong_class_proxy": null,
+              "localization_proxy": null,
+              "no_qualifying_output": null
+            }
+          }
+        },
+        "8-16": {
+          "dense": {
+            "targets": 8797,
+            "matched": 4306,
+            "errors": {
+              "low_conf_005_025": 2070,
+              "very_low_conf_0001_005": 241,
+              "assignment_competition": 21,
+              "wrong_class_proxy": 221,
+              "localization_proxy": 198,
+              "no_qualifying_output": 1740
+            },
+            "recall": 0.489485051722178,
+            "missed": 4491,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.46092184368737477,
+              "very_low_conf_0001_005": 0.05366288131819194,
+              "assignment_competition": 0.004676018704074816,
+              "wrong_class_proxy": 0.04920953017145402,
+              "localization_proxy": 0.04408817635270541,
+              "no_qualifying_output": 0.38744154976619904
+            }
+          },
+          "sparse": {
+            "targets": 739,
+            "matched": 358,
+            "errors": {
+              "low_conf_005_025": 179,
+              "very_low_conf_0001_005": 31,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 16,
+              "localization_proxy": 2,
+              "no_qualifying_output": 153
+            },
+            "recall": 0.4844384303112314,
+            "missed": 381,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.46981627296587924,
+              "very_low_conf_0001_005": 0.08136482939632546,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.04199475065616798,
+              "localization_proxy": 0.005249343832020997,
+              "no_qualifying_output": 0.4015748031496063
+            }
+          },
+          "undefined": {
+            "targets": 0,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 0,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 0,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": null,
+            "missed": 0,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": null,
+              "very_low_conf_0001_005": null,
+              "assignment_competition": null,
+              "wrong_class_proxy": null,
+              "localization_proxy": null,
+              "no_qualifying_output": null
+            }
+          }
+        },
+        "16-32": {
+          "dense": {
+            "targets": 13560,
+            "matched": 8675,
+            "errors": {
+              "low_conf_005_025": 2433,
+              "very_low_conf_0001_005": 240,
+              "assignment_competition": 34,
+              "wrong_class_proxy": 306,
+              "localization_proxy": 165,
+              "no_qualifying_output": 1707
+            },
+            "recall": 0.6397492625368731,
+            "missed": 4885,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.49805527123848514,
+              "very_low_conf_0001_005": 0.04912998976458546,
+              "assignment_competition": 0.006960081883316274,
+              "wrong_class_proxy": 0.06264073694984647,
+              "localization_proxy": 0.033776867963152504,
+              "no_qualifying_output": 0.3494370522006141
+            }
+          },
+          "sparse": {
+            "targets": 1020,
+            "matched": 675,
+            "errors": {
+              "low_conf_005_025": 173,
+              "very_low_conf_0001_005": 28,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 21,
+              "localization_proxy": 2,
+              "no_qualifying_output": 121
+            },
+            "recall": 0.6617647058823529,
+            "missed": 345,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.5014492753623189,
+              "very_low_conf_0001_005": 0.08115942028985507,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.06086956521739131,
+              "localization_proxy": 0.005797101449275362,
+              "no_qualifying_output": 0.3507246376811594
+            }
+          },
+          "undefined": {
+            "targets": 0,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 0,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 0,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": null,
+            "missed": 0,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": null,
+              "very_low_conf_0001_005": null,
+              "assignment_competition": null,
+              "wrong_class_proxy": null,
+              "localization_proxy": null,
+              "no_qualifying_output": null
+            }
+          }
+        },
+        ">=32": {
+          "dense": {
+            "targets": 11062,
+            "matched": 8873,
+            "errors": {
+              "low_conf_005_025": 1146,
+              "very_low_conf_0001_005": 148,
+              "assignment_competition": 8,
+              "wrong_class_proxy": 230,
+              "localization_proxy": 44,
+              "no_qualifying_output": 613
+            },
+            "recall": 0.8021153498463207,
+            "missed": 2189,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.5235267245317496,
+              "very_low_conf_0001_005": 0.06761078117862038,
+              "assignment_competition": 0.003654636820465966,
+              "wrong_class_proxy": 0.10507080858839653,
+              "localization_proxy": 0.020100502512562814,
+              "no_qualifying_output": 0.2800365463682047
+            }
+          },
+          "sparse": {
+            "targets": 1104,
+            "matched": 917,
+            "errors": {
+              "low_conf_005_025": 85,
+              "very_low_conf_0001_005": 27,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 22,
+              "localization_proxy": 1,
+              "no_qualifying_output": 52
+            },
+            "recall": 0.8306159420289855,
+            "missed": 187,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.45454545454545453,
+              "very_low_conf_0001_005": 0.1443850267379679,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.11764705882352941,
+              "localization_proxy": 0.0053475935828877,
+              "no_qualifying_output": 0.27807486631016043
+            }
+          },
+          "undefined": {
+            "targets": 2,
+            "matched": 0,
+            "errors": {
+              "low_conf_005_025": 1,
+              "very_low_conf_0001_005": 0,
+              "assignment_competition": 0,
+              "wrong_class_proxy": 1,
+              "localization_proxy": 0,
+              "no_qualifying_output": 0
+            },
+            "recall": 0.0,
+            "missed": 2,
+            "error_fraction_of_misses": {
+              "low_conf_005_025": 0.5,
+              "very_low_conf_0001_005": 0.0,
+              "assignment_competition": 0.0,
+              "wrong_class_proxy": 0.5,
+              "localization_proxy": 0.0,
+              "no_qualifying_output": 0.0
+            }
+          }
+        }
+      },
+      "all_diagnostics": {
+        "targets": 38587,
+        "matched": 24423,
+        "errors": {
+          "low_conf_005_025": 6626,
+          "very_low_conf_0001_005": 796,
+          "assignment_competition": 65,
+          "wrong_class_proxy": 857,
+          "localization_proxy": 525,
+          "no_qualifying_output": 5295
+        },
+        "recall": 0.6329333713426801,
+        "missed": 14164,
+        "error_fraction_of_misses": {
+          "low_conf_005_025": 0.4678057046032194,
+          "very_low_conf_0001_005": 0.05619881389438012,
+          "assignment_competition": 0.00458909912454109,
+          "wrong_class_proxy": 0.06050550691894945,
+          "localization_proxy": 0.03706580062129342,
+          "no_qualifying_output": 0.37383507483761647
+        }
+      },
+      "protocol": "Shared offline original-coordinate Ultralytics AP; COCO small and VisDrone reference separate.",
+      "visdrone_reference_python": {
+        "protocol": "Python reproduction of public MATLAB toolkit conventions; NOT MATLAB cross-validated",
+        "source": "https://github.com/VisDrone/VisDrone2018-DET-toolkit",
+        "images": 548,
+        "AP50_95": 0.27163765268465634,
+        "AP50": 0.47002565323811835,
+        "AP75": 0.2644353372606396,
+        "macro_AP50_95": 0.2635305155422421,
+        "macro_AP50": 0.44230600079725735,
+        "category_image_presence": [
+          520,
+          482,
+          364,
+          515,
+          421,
+          265,
+          337,
+          219,
+          130,
+          485
+        ],
+        "per_category_AP50_95": [
+          0.2637283531899968,
+          0.15998594839256303,
+          0.07658577749356463,
+          0.6065863323333096,
+          0.34028667375011545,
+          0.24587120343188956,
+          0.1722567844657185,
+          0.10836405560573241,
+          0.42319393038677466,
+          0.23844609637275668
+        ],
+        "per_category_AP50": [
+          0.5499384934688456,
+          0.4011875479033683,
+          0.18769381089190107,
+          0.8540031930398393,
+          0.47991083485076225,
+          0.36229740007386146,
+          0.3009542471306443,
+          0.16977586340488046,
+          0.588902286410857,
+          0.5283963307976134
+        ],
+        "recall": {
+          "AR1": 0.008249142973378046,
+          "AR10": 0.06905475915178384,
+          "AR100": 0.33077976681329757,
+          "AR500": 0.4584440659173474
+        },
+        "conventions": "Category-0 union raster filtering, MATLAB rounding and integral indexing; score=0 GT ignored in matching; per-image global top-k before category filtering; continuous VOC precision envelope. Category11 is outside evaluated classes, not a category0 region. Toolkit repeated-class aggregation and GT denominator reproduced literally; macro aggregate also given. APsmall is not defined by this toolkit."
+      }
+    }
+  },
+  "quality": {
+    "E0": {
+      "TP": 23465,
+      "FP": 22037,
+      "targets": 38587,
+      "duplicates_proxy": 5436,
+      "wrong_class_proxy": 6971,
+      "localization_proxy": 4651,
+      "background_proxy": 4979,
+      "ignored_high_conf": 3122,
+      "precision": 0.5156916179508593,
+      "recall": 0.6081063570632597,
+      "protocol": "Fixed conf.25/IoU.5 one-to-one class-aware, converted positive GT, individual ignore-region IoA.5. FP categories are retrospective proxies, not established causes; neither GT nor these flags affect outputs."
+    },
+    "E1": {
+      "TP": 23390,
+      "FP": 20307,
+      "targets": 38587,
+      "duplicates_proxy": 5030,
+      "wrong_class_proxy": 6791,
+      "localization_proxy": 3853,
+      "background_proxy": 4633,
+      "ignored_high_conf": 3067,
+      "precision": 0.5352770213058105,
+      "recall": 0.6061626972814679,
+      "protocol": "Fixed conf.25/IoU.5 one-to-one class-aware, converted positive GT, individual ignore-region IoA.5. FP categories are retrospective proxies, not established causes; neither GT nor these flags affect outputs."
+    },
+    "E2": {
+      "TP": 24517,
+      "FP": 20958,
+      "targets": 38587,
+      "duplicates_proxy": 5175,
+      "wrong_class_proxy": 6829,
+      "localization_proxy": 4343,
+      "background_proxy": 4611,
+      "ignored_high_conf": 3274,
+      "precision": 0.5391313908741067,
+      "recall": 0.6353694249358592,
+      "protocol": "Fixed conf.25/IoU.5 one-to-one class-aware, converted positive GT, individual ignore-region IoA.5. FP categories are retrospective proxies, not established causes; neither GT nor these flags affect outputs."
+    },
+    "E3": {
+      "TP": 24423,
+      "FP": 19258,
+      "targets": 38587,
+      "duplicates_proxy": 4750,
+      "wrong_class_proxy": 6668,
+      "localization_proxy": 3580,
+      "background_proxy": 4260,
+      "ignored_high_conf": 3209,
+      "precision": 0.5591218149767634,
+      "recall": 0.6329333713426801,
+      "protocol": "Fixed conf.25/IoU.5 one-to-one class-aware, converted positive GT, individual ignore-region IoA.5. FP categories are retrospective proxies, not established causes; neither GT nor these flags affect outputs."
+    }
+  },
+  "timing": {
+    "E2": {
+      "mean": 65.00243649657189,
+      "P50": 66.96685000497382,
+      "P95": 97.98943000205325,
+      "FPS": 15.384038720652235,
+      "actual_full_gpu_pipeline": true,
+      "mean_ROIs": 1.7062043795620438,
+      "forward_calls": 1483,
+      "mean_GFLOPs_estimate": 26.768700759824824,
+      "selection_ms": 0.0,
+      "scope": "Each E2/E3 independently executes actual disk decode + M0 global640 + A1 local935 + original mapping + source fusion; synchronized GPU. Excludes load/warmup/GT/scoring/serialization/assertions."
+    },
+    "E3": {
+      "mean": 57.654978102837845,
+      "P50": 57.69980000331998,
+      "P95": 89.89431499212515,
+      "FPS": 17.344556062727545,
+      "actual_full_gpu_pipeline": true,
+      "mean_ROIs": 1.7062043795620438,
+      "forward_calls": 1483,
+      "mean_GFLOPs_estimate": 26.768700759824824,
+      "selection_ms": 0.0,
+      "scope": "Each E2/E3 independently executes actual disk decode + M0 global640 + A1 local935 + original mapping + source fusion; synchronized GPU. Excludes load/warmup/GT/scoring/serialization/assertions."
+    }
+  },
+  "interactions": {
+    "AP95": {
+      "A_without_B": 0.025113004868932615,
+      "A_with_B": 0.025777757932853917,
+      "B_without_A": 0.0072362367816962425,
+      "B_with_A": 0.007900989845617545,
+      "interaction": 0.0006647530639213028
+    },
+    "AP50": {
+      "A_without_B": 0.0346831100602491,
+      "A_with_B": 0.03521986036847108,
+      "B_without_A": 0.009454662154848803,
+      "B_with_A": 0.009991412463070781,
+      "interaction": 0.0005367503082219782
+    },
+    "APsmall": {
+      "A_without_B": 0.026214517658218195,
+      "A_with_B": 0.02769341111988427,
+      "B_without_A": 0.003891695831155284,
+      "B_with_A": 0.0053705892928213594,
+      "interaction": 0.0014788934616660754
+    },
+    "ARsmall": {
+      "A_without_B": 0.02842387456147022,
+      "A_with_B": 0.02859069361456662,
+      "B_without_A": 0.001348618122364531,
+      "B_with_A": 0.001515437175460932,
+      "interaction": 0.00016681905309640088
+    }
+  },
+  "count_effects": {
+    "TP": {
+      "E2_minus_E0": 1052,
+      "E3_minus_E1": 1033,
+      "interaction": -19
+    },
+    "FP": {
+      "E2_minus_E0": -1079,
+      "E3_minus_E1": -1049,
+      "interaction": 30
+    }
+  },
+  "training": {
+    "args": {
+      "task": "detect",
+      "mode": "train",
+      "model": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\candidates\\formal_100e_b8_s42_v2\\M0_seed42\\weights\\best.pt",
+      "data": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\crop_study\\source_local_20261012\\local_dataset\\dataset.yaml",
+      "epochs": 30,
+      "time": null,
+      "patience": 31,
+      "batch": 8,
+      "imgsz": 640,
+      "save": true,
+      "save_period": 5,
+      "cache": false,
+      "device": "0",
+      "workers": 4,
+      "project": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\crop_study\\source_local_20261012\\local_training",
+      "name": "A1_seed42",
+      "exist_ok": false,
+      "pretrained": true,
+      "optimizer": "AdamW",
+      "verbose": true,
+      "seed": 42,
+      "deterministic": true,
+      "single_cls": false,
+      "rect": false,
+      "cos_lr": true,
+      "close_mosaic": 0,
+      "resume": false,
+      "amp": true,
+      "fraction": 1.0,
+      "profile": false,
+      "freeze": null,
+      "multi_scale": false,
+      "overlap_mask": true,
+      "mask_ratio": 4,
+      "dropout": 0.0,
+      "val": true,
+      "split": "val",
+      "save_json": false,
+      "conf": null,
+      "iou": 0.7,
+      "max_det": 500,
+      "half": false,
+      "dnn": false,
+      "plots": true,
+      "source": null,
+      "vid_stride": 1,
+      "stream_buffer": false,
+      "visualize": false,
+      "augment": false,
+      "agnostic_nms": false,
+      "classes": null,
+      "retina_masks": false,
+      "embed": null,
+      "show": false,
+      "save_frames": false,
+      "save_txt": false,
+      "save_conf": false,
+      "save_crop": false,
+      "show_labels": true,
+      "show_conf": true,
+      "show_boxes": true,
+      "line_width": null,
+      "format": "torchscript",
+      "keras": false,
+      "optimize": false,
+      "int8": false,
+      "dynamic": false,
+      "simplify": true,
+      "opset": null,
+      "workspace": null,
+      "nms": false,
+      "lr0": 0.0001,
+      "lrf": 0.1,
+      "momentum": 0.9,
+      "weight_decay": 0.0005,
+      "warmup_epochs": 1.0,
+      "warmup_momentum": 0.8,
+      "warmup_bias_lr": 0.0001,
+      "box": 7.5,
+      "cls": 0.5,
+      "dfl": 1.5,
+      "pose": 12.0,
+      "kobj": 1.0,
+      "nbs": 64,
+      "hsv_h": 0.015,
+      "hsv_s": 0.3,
+      "hsv_v": 0.2,
+      "degrees": 0.0,
+      "translate": 0.05,
+      "scale": 0.1,
+      "shear": 0.0,
+      "perspective": 0.0,
+      "flipud": 0.0,
+      "fliplr": 0.5,
+      "bgr": 0.0,
+      "mosaic": 0.0,
+      "mixup": 0.0,
+      "cutmix": 0.0,
+      "copy_paste": 0.0,
+      "copy_paste_mode": "flip",
+      "auto_augment": "randaugment",
+      "erasing": 0.4,
+      "cfg": null,
+      "tracker": "botsort.yaml",
+      "save_dir": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\crop_study\\source_local_20261012\\local_training\\A1_seed42"
+    },
+    "best_epoch_by_csv": 13,
+    "best_csv_metrics": {
+      "epoch": "13",
+      "time": "2966.7",
+      "train/box_loss": "1.38918",
+      "train/cls_loss": "1.07399",
+      "train/dfl_loss": "1.1328",
+      "train/spacing_loss": "0",
+      "metrics/precision(B)": "0.55537",
+      "metrics/recall(B)": "0.47975",
+      "metrics/mAP50(B)": "0.49553",
+      "metrics/mAP50-95(B)": "0.28659",
+      "val/box_loss": "1.38053",
+      "val/cls_loss": "1.05565",
+      "val/dfl_loss": "1.10344",
+      "val/spacing_loss": "0",
+      "lr/pg0": "6.89058e-05",
+      "lr/pg1": "6.89058e-05",
+      "lr/pg2": "6.89058e-05"
+    },
+    "checkpoint_epoch": -1,
+    "checkpoint_best_fitness": null,
+    "checkpoint_train_metrics": {
+      "metrics/precision(B)": 0.55537,
+      "metrics/recall(B)": 0.47975,
+      "metrics/mAP50(B)": 0.49553,
+      "metrics/mAP50-95(B)": 0.28659,
+      "val/box_loss": 1.38053,
+      "val/cls_loss": 1.05565,
+      "val/dfl_loss": 1.10344,
+      "val/spacing_loss": 0.0,
+      "fitness": 0.30749
+    },
+    "note": "Final stripped checkpoint epoch may be -1. Best epoch inferred from CSV fitness; full train_results in checkpoint cross-checked.",
+    "checkpoint_history_rows": 30,
+    "best_selection_rule": "0.1*AP50+0.9*AP95 (local Ultralytics fitness)",
+    "checkpoint_metrics_match_selected_epoch": true
+  }
+}

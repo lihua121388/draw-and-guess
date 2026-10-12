@@ -1,0 +1,32 @@
+{
+  "experiment": "E3",
+  "fusion": "B2",
+  "parameters": {
+    "local_scale": 0.85,
+    "boundary_margin": 8.0,
+    "boundary_floor": 0.25,
+    "stable_global_conf": 0.5,
+    "stable_global_size": 32.0,
+    "protection_iou": 0.5,
+    "fusion_iou": 0.7,
+    "max_det": 500,
+    "output_conf": 0.001
+  },
+  "global_checkpoint": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\candidates\\formal_100e_b8_s42_v2\\M0_seed42\\weights\\best.pt",
+  "local_checkpoint": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\crop_study\\source_local_20261012\\local_training\\A1_seed42\\weights\\best.pt",
+  "weight_and_ROI_hashes": {
+    "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\candidates\\formal_100e_b8_s42_v2\\M0_seed42\\weights\\best.pt": "ea7a1f071cfc5e0b4b3dc4016c38f36727b1f0302a9a9bc5c0192da39df1d16f",
+    "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\crop_study\\source_local_20261012\\local_training\\A1_seed42\\weights\\best.pt": "3d089e7e3d2b0b7f2745c2cd9aabc19a6e4e2ef493f0a0f106c0aa010c68c52d",
+    "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\crop_study\\source_local_20261012\\frozen_s2_rois.json": "659d22fd9f68d1f1639b07a20dc8eabb94222c9363935d8d60606dbaf0f54b01",
+    "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\crop_study\\source_local_20261012\\B0\\coco_predictions.json": "2288d365beb0ba94f02bad8a04ff7a190f7147e899d77d8590761d7204d7a86c",
+    "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\crop_study\\source_local_20261012\\B2\\coco_predictions.json": "fc7c3a8b9919ec02fe3a36b4e43c7bc127d10b3ef1f470b260dffc0969cc690b",
+    "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\crop_study\\s0_s4_640_20261012\\S2\\raw_candidates.jsonl": "b3c6ca46eba72e28037494dfc0b7f74cf9d877a25ab0af33287d1c2770980a7b",
+    "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\crop_study\\source_local_20261012\\local_training\\A1_seed42\\args.yaml": "7050f196e183fc4b4833690e551b84c948521cb8ad84406241e7ac52df09329b",
+    "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\crop_study\\source_local_20261012\\local_training\\A1_seed42\\results.csv": "fe13de8a8845e7bd948cf05173236deac82de96f0ad5e47383014304d2ebcb4c"
+  },
+  "protocol": "Historical val-compatible global rectangles/pad.5 (nominal640); native RGB ROI square640 LetterBox; FP32, multi-label .001, stage NMS .7/cap10000, global finalized500, final500.",
+  "no_GT_input": true,
+  "shared_A1_predictions": true,
+  "ROI_count": 935,
+  "images": 548
+}

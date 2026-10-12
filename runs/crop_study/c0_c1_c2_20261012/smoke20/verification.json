@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "images": 20,
+  "seed": 42,
+  "ROI_bounds_valid": true,
+  "final_max500": true,
+  "finite_original_coordinates": true,
+  "fixed_full_image_coverage": true
+}

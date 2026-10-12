@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "historical_inputs_unchanged": true,
+  "no_training": true,
+  "no_inference": true,
+  "no_quality_training_labels": true,
+  "validation_GT_use": "aggregate retrospective diagnostic only",
+  "source_sha256": "138c10a9c111374f7a25b84b7ff99a2ce7564ca3c6f3623876a5812de83fbfa5",
+  "proposal_sha256": "b7ed791081f3f50d4ca6aa1969bc8f159fa11dd8cfab5c3efad8a4ded5594279",
+  "tests_passed": 4
+}

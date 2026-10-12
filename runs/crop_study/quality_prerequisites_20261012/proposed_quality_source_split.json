@@ -1,0 +1,4118 @@
+{
+  "status": "PROPOSAL ONLY; NOT independent of upstream selection",
+  "seed": 42,
+  "groups": {
+    "fit": [
+      "0000016",
+      "0000109",
+      "0000137",
+      "0000173",
+      "0000195",
+      "0000214",
+      "0000225",
+      "0000247",
+      "0000257",
+      "0000349",
+      "0000357",
+      "9999960",
+      "9999984"
+    ],
+    "early_stop": [
+      "0000099",
+      "0000270",
+      "0000325",
+      "9999953"
+    ],
+    "calibration": [
+      "0000070",
+      "0000136",
+      "0000171",
+      "9999997"
+    ]
+  },
+  "images": {
+    "fit": [
+      {
+        "file_name": "0000016_00420_d_0000068.jpg",
+        "source_sequence": "0000016",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000016_00420_d_0000068.jpg"
+      },
+      {
+        "file_name": "0000016_01352_d_0000069.jpg",
+        "source_sequence": "0000016",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000016_01352_d_0000069.jpg"
+      },
+      {
+        "file_name": "0000109_00228_d_0000061.jpg",
+        "source_sequence": "0000109",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000109_00228_d_0000061.jpg"
+      },
+      {
+        "file_name": "0000109_00606_d_0000062.jpg",
+        "source_sequence": "0000109",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000109_00606_d_0000062.jpg"
+      },
+      {
+        "file_name": "0000109_01140_d_0000063.jpg",
+        "source_sequence": "0000109",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000109_01140_d_0000063.jpg"
+      },
+      {
+        "file_name": "0000109_03179_d_0000064.jpg",
+        "source_sequence": "0000109",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000109_03179_d_0000064.jpg"
+      },
+      {
+        "file_name": "0000137_00509_d_0000159.jpg",
+        "source_sequence": "0000137",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000137_00509_d_0000159.jpg"
+      },
+      {
+        "file_name": "0000137_00960_d_0000160.jpg",
+        "source_sequence": "0000137",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000137_00960_d_0000160.jpg"
+      },
+      {
+        "file_name": "0000137_01372_d_0000161.jpg",
+        "source_sequence": "0000137",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000137_01372_d_0000161.jpg"
+      },
+      {
+        "file_name": "0000137_01824_d_0000162.jpg",
+        "source_sequence": "0000137",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000137_01824_d_0000162.jpg"
+      },
+      {
+        "file_name": "0000137_02220_d_0000163.jpg",
+        "source_sequence": "0000137",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000137_02220_d_0000163.jpg"
+      },
+      {
+        "file_name": "0000137_02372_d_0000164.jpg",
+        "source_sequence": "0000137",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000137_02372_d_0000164.jpg"
+      },
+      {
+        "file_name": "0000173_00001_d_0000001.jpg",
+        "source_sequence": "0000173",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000173_00001_d_0000001.jpg"
+      },
+      {
+        "file_name": "0000173_00401_d_0000001.jpg",
+        "source_sequence": "0000173",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000173_00401_d_0000001.jpg"
+      },
+      {
+        "file_name": "0000173_00801_d_0000001.jpg",
+        "source_sequence": "0000173",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000173_00801_d_0000001.jpg"
+      },
+      {
+        "file_name": "0000173_01180_d_0000001.jpg",
+        "source_sequence": "0000173",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000173_01180_d_0000001.jpg"
+      },
+      {
+        "file_name": "0000173_01368_d_0000001.jpg",
+        "source_sequence": "0000173",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000173_01368_d_0000001.jpg"
+      },
+      {
+        "file_name": "0000173_01601_d_0000001.jpg",
+        "source_sequence": "0000173",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000173_01601_d_0000001.jpg"
+      },
+      {
+        "file_name": "0000173_02001_d_0000001.jpg",
+        "source_sequence": "0000173",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000173_02001_d_0000001.jpg"
+      },
+      {
+        "file_name": "0000173_02401_d_0000001.jpg",
+        "source_sequence": "0000173",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000173_02401_d_0000001.jpg"
+      },
+      {
+        "file_name": "0000195_00000_d_0000126.jpg",
+        "source_sequence": "0000195",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000195_00000_d_0000126.jpg"
+      },
+      {
+        "file_name": "0000195_00201_d_0000127.jpg",
+        "source_sequence": "0000195",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000195_00201_d_0000127.jpg"
+      },
+      {
+        "file_name": "0000195_00409_d_0000128.jpg",
+        "source_sequence": "0000195",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000195_00409_d_0000128.jpg"
+      },
+      {
+        "file_name": "0000195_00634_d_0000129.jpg",
+        "source_sequence": "0000195",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000195_00634_d_0000129.jpg"
+      },
+      {
+        "file_name": "0000195_00815_d_0000130.jpg",
+        "source_sequence": "0000195",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000195_00815_d_0000130.jpg"
+      },
+      {
+        "file_name": "0000195_01040_d_0000131.jpg",
+        "source_sequence": "0000195",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000195_01040_d_0000131.jpg"
+      },
+      {
+        "file_name": "0000195_01256_d_0000132.jpg",
+        "source_sequence": "0000195",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000195_01256_d_0000132.jpg"
+      },
+      {
+        "file_name": "0000195_01418_d_0000133.jpg",
+        "source_sequence": "0000195",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000195_01418_d_0000133.jpg"
+      },
+      {
+        "file_name": "0000195_01518_d_0000134.jpg",
+        "source_sequence": "0000195",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000195_01518_d_0000134.jpg"
+      },
+      {
+        "file_name": "0000214_00000_d_0000248.jpg",
+        "source_sequence": "0000214",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000214_00000_d_0000248.jpg"
+      },
+      {
+        "file_name": "0000214_00410_d_0000249.jpg",
+        "source_sequence": "0000214",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000214_00410_d_0000249.jpg"
+      },
+      {
+        "file_name": "0000214_00840_d_0000250.jpg",
+        "source_sequence": "0000214",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000214_00840_d_0000250.jpg"
+      },
+      {
+        "file_name": "0000214_01218_d_0000251.jpg",
+        "source_sequence": "0000214",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000214_01218_d_0000251.jpg"
+      },
+      {
+        "file_name": "0000214_01652_d_0000252.jpg",
+        "source_sequence": "0000214",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000214_01652_d_0000252.jpg"
+      },
+      {
+        "file_name": "0000214_01968_d_0000253.jpg",
+        "source_sequence": "0000214",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000214_01968_d_0000253.jpg"
+      },
+      {
+        "file_name": "0000214_02445_d_0000254.jpg",
+        "source_sequence": "0000214",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000214_02445_d_0000254.jpg"
+      },
+      {
+        "file_name": "0000214_02750_d_0000255.jpg",
+        "source_sequence": "0000214",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000214_02750_d_0000255.jpg"
+      },
+      {
+        "file_name": "0000225_00001_d_0000001.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_00001_d_0000001.jpg"
+      },
+      {
+        "file_name": "0000225_00460_d_0000002.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_00460_d_0000002.jpg"
+      },
+      {
+        "file_name": "0000225_00939_d_0000003.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_00939_d_0000003.jpg"
+      },
+      {
+        "file_name": "0000225_01376_d_0000004.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_01376_d_0000004.jpg"
+      },
+      {
+        "file_name": "0000225_01555_d_0000005.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_01555_d_0000005.jpg"
+      },
+      {
+        "file_name": "0000225_01730_d_0000006.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_01730_d_0000006.jpg"
+      },
+      {
+        "file_name": "0000225_01978_d_0000007.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_01978_d_0000007.jpg"
+      },
+      {
+        "file_name": "0000225_02083_d_0000008.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_02083_d_0000008.jpg"
+      },
+      {
+        "file_name": "0000225_02427_d_0000009.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_02427_d_0000009.jpg"
+      },
+      {
+        "file_name": "0000225_02567_d_0000010.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_02567_d_0000010.jpg"
+      },
+      {
+        "file_name": "0000225_03052_d_0000011.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_03052_d_0000011.jpg"
+      },
+      {
+        "file_name": "0000225_03550_d_0000012.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_03550_d_0000012.jpg"
+      },
+      {
+        "file_name": "0000225_04002_d_0000013.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_04002_d_0000013.jpg"
+      },
+      {
+        "file_name": "0000225_04167_d_0000014.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_04167_d_0000014.jpg"
+      },
+      {
+        "file_name": "0000225_04522_d_0000015.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_04522_d_0000015.jpg"
+      },
+      {
+        "file_name": "0000225_05003_d_0000016.jpg",
+        "source_sequence": "0000225",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000225_05003_d_0000016.jpg"
+      },
+      {
+        "file_name": "0000247_00002_d_0000001.jpg",
+        "source_sequence": "0000247",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000247_00002_d_0000001.jpg"
+      },
+      {
+        "file_name": "0000257_00001_d_0000042.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_00001_d_0000042.jpg"
+      },
+      {
+        "file_name": "0000257_00249_d_0000043.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_00249_d_0000043.jpg"
+      },
+      {
+        "file_name": "0000257_00359_d_0000044.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_00359_d_0000044.jpg"
+      },
+      {
+        "file_name": "0000257_00621_d_0000045.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_00621_d_0000045.jpg"
+      },
+      {
+        "file_name": "0000257_00871_d_0000046.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_00871_d_0000046.jpg"
+      },
+      {
+        "file_name": "0000257_01295_d_0000047.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_01295_d_0000047.jpg"
+      },
+      {
+        "file_name": "0000257_01551_d_0000049.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_01551_d_0000049.jpg"
+      },
+      {
+        "file_name": "0000257_01607_d_0000050.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_01607_d_0000050.jpg"
+      },
+      {
+        "file_name": "0000257_01656_d_0000051.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_01656_d_0000051.jpg"
+      },
+      {
+        "file_name": "0000257_01698_d_0000052.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_01698_d_0000052.jpg"
+      },
+      {
+        "file_name": "0000257_01725_d_0000053.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_01725_d_0000053.jpg"
+      },
+      {
+        "file_name": "0000257_02072_d_0000054.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_02072_d_0000054.jpg"
+      },
+      {
+        "file_name": "0000257_02550_d_0000055.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_02550_d_0000055.jpg"
+      },
+      {
+        "file_name": "0000257_02841_d_0000056.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_02841_d_0000056.jpg"
+      },
+      {
+        "file_name": "0000257_03254_d_0000057.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_03254_d_0000057.jpg"
+      },
+      {
+        "file_name": "0000257_03360_d_0000058.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_03360_d_0000058.jpg"
+      },
+      {
+        "file_name": "0000257_03482_d_0000059.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_03482_d_0000059.jpg"
+      },
+      {
+        "file_name": "0000257_03639_d_0000060.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_03639_d_0000060.jpg"
+      },
+      {
+        "file_name": "0000257_03739_d_0000061.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_03739_d_0000061.jpg"
+      },
+      {
+        "file_name": "0000257_03864_d_0000062.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_03864_d_0000062.jpg"
+      },
+      {
+        "file_name": "0000257_03964_d_0000063.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_03964_d_0000063.jpg"
+      },
+      {
+        "file_name": "0000257_04069_d_0000064.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_04069_d_0000064.jpg"
+      },
+      {
+        "file_name": "0000257_04249_d_0000066.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_04249_d_0000066.jpg"
+      },
+      {
+        "file_name": "0000257_04349_d_0000067.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_04349_d_0000067.jpg"
+      },
+      {
+        "file_name": "0000257_04451_d_0000068.jpg",
+        "source_sequence": "0000257",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000257_04451_d_0000068.jpg"
+      },
+      {
+        "file_name": "0000349_00001_d_0000440.jpg",
+        "source_sequence": "0000349",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000349_00001_d_0000440.jpg"
+      },
+      {
+        "file_name": "0000349_01961_d_0000450.jpg",
+        "source_sequence": "0000349",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000349_01961_d_0000450.jpg"
+      },
+      {
+        "file_name": "0000349_02157_d_0000451.jpg",
+        "source_sequence": "0000349",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000349_02157_d_0000451.jpg"
+      },
+      {
+        "file_name": "0000349_04313_d_0000462.jpg",
+        "source_sequence": "0000349",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000349_04313_d_0000462.jpg"
+      },
+      {
+        "file_name": "0000349_04509_d_0000463.jpg",
+        "source_sequence": "0000349",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000349_04509_d_0000463.jpg"
+      },
+      {
+        "file_name": "0000349_04705_d_0000464.jpg",
+        "source_sequence": "0000349",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000349_04705_d_0000464.jpg"
+      },
+      {
+        "file_name": "0000349_04901_d_0000465.jpg",
+        "source_sequence": "0000349",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000349_04901_d_0000465.jpg"
+      },
+      {
+        "file_name": "0000349_05097_d_0000466.jpg",
+        "source_sequence": "0000349",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000349_05097_d_0000466.jpg"
+      },
+      {
+        "file_name": "0000349_05489_d_0000468.jpg",
+        "source_sequence": "0000349",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000349_05489_d_0000468.jpg"
+      },
+      {
+        "file_name": "0000349_05685_d_0000469.jpg",
+        "source_sequence": "0000349",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000349_05685_d_0000469.jpg"
+      },
+      {
+        "file_name": "0000349_05881_d_0000470.jpg",
+        "source_sequence": "0000349",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000349_05881_d_0000470.jpg"
+      },
+      {
+        "file_name": "0000349_06077_d_0000471.jpg",
+        "source_sequence": "0000349",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000349_06077_d_0000471.jpg"
+      },
+      {
+        "file_name": "0000357_00981_d_0000661.jpg",
+        "source_sequence": "0000357",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000357_00981_d_0000661.jpg"
+      },
+      {
+        "file_name": "0000357_02549_d_0000669.jpg",
+        "source_sequence": "0000357",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000357_02549_d_0000669.jpg"
+      },
+      {
+        "file_name": "0000357_04509_d_0000679.jpg",
+        "source_sequence": "0000357",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000357_04509_d_0000679.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000001.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000001.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000002.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000002.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000003.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000003.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000004.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000004.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000005.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000005.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000006.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000006.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000007.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000007.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000008.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000008.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000009.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000009.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000010.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000010.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000011.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000011.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000012.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000012.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000013.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000013.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000014.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000014.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000015.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000015.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000016.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000016.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000017.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000017.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000018.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000018.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000019.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000019.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000020.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000020.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000021.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000021.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000022.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000022.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000023.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000023.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000024.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000024.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000025.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000025.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000026.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000026.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000027.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000027.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000028.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000028.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000029.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000029.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000030.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000030.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000031.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000031.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000032.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000032.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000033.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000033.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000034.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000034.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000035.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000035.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000036.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000036.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000037.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000037.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000038.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000038.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000039.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000039.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000040.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000040.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000041.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000041.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000042.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000042.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000043.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000043.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000044.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000044.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000045.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000045.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000046.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000046.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000047.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000047.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000048.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000048.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000049.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000049.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000050.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000050.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000051.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000051.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000052.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000052.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000053.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000053.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000054.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000054.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000055.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000055.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000056.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000056.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000057.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000057.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000058.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000058.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000059.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000059.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000060.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000060.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000061.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000061.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000062.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000062.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000063.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000063.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000064.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000064.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000065.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000065.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000066.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000066.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000067.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000067.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000068.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000068.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000069.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000069.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000070.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000070.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000071.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000071.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000072.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000072.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000073.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000073.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000074.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000074.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000075.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000075.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000076.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000076.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000077.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000077.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000078.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000078.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000079.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000079.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000080.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000080.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000081.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000081.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000082.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000082.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000083.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000083.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000084.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000084.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000085.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000085.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000086.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000086.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000087.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000087.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000088.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000088.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000089.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000089.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000090.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000090.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000091.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000091.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000092.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000092.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000093.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000093.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000094.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000094.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000095.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000095.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000096.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000096.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000097.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000097.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000098.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000098.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000099.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000099.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000100.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000100.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000101.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000101.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000102.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000102.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000103.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000103.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000104.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000104.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000105.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000105.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000106.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000106.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000107.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000107.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000108.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000108.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000109.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000109.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000110.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000110.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000111.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000111.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000112.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000112.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000113.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000113.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000114.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000114.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000115.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000115.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000116.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000116.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000117.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000117.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000118.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000118.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000119.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000119.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000120.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000120.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000121.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000121.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000122.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000122.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000123.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000123.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000124.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000124.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000125.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000125.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000126.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000126.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000127.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000127.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000128.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000128.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000129.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000129.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000130.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000130.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000131.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000131.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000132.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000132.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000133.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000133.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000134.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000134.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000135.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000135.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000136.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000136.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000137.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000137.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000138.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000138.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000139.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000139.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000140.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000140.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000141.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000141.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000142.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000142.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000143.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000143.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000144.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000144.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000145.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000145.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000146.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000146.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000147.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000147.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000148.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000148.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000149.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000149.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000150.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000150.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000151.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000151.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000152.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000152.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000153.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000153.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000154.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000154.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000155.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000155.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000156.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000156.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000157.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000157.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000158.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000158.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000159.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000159.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000160.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000160.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000161.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000161.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000162.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000162.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000163.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000163.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000164.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000164.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000165.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000165.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000166.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000166.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000167.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000167.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000168.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000168.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000169.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000169.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000170.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000170.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000171.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000171.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000172.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000172.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000173.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000173.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000174.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000174.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000175.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000175.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000176.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000176.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000177.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000177.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000178.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000178.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000179.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000179.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000180.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000180.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000181.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000181.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000182.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000182.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000183.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000183.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000184.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000184.jpg"
+      },
+      {
+        "file_name": "9999960_00000_d_0000185.jpg",
+        "source_sequence": "9999960",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999960_00000_d_0000185.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000001.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000001.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000002.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000002.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000003.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000003.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000004.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000004.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000005.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000005.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000006.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000006.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000007.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000007.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000008.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000008.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000009.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000009.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000010.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000010.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000011.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000011.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000012.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000012.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000013.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000013.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000014.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000014.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000015.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000015.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000016.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000016.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000017.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000017.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000018.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000018.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000019.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000019.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000020.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000020.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000021.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000021.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000022.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000022.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000023.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000023.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000024.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000024.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000025.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000025.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000026.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000026.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000027.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000027.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000028.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000028.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000029.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000029.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000030.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000030.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000031.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000031.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000032.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000032.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000033.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000033.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000034.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000034.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000035.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000035.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000036.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000036.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000037.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000037.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000038.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000038.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000039.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000039.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000040.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000040.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000041.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000041.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000042.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000042.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000043.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000043.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000044.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000044.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000045.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000045.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000046.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000046.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000047.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000047.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000048.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000048.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000049.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000049.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000050.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000050.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000051.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000051.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000052.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000052.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000053.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000053.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000054.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000054.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000055.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000055.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000056.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000056.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000057.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000057.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000058.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000058.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000059.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000059.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000060.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000060.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000061.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000061.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000062.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000062.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000063.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000063.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000064.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000064.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000065.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000065.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000066.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000066.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000067.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000067.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000068.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000068.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000069.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000069.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000070.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000070.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000071.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000071.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000072.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000072.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000073.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000073.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000074.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000074.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000075.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000075.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000076.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000076.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000077.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000077.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000078.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000078.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000079.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000079.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000080.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000080.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000081.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000081.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000082.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000082.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000083.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000083.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000084.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000084.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000085.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000085.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000086.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000086.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000087.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000087.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000088.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000088.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000089.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000089.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000090.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000090.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000091.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000091.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000092.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000092.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000093.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000093.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000094.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000094.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000095.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000095.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000096.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000096.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000097.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000097.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000098.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000098.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000099.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000099.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000100.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000100.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000101.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000101.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000102.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000102.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000103.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000103.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000104.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000104.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000105.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000105.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000106.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000106.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000107.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000107.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000108.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000108.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000109.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000109.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000110.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000110.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000111.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000111.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000112.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000112.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000113.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000113.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000114.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000114.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000115.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000115.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000116.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000116.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000117.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000117.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000118.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000118.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000119.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000119.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000120.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000120.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000121.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000121.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000122.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000122.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000123.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000123.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000124.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000124.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000125.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000125.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000126.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000126.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000127.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000127.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000128.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000128.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000129.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000129.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000130.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000130.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000131.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000131.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000132.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000132.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000133.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000133.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000134.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000134.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000135.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000135.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000136.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000136.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000137.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000137.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000138.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000138.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000139.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000139.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000140.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000140.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000141.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000141.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000142.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000142.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000143.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000143.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000144.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000144.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000145.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000145.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000146.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000146.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000147.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000147.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000148.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000148.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000149.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000149.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000150.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000150.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000151.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000151.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000152.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000152.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000153.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000153.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000154.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000154.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000155.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000155.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000156.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000156.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000157.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000157.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000158.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000158.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000159.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000159.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000160.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000160.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000161.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000161.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000162.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000162.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000163.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000163.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000164.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000164.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000165.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000165.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000166.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000166.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000167.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000167.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000168.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000168.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000169.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000169.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000170.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000170.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000171.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000171.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000172.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000172.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000173.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000173.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000174.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000174.jpg"
+      },
+      {
+        "file_name": "9999984_00000_d_0000175.jpg",
+        "source_sequence": "9999984",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999984_00000_d_0000175.jpg"
+      }
+    ],
+    "early_stop": [
+      {
+        "file_name": "0000099_00149_d_0000001.jpg",
+        "source_sequence": "0000099",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000099_00149_d_0000001.jpg"
+      },
+      {
+        "file_name": "0000099_00508_d_0000002.jpg",
+        "source_sequence": "0000099",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000099_00508_d_0000002.jpg"
+      },
+      {
+        "file_name": "0000099_00997_d_0000003.jpg",
+        "source_sequence": "0000099",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000099_00997_d_0000003.jpg"
+      },
+      {
+        "file_name": "0000099_02362_d_0000005.jpg",
+        "source_sequence": "0000099",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000099_02362_d_0000005.jpg"
+      },
+      {
+        "file_name": "0000099_02798_d_0000006.jpg",
+        "source_sequence": "0000099",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000099_02798_d_0000006.jpg"
+      },
+      {
+        "file_name": "0000099_03156_d_0000007.jpg",
+        "source_sequence": "0000099",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000099_03156_d_0000007.jpg"
+      },
+      {
+        "file_name": "0000099_03508_d_0000008.jpg",
+        "source_sequence": "0000099",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000099_03508_d_0000008.jpg"
+      },
+      {
+        "file_name": "0000099_03930_d_0000009.jpg",
+        "source_sequence": "0000099",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000099_03930_d_0000009.jpg"
+      },
+      {
+        "file_name": "0000099_04272_d_0000010.jpg",
+        "source_sequence": "0000099",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000099_04272_d_0000010.jpg"
+      },
+      {
+        "file_name": "0000099_04587_d_0000011.jpg",
+        "source_sequence": "0000099",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000099_04587_d_0000011.jpg"
+      },
+      {
+        "file_name": "0000270_00201_d_0000354.jpg",
+        "source_sequence": "0000270",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000270_00201_d_0000354.jpg"
+      },
+      {
+        "file_name": "0000270_00401_d_0000355.jpg",
+        "source_sequence": "0000270",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000270_00401_d_0000355.jpg"
+      },
+      {
+        "file_name": "0000270_00801_d_0000357.jpg",
+        "source_sequence": "0000270",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000270_00801_d_0000357.jpg"
+      },
+      {
+        "file_name": "0000270_02601_d_0000366.jpg",
+        "source_sequence": "0000270",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000270_02601_d_0000366.jpg"
+      },
+      {
+        "file_name": "0000270_03401_d_0000370.jpg",
+        "source_sequence": "0000270",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000270_03401_d_0000370.jpg"
+      },
+      {
+        "file_name": "0000270_03801_d_0000372.jpg",
+        "source_sequence": "0000270",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000270_03801_d_0000372.jpg"
+      },
+      {
+        "file_name": "0000270_04001_d_0000373.jpg",
+        "source_sequence": "0000270",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000270_04001_d_0000373.jpg"
+      },
+      {
+        "file_name": "0000325_00001_d_0000662.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_00001_d_0000662.jpg"
+      },
+      {
+        "file_name": "0000325_00201_d_0000663.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_00201_d_0000663.jpg"
+      },
+      {
+        "file_name": "0000325_00801_d_0000666.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_00801_d_0000666.jpg"
+      },
+      {
+        "file_name": "0000325_01001_d_0000667.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_01001_d_0000667.jpg"
+      },
+      {
+        "file_name": "0000325_01201_d_0000668.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_01201_d_0000668.jpg"
+      },
+      {
+        "file_name": "0000325_01401_d_0000669.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_01401_d_0000669.jpg"
+      },
+      {
+        "file_name": "0000325_01601_d_0000670.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_01601_d_0000670.jpg"
+      },
+      {
+        "file_name": "0000325_01801_d_0000671.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_01801_d_0000671.jpg"
+      },
+      {
+        "file_name": "0000325_02001_d_0000672.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_02001_d_0000672.jpg"
+      },
+      {
+        "file_name": "0000325_02201_d_0000673.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_02201_d_0000673.jpg"
+      },
+      {
+        "file_name": "0000325_02601_d_0000675.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_02601_d_0000675.jpg"
+      },
+      {
+        "file_name": "0000325_02801_d_0000676.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_02801_d_0000676.jpg"
+      },
+      {
+        "file_name": "0000325_03001_d_0000677.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_03001_d_0000677.jpg"
+      },
+      {
+        "file_name": "0000325_03201_d_0000678.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_03201_d_0000678.jpg"
+      },
+      {
+        "file_name": "0000325_03401_d_0000679.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_03401_d_0000679.jpg"
+      },
+      {
+        "file_name": "0000325_03601_d_0000680.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_03601_d_0000680.jpg"
+      },
+      {
+        "file_name": "0000325_03801_d_0000681.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_03801_d_0000681.jpg"
+      },
+      {
+        "file_name": "0000325_04001_d_0000682.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_04001_d_0000682.jpg"
+      },
+      {
+        "file_name": "0000325_04201_d_0000683.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_04201_d_0000683.jpg"
+      },
+      {
+        "file_name": "0000325_04401_d_0000684.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_04401_d_0000684.jpg"
+      },
+      {
+        "file_name": "0000325_04601_d_0000685.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_04601_d_0000685.jpg"
+      },
+      {
+        "file_name": "0000325_04801_d_0000686.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_04801_d_0000686.jpg"
+      },
+      {
+        "file_name": "0000325_05601_d_0000690.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_05601_d_0000690.jpg"
+      },
+      {
+        "file_name": "0000325_05801_d_0000691.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_05801_d_0000691.jpg"
+      },
+      {
+        "file_name": "0000325_06001_d_0000692.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_06001_d_0000692.jpg"
+      },
+      {
+        "file_name": "0000325_06201_d_0000693.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_06201_d_0000693.jpg"
+      },
+      {
+        "file_name": "0000325_06401_d_0000694.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_06401_d_0000694.jpg"
+      },
+      {
+        "file_name": "0000325_06601_d_0000695.jpg",
+        "source_sequence": "0000325",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000325_06601_d_0000695.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000001.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000001.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000002.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000002.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000003.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000003.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000004.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000004.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000005.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000005.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000006.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000006.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000007.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000007.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000008.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000008.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000009.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000009.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000010.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000010.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000011.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000011.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000012.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000012.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000013.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000013.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000014.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000014.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000015.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000015.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000016.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000016.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000017.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000017.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000018.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000018.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000019.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000019.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000020.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000020.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000021.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000021.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000022.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000022.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000023.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000023.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000024.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000024.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000025.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000025.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000026.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000026.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000027.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000027.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000028.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000028.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000029.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000029.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000030.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000030.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000031.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000031.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000032.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000032.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000033.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000033.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000034.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000034.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000035.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000035.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000036.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000036.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000037.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000037.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000038.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000038.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000039.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000039.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000040.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000040.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000041.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000041.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000042.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000042.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000043.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000043.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000044.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000044.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000045.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000045.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000046.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000046.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000047.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000047.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000048.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000048.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000049.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000049.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000050.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000050.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000051.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000051.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000052.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000052.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000053.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000053.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000054.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000054.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000055.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000055.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000056.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000056.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000057.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000057.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000058.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000058.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000059.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000059.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000060.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000060.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000061.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000061.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000062.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000062.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000063.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000063.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000064.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000064.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000065.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000065.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000066.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000066.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000067.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000067.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000068.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000068.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000069.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000069.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000070.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000070.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000071.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000071.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000072.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000072.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000073.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000073.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000074.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000074.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000075.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000075.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000076.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000076.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000077.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000077.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000078.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000078.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000079.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000079.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000080.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000080.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000081.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000081.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000082.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000082.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000083.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000083.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000084.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000084.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000085.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000085.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000086.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000086.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000087.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000087.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000088.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000088.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000089.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000089.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000090.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000090.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000091.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000091.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000092.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000092.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000093.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000093.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000094.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000094.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000095.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000095.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000096.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000096.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000097.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000097.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000098.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000098.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000099.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000099.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000100.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000100.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000101.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000101.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000102.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000102.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000103.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000103.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000104.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000104.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000105.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000105.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000106.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000106.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000107.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000107.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000108.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000108.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000109.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000109.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000110.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000110.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000111.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000111.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000112.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000112.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000113.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000113.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000114.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000114.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000115.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000115.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000116.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000116.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000117.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000117.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000118.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000118.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000119.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000119.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000120.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000120.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000121.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000121.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000122.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000122.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000123.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000123.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000124.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000124.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000125.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000125.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000126.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000126.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000127.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000127.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000128.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000128.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000129.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000129.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000130.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000130.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000131.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000131.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000132.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000132.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000133.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000133.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000134.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000134.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000135.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000135.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000136.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000136.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000137.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000137.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000138.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000138.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000139.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000139.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000140.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000140.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000141.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000141.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000142.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000142.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000143.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000143.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000144.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000144.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000145.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000145.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000146.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000146.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000147.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000147.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000148.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000148.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000149.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000149.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000150.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000150.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000151.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000151.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000152.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000152.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000153.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000153.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000154.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000154.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000155.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000155.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000156.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000156.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000157.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000157.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000158.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000158.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000159.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000159.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000160.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000160.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000161.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000161.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000162.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000162.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000163.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000163.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000164.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000164.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000165.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000165.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000166.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000166.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000167.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000167.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000168.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000168.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000169.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000169.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000170.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000170.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000171.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000171.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000172.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000172.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000173.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000173.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000174.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000174.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000175.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000175.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000176.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000176.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000177.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000177.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000178.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000178.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000179.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000179.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000180.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000180.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000181.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000181.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000182.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000182.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000183.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000183.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000184.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000184.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000185.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000185.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000186.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000186.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000187.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000187.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000188.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000188.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000189.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000189.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000190.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000190.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000191.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000191.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000192.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000192.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000193.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000193.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000194.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000194.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000195.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000195.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000196.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000196.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000197.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000197.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000198.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000198.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000199.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000199.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000200.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000200.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000201.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000201.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000202.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000202.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000203.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000203.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000204.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000204.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000205.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000205.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000206.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000206.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000207.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000207.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000208.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000208.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000209.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000209.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000210.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000210.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000211.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000211.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000212.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000212.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000213.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000213.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000214.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000214.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000215.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000215.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000216.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000216.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000217.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000217.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000218.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000218.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000219.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000219.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000220.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000220.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000221.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000221.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000222.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000222.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000223.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000223.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000224.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000224.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000225.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000225.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000226.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000226.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000227.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000227.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000228.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000228.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000229.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000229.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000230.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000230.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000231.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000231.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000232.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000232.jpg"
+      },
+      {
+        "file_name": "9999953_00000_d_0000233.jpg",
+        "source_sequence": "9999953",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999953_00000_d_0000233.jpg"
+      }
+    ],
+    "calibration": [
+      {
+        "file_name": "0000070_04722_d_0000001.jpg",
+        "source_sequence": "0000070",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000070_04722_d_0000001.jpg"
+      },
+      {
+        "file_name": "0000070_05163_d_0000002.jpg",
+        "source_sequence": "0000070",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000070_05163_d_0000002.jpg"
+      },
+      {
+        "file_name": "0000070_05312_d_0000003.jpg",
+        "source_sequence": "0000070",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000070_05312_d_0000003.jpg"
+      },
+      {
+        "file_name": "0000070_05776_d_0000004.jpg",
+        "source_sequence": "0000070",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000070_05776_d_0000004.jpg"
+      },
+      {
+        "file_name": "0000070_05880_d_0000005.jpg",
+        "source_sequence": "0000070",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000070_05880_d_0000005.jpg"
+      },
+      {
+        "file_name": "0000070_06990_d_0000007.jpg",
+        "source_sequence": "0000070",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000070_06990_d_0000007.jpg"
+      },
+      {
+        "file_name": "0000136_00162_d_0000154.jpg",
+        "source_sequence": "0000136",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000136_00162_d_0000154.jpg"
+      },
+      {
+        "file_name": "0000136_00456_d_0000155.jpg",
+        "source_sequence": "0000136",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000136_00456_d_0000155.jpg"
+      },
+      {
+        "file_name": "0000136_00900_d_0000156.jpg",
+        "source_sequence": "0000136",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000136_00900_d_0000156.jpg"
+      },
+      {
+        "file_name": "0000136_01783_d_0000157.jpg",
+        "source_sequence": "0000136",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000136_01783_d_0000157.jpg"
+      },
+      {
+        "file_name": "0000136_02529_d_0000158.jpg",
+        "source_sequence": "0000136",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000136_02529_d_0000158.jpg"
+      },
+      {
+        "file_name": "0000171_00001_d_0000001.jpg",
+        "source_sequence": "0000171",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000171_00001_d_0000001.jpg"
+      },
+      {
+        "file_name": "0000171_00293_d_0000001.jpg",
+        "source_sequence": "0000171",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\0000171_00293_d_0000001.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000001.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000001.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000002.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000002.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000003.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000003.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000004.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000004.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000005.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000005.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000006.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000006.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000007.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000007.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000008.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000008.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000009.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000009.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000010.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000010.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000011.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000011.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000012.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000012.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000013.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000013.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000014.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000014.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000015.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000015.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000016.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000016.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000017.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000017.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000018.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000018.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000019.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000019.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000020.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000020.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000021.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000021.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000022.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000022.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000023.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000023.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000024.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000024.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000025.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000025.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000026.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000026.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000027.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000027.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000028.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000028.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000029.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000029.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000030.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000030.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000031.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000031.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000032.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000032.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000033.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000033.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000034.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000034.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000035.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000035.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000036.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000036.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000037.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000037.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000038.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000038.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000039.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000039.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000040.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000040.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000041.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000041.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000042.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000042.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000043.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000043.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000044.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000044.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000045.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000045.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000046.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000046.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000047.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000047.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000048.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000048.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000049.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000049.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000050.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000050.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000051.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000051.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000052.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000052.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000053.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000053.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000054.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000054.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000055.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000055.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000056.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000056.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000057.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000057.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000058.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000058.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000059.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000059.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000060.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000060.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000061.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000061.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000062.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000062.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000063.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000063.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000064.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000064.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000065.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000065.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000066.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000066.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000067.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000067.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000068.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000068.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000069.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000069.jpg"
+      },
+      {
+        "file_name": "9999997_00000_d_0000070.jpg",
+        "source_sequence": "9999997",
+        "path": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train\\images\\9999997_00000_d_0000070.jpg"
+      }
+    ]
+  },
+  "upstream": "All are M0 training sources; all21 groups were assigned A1 checkpoint-selection dev. Some may produce no A1 crop and are counted separately in independence audit.",
+  "training_labels_generated": false
+}

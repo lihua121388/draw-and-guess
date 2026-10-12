@@ -1,0 +1,10 @@
+{
+  "fusion_ms": {
+    "mean": 9.152318065615123,
+    "p50": 6.203750002896413,
+    "p95": 29.84183500375366
+  },
+  "measured_e2e_ms": null,
+  "cost_scope": "Offline CPU fusion only; no model executed",
+  "mean_rois": 1.7062043795620438
+}

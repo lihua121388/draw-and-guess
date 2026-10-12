@@ -1,0 +1,459 @@
+{
+  "arguments": {
+    "experiment": "M0",
+    "data": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\dataset-subset-16-8-s42.yaml",
+    "weights": "H:\\JZ\\code\\ultralytics-8.3.163\\model\\yolo11n.pt",
+    "project": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\candidates\\smoke_b8",
+    "epochs": 1,
+    "batch": 8,
+    "workers": 4,
+    "imgsz": 640,
+    "device": "0",
+    "seed": 42,
+    "spacing_weight": 0.1,
+    "cache": "none",
+    "no_amp": false,
+    "no_plots": true,
+    "resume": null,
+    "name": null,
+    "tuning_report": null,
+    "tau": 2.0,
+    "temperature": 0.5,
+    "small_size": 32.0,
+    "density_sigma": 2.0,
+    "density_threshold": 2.0,
+    "density_temperature": 0.5,
+    "patience": 2,
+    "save_period": 10,
+    "max_det": 500,
+    "effective_training_arguments": {
+      "task": "detect",
+      "mode": "train",
+      "model": "H:\\JZ\\code\\ultralytics-8.3.163\\code\\test\\configs\\generated\\yolo11n-m0.yaml",
+      "data": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\dataset-subset-16-8-s42.yaml",
+      "epochs": 1,
+      "time": null,
+      "patience": 2,
+      "batch": 8,
+      "imgsz": 640,
+      "save": true,
+      "save_period": 10,
+      "cache": false,
+      "device": "0",
+      "workers": 4,
+      "project": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\candidates\\smoke_b8",
+      "name": "M0_seed42",
+      "exist_ok": false,
+      "pretrained": false,
+      "optimizer": "AdamW",
+      "verbose": true,
+      "seed": 42,
+      "deterministic": true,
+      "single_cls": false,
+      "rect": false,
+      "cos_lr": true,
+      "close_mosaic": 0,
+      "resume": false,
+      "amp": true,
+      "fraction": 1.0,
+      "profile": false,
+      "freeze": null,
+      "multi_scale": false,
+      "overlap_mask": true,
+      "mask_ratio": 4,
+      "dropout": 0.0,
+      "val": true,
+      "split": "val",
+      "save_json": false,
+      "conf": null,
+      "iou": 0.7,
+      "max_det": 500,
+      "half": false,
+      "dnn": false,
+      "plots": false,
+      "source": null,
+      "vid_stride": 1,
+      "stream_buffer": false,
+      "visualize": false,
+      "augment": false,
+      "agnostic_nms": false,
+      "classes": null,
+      "retina_masks": false,
+      "embed": null,
+      "show": false,
+      "save_frames": false,
+      "save_txt": false,
+      "save_conf": false,
+      "save_crop": false,
+      "show_labels": true,
+      "show_conf": true,
+      "show_boxes": true,
+      "line_width": null,
+      "format": "torchscript",
+      "keras": false,
+      "optimize": false,
+      "int8": false,
+      "dynamic": false,
+      "simplify": true,
+      "opset": null,
+      "workspace": null,
+      "nms": false,
+      "lr0": 0.001,
+      "lrf": 0.01,
+      "momentum": 0.937,
+      "weight_decay": 0.0005,
+      "warmup_epochs": 3.0,
+      "warmup_momentum": 0.8,
+      "warmup_bias_lr": 0.1,
+      "box": 7.5,
+      "cls": 0.5,
+      "dfl": 1.5,
+      "pose": 12.0,
+      "kobj": 1.0,
+      "nbs": 64,
+      "hsv_h": 0.015,
+      "hsv_s": 0.7,
+      "hsv_v": 0.4,
+      "degrees": 0.0,
+      "translate": 0.1,
+      "scale": 0.5,
+      "shear": 0.0,
+      "perspective": 0.0,
+      "flipud": 0.0,
+      "fliplr": 0.5,
+      "bgr": 0.0,
+      "mosaic": 1.0,
+      "mixup": 0.0,
+      "cutmix": 0.0,
+      "copy_paste": 0.0,
+      "copy_paste_mode": "flip",
+      "auto_augment": "randaugment",
+      "erasing": 0.4,
+      "cfg": null,
+      "tracker": "botsort.yaml",
+      "save_dir": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\candidates\\smoke_b8\\M0_seed42"
+    }
+  },
+  "architecture": {
+    "nc": 10,
+    "scale": "n",
+    "scales": {
+      "n": [
+        0.5,
+        0.25,
+        1024
+      ]
+    },
+    "nscr": {
+      "experiment": "M0",
+      "supervision": "none",
+      "weight": 0.0,
+      "tau": 2.0,
+      "temperature": 0.5,
+      "small_size": 32.0,
+      "density_sigma": 2.0,
+      "density_threshold": 2.0,
+      "density_temperature": 0.5
+    },
+    "backbone": [
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          64,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          128,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          256,
+          false,
+          0.25
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          256,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          512,
+          false,
+          0.25
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          512,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          512,
+          true
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          1024,
+          3,
+          2
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          1024,
+          true
+        ]
+      ],
+      [
+        -1,
+        1,
+        "SPPF",
+        [
+          1024,
+          5
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C2PSA",
+        [
+          1024
+        ]
+      ]
+    ],
+    "head": [
+      [
+        -1,
+        1,
+        "nn.Upsample",
+        [
+          "None",
+          2,
+          "nearest"
+        ]
+      ],
+      [
+        [
+          -1,
+          6
+        ],
+        1,
+        "Concat",
+        [
+          1
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          512,
+          false
+        ]
+      ],
+      [
+        -1,
+        1,
+        "nn.Upsample",
+        [
+          "None",
+          2,
+          "nearest"
+        ]
+      ],
+      [
+        [
+          -1,
+          4
+        ],
+        1,
+        "Concat",
+        [
+          1
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          256,
+          false
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          256,
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          -1,
+          13
+        ],
+        1,
+        "Concat",
+        [
+          1
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          512,
+          false
+        ]
+      ],
+      [
+        -1,
+        1,
+        "Conv",
+        [
+          512,
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          -1,
+          10
+        ],
+        1,
+        "Concat",
+        [
+          1
+        ]
+      ],
+      [
+        -1,
+        2,
+        "C3k2",
+        [
+          1024,
+          true
+        ]
+      ],
+      [
+        [
+          2,
+          16
+        ],
+        1,
+        "NSCRFusion",
+        [
+          256,
+          "none",
+          0.1
+        ]
+      ],
+      [
+        [
+          23,
+          16,
+          19,
+          22
+        ],
+        1,
+        "Detect",
+        [
+          "nc"
+        ]
+      ]
+    ],
+    "yaml_file": "H:\\JZ\\code\\ultralytics-8.3.163\\code\\test\\configs\\generated\\yolo11n-m0.yaml",
+    "channels": 3
+  },
+  "weight_transfer": {
+    "checkpoint": "H:\\JZ\\code\\ultralytics-8.3.163\\model\\yolo11n.pt",
+    "transferred_tensors": 448,
+    "total_tensors": 545,
+    "detect_branch_remap": true,
+    "classification_transfer": false
+  },
+  "checkpoint_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+  "python": "3.11.17",
+  "torch": "2.12.0+cu126",
+  "cuda": "12.6",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "dataset_files": {
+    "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\dataset-subset-16-8-s42.yaml": "4059a34acab07ca9c56505620de309c103b37ea67d42219e065e61aaf0f9bedb",
+    "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train-subset-16-8-s42.txt": "56a59654439639cf551db127b589569a1521205e9f67b86eb3ea66bda29b006f",
+    "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\val-subset-16-8-s42.txt": "1a1bfb453746197d93eb7d9562090a112b9bdf132988e561b71e4c0f17074e1a",
+    "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\test-subset-16-8-s42.txt": "6213a21ce8b2cbf9292c75f6a3b8811acd34c835943f1101b1668d2a9bbecaf5"
+  },
+  "dataset_labels_sha256": {
+    "train": "03285f79fbbc41999d2c2636a538166fdc31aec5cac057dfb8735096b14426d4",
+    "val": "b3b10167aea03a55c254f2a378a4d51a5441d27907edc1a9ea4899c3a85102c5",
+    "test": "b7932aaab07c370cead797f617f22a8691eb7289d14eed16f52bb1ddf5ac04cc"
+  },
+  "implementation_files": {
+    "ultralytics\\nn\\modules\\nscr.py": "8ceb5714f2f7bf08ca451521927af251ed38f8a3465026070e0a29f68e165ae0",
+    "ultralytics\\utils\\nscr_loss.py": "670cffad063ec64274bcb103c736b835ff8788509676d3ac2322cb92a5a3a65c",
+    "code\\test\\nscr_experiments.py": "4a3f736ce9f90e94aaa73e14b9f9a4635ef3f10479e2469966e40c887577028c",
+    "code\\test\\prepare_data.py": "d9493f6cd99340029be52c6ad2e34fdd84c4a78dc1f4441dc09e002b24c6d928",
+    "code\\test\\train_test.py": "e09dc38e136fa2599ea37b4f36507514debfaf6c9825dd9ca31f9fe0a80802b5",
+    "code\\test\\evaluate_nscr.py": "c5230a220f14f02ca8208cd6666dd716f4e30eeb459a9ab83e166cf7dd25435c",
+    "ultralytics\\nn\\tasks.py": "dd6aab99a1d259b3c9869c714c62e909434774b0b502c45bf80d6370679447ea",
+    "ultralytics\\models\\yolo\\detect\\train.py": "bc2450b6f074561f920c10c226613ea789b083d13c1135676649491cd46449d1",
+    "ultralytics\\utils\\checks.py": "75e51552716807479b8d96e10282619a27a3faf6d8f4c16a7226ece5d99afb59",
+    "ultralytics\\nn\\modules\\dcr.py": "ce487bc270f21231ad3bb2279a1df116cb2aec9f8e96e16deea46c9128f07bcd",
+    "ultralytics\\utils\\dcr_loss.py": "188e088a653b3c80d41c6fc45d6613c5ff0e76dae6a874170f797ef1bd878350",
+    "ultralytics\\nn\\modules\\candidates.py": "9bf4168c6b918dd989a469558b915e65829147e252e4d6b429701260bdbf809e",
+    "ultralytics\\utils\\candidate_loss.py": "8af858690b61d4988739b102bf0ca2bd1a5463a76c102549a4e417774f560f98",
+    "code\\test\\candidate_experiments.py": "cdc13a511d515416812e58e58cdf7b1666b46e5a4272a8d226889b5ba3f6e7f4",
+    "code\\test\\train_candidate.py": "1a33cec02548ea9cf33b5eeffc12bab1f09c96c36ddd40c66d976d81f361828d",
+    "code\\test\\run_five.py": "a8f45702eb645b1478d1f589e3819e2ae73d18343192af35e7a9ac483a172f48",
+    "code\\test\\evaluate_candidates.py": "196b6b1d6f588aa82b6365ac87c97e78ba626e0e9c5261bbf5f7f96c0f5eec89",
+    "code\\test\\review_candidates.py": "2de79bf832cc738123edcdb502222c41311e6ba84be383b02b00274c489a7450"
+  }
+}

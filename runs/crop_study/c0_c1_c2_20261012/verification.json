@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "all_schemes": [
+    "C0",
+    "C1-A",
+    "C1-B",
+    "C1-C",
+    "C2-A-K1",
+    "C2-A-K2",
+    "C2-A-K4",
+    "C2-B-K1",
+    "C2-B-K2",
+    "C2-B-K4"
+  ],
+  "unchanged_weights_and_data": true,
+  "immutable": {
+    "checkpoint_sha256": "ea7a1f071cfc5e0b4b3dc4016c38f36727b1f0302a9a9bc5c0192da39df1d16f",
+    "label_content_sha256": "7319e005d6c9cad147454b3a5eb042600c5add510611fffd137c25a2932ba65b",
+    "original_annotations_sha256": "b05cf4368c2d3668341f5d8055d78a4fa091bd4a4afb9553c76ebf03186db52e",
+    "image_content_sha256": "abcd3e973ed15c2d39962d7a09606f04bfe7d3e2cb083dd7cd6dd290fe24fe10",
+    "annotation_sha256": "437d6d9f984c3749b456635b884bdef45775a0ca93336f08000d30cd3c932b4a",
+    "val_manifest_sha256": "5bab02f66f40d80fd10494a37e202e8034b76e5abaa153fd512d20bf77c4b044"
+  },
+  "source_sha256": {
+    "crop_geometry.py": "175394f640a35c9b2d1aa9923f499b611f23c7bd5631b78006e50756ef2ec6da",
+    "crop_infer.py": "b7bd544e94228a0cf4e9f24caebb3900c41189d2bd75e3c3dd7e09936463155c",
+    "crop_evaluate.py": "d8c58f37a75065aef7a85229d55275113dfa14587289f831bfaca0d4e0e84206",
+    "run_crop_study.py": "1fcff4b75591bd72aec160f497449a10d0ec27b7e55890e330392c1318a84ea7",
+    "report_crop_study.py": "5ff0a2ba6deafdc9ccb031d6e7657b98d6935c599e097214676821cdcdbdd718"
+  },
+  "finished_at": "2026-10-12T05:00:24.573985+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "mean": 57.654978102837845,
+  "P50": 57.69980000331998,
+  "P95": 89.89431499212515,
+  "FPS": 17.344556062727545,
+  "actual_full_gpu_pipeline": true,
+  "mean_ROIs": 1.7062043795620438,
+  "forward_calls": 1483,
+  "mean_GFLOPs_estimate": 26.768700759824824,
+  "selection_ms": 0.0,
+  "scope": "Each E2/E3 independently executes actual disk decode + M0 global640 + A1 local935 + original mapping + source fusion; synchronized GPU. Excludes load/warmup/GT/scoring/serialization/assertions."
+}

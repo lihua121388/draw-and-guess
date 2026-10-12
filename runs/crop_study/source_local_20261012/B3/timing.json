@@ -1,0 +1,18 @@
+{
+  "fusion_ms": {
+    "mean": 11.363104927677739,
+    "p50": 7.927600003313273,
+    "p95": 37.25578999292336
+  },
+  "measured_e2e_ms": null,
+  "historical_S2_e2e_ms": {
+    "mean": 69.13156003663002,
+    "p50": 66.9950500014238,
+    "p95": 122.26902499824064
+  },
+  "estimated_e2e_ms": 72.17117189785532,
+  "cost_scope": "Actual measured offline CPU fusion; E2E estimate replaces historical final fusion only. Not a fresh GPU E2E measurement.",
+  "mean_rois": 1.7062043795620438,
+  "mean_forward_calls": 2.7062043795620436,
+  "mean_GFLOPs_actual_shape_estimate": 26.768700759824824
+}

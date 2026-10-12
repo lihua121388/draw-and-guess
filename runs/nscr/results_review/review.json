@@ -1,0 +1,584 @@
+{
+  "observed_at_Asia_Shanghai": "2026-10-10T23:11:32+08:00",
+  "project": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\nscr\\formal_b16_w8",
+  "runs": [
+    {
+      "name": "E0_seed42",
+      "path": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\nscr\\formal_b16_w8\\E0_seed42",
+      "seed": 42,
+      "epochs_recorded": 100,
+      "epochs_requested": 100,
+      "status": "complete",
+      "metric_source": "summary.json (best-model final validation)",
+      "metrics": {
+        "metrics/precision(B)": 0.43360978626328706,
+        "metrics/recall(B)": 0.3312147472310767,
+        "metrics/mAP50(B)": 0.32738384637240825,
+        "metrics/mAP50-95(B)": 0.18920887941461892
+      },
+      "best_csv_epoch": 83,
+      "best_csv_metrics": {
+        "metrics/precision(B)": 0.43415,
+        "metrics/recall(B)": 0.33099,
+        "metrics/mAP50(B)": 0.32738,
+        "metrics/mAP50-95(B)": 0.18937
+      },
+      "latest_metrics": {
+        "metrics/precision(B)": 0.43197,
+        "metrics/recall(B)": 0.32827,
+        "metrics/mAP50(B)": 0.3225,
+        "metrics/mAP50-95(B)": 0.18595
+      },
+      "loss_first": {
+        "train/box_loss": 1.81141,
+        "train/cls_loss": 2.00085,
+        "train/dfl_loss": 1.0445,
+        "val/box_loss": 1.75642,
+        "val/cls_loss": 1.72509,
+        "val/dfl_loss": 1.01493
+      },
+      "loss_latest": {
+        "train/box_loss": 1.27496,
+        "train/cls_loss": 0.87069,
+        "train/dfl_loss": 0.89903,
+        "val/box_loss": 1.33888,
+        "val/cls_loss": 0.98763,
+        "val/dfl_loss": 0.9098
+      },
+      "total_csv_seconds": 5207.7,
+      "median_epoch_seconds": 51.409999999999854,
+      "slow_epochs": [],
+      "checkpoints": {
+        "best.pt": {
+          "exists": true,
+          "readable": true,
+          "unchanged_during_read": true,
+          "bytes": 5457498,
+          "epoch_zero_based": -1,
+          "optimizer_present": false,
+          "metrics": {
+            "metrics/precision(B)": 0.43415,
+            "metrics/recall(B)": 0.33099,
+            "metrics/mAP50(B)": 0.32738,
+            "metrics/mAP50-95(B)": 0.18937,
+            "val/box_loss": 1.33365,
+            "val/cls_loss": 0.98307,
+            "val/dfl_loss": 0.90923,
+            "fitness": 0.20317
+          },
+          "best_fitness": null,
+          "parameters": 2591790,
+          "experiment": "E0",
+          "stride": [
+            8.0,
+            16.0,
+            32.0
+          ],
+          "classes": 10
+        },
+        "last.pt": {
+          "exists": true,
+          "readable": true,
+          "unchanged_during_read": true,
+          "bytes": 5457498,
+          "epoch_zero_based": -1,
+          "optimizer_present": false,
+          "metrics": {
+            "metrics/precision(B)": 0.43197,
+            "metrics/recall(B)": 0.32827,
+            "metrics/mAP50(B)": 0.3225,
+            "metrics/mAP50-95(B)": 0.18595,
+            "val/box_loss": 1.33888,
+            "val/cls_loss": 0.98763,
+            "val/dfl_loss": 0.9098,
+            "fitness": 0.19961
+          },
+          "best_fitness": null,
+          "parameters": 2591790,
+          "experiment": "E0",
+          "stride": [
+            8.0,
+            16.0,
+            32.0
+          ],
+          "classes": 10
+        }
+      },
+      "dataset_file_hashes_match": {
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\dataset.yaml": true,
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train.txt": true,
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\val.txt": true,
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\test.txt": true
+      },
+      "changed_implementation_files": [],
+      "label_hashes": {
+        "train": "c32dc036d9279240a5ba76db2c108aeaf6b3269b13484e687aaafbdc1c3e5f13",
+        "val": "44218f06ebedd567e7c5c4a08e7caa5286134f3f7f53b72b1d361257043e242e",
+        "test": "b7932aaab07c370cead797f617f22a8691eb7289d14eed16f52bb1ddf5ac04cc"
+      },
+      "weight_hash": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+      "settings": {
+        "batch": 16,
+        "workers": 8,
+        "imgsz": 640,
+        "optimizer": "AdamW",
+        "lr0": 0.001,
+        "amp": true,
+        "cache": false,
+        "data": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\dataset.yaml",
+        "mosaic": 1.0,
+        "close_mosaic": 10,
+        "max_det": 500
+      },
+      "issues": []
+    },
+    {
+      "name": "E0_seed43",
+      "path": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\nscr\\formal_b16_w8\\E0_seed43",
+      "seed": 43,
+      "epochs_recorded": 100,
+      "epochs_requested": 100,
+      "status": "complete",
+      "metric_source": "summary.json (best-model final validation)",
+      "metrics": {
+        "metrics/precision(B)": 0.439954635537062,
+        "metrics/recall(B)": 0.3365703815632938,
+        "metrics/mAP50(B)": 0.3298626607046151,
+        "metrics/mAP50-95(B)": 0.19033145804946597
+      },
+      "best_csv_epoch": 87,
+      "best_csv_metrics": {
+        "metrics/precision(B)": 0.43935,
+        "metrics/recall(B)": 0.33633,
+        "metrics/mAP50(B)": 0.32989,
+        "metrics/mAP50-95(B)": 0.19032
+      },
+      "latest_metrics": {
+        "metrics/precision(B)": 0.44274,
+        "metrics/recall(B)": 0.33217,
+        "metrics/mAP50(B)": 0.32544,
+        "metrics/mAP50-95(B)": 0.18785
+      },
+      "loss_first": {
+        "train/box_loss": 1.81156,
+        "train/cls_loss": 2.03841,
+        "train/dfl_loss": 1.03175,
+        "val/box_loss": 1.77471,
+        "val/cls_loss": 1.60807,
+        "val/dfl_loss": 1.00092
+      },
+      "loss_latest": {
+        "train/box_loss": 1.27337,
+        "train/cls_loss": 0.87161,
+        "train/dfl_loss": 0.89845,
+        "val/box_loss": 1.34265,
+        "val/cls_loss": 0.98248,
+        "val/dfl_loss": 0.91152
+      },
+      "total_csv_seconds": 5215.37,
+      "median_epoch_seconds": 51.960000000000036,
+      "slow_epochs": [],
+      "checkpoints": {
+        "best.pt": {
+          "exists": true,
+          "readable": true,
+          "unchanged_during_read": true,
+          "bytes": 5457498,
+          "epoch_zero_based": -1,
+          "optimizer_present": false,
+          "metrics": {
+            "metrics/precision(B)": 0.43935,
+            "metrics/recall(B)": 0.33633,
+            "metrics/mAP50(B)": 0.32989,
+            "metrics/mAP50-95(B)": 0.19032,
+            "val/box_loss": 1.3369,
+            "val/cls_loss": 0.97669,
+            "val/dfl_loss": 0.91054,
+            "fitness": 0.20427
+          },
+          "best_fitness": null,
+          "parameters": 2591790,
+          "experiment": "E0",
+          "stride": [
+            8.0,
+            16.0,
+            32.0
+          ],
+          "classes": 10
+        },
+        "last.pt": {
+          "exists": true,
+          "readable": true,
+          "unchanged_during_read": true,
+          "bytes": 5457498,
+          "epoch_zero_based": -1,
+          "optimizer_present": false,
+          "metrics": {
+            "metrics/precision(B)": 0.44274,
+            "metrics/recall(B)": 0.33217,
+            "metrics/mAP50(B)": 0.32544,
+            "metrics/mAP50-95(B)": 0.18785,
+            "val/box_loss": 1.34265,
+            "val/cls_loss": 0.98248,
+            "val/dfl_loss": 0.91152,
+            "fitness": 0.20161
+          },
+          "best_fitness": null,
+          "parameters": 2591790,
+          "experiment": "E0",
+          "stride": [
+            8.0,
+            16.0,
+            32.0
+          ],
+          "classes": 10
+        }
+      },
+      "dataset_file_hashes_match": {
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\dataset.yaml": true,
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train.txt": true,
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\val.txt": true,
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\test.txt": true
+      },
+      "changed_implementation_files": [],
+      "label_hashes": {
+        "train": "c32dc036d9279240a5ba76db2c108aeaf6b3269b13484e687aaafbdc1c3e5f13",
+        "val": "44218f06ebedd567e7c5c4a08e7caa5286134f3f7f53b72b1d361257043e242e",
+        "test": "b7932aaab07c370cead797f617f22a8691eb7289d14eed16f52bb1ddf5ac04cc"
+      },
+      "weight_hash": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+      "settings": {
+        "batch": 16,
+        "workers": 8,
+        "imgsz": 640,
+        "optimizer": "AdamW",
+        "lr0": 0.001,
+        "amp": true,
+        "cache": false,
+        "data": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\dataset.yaml",
+        "mosaic": 1.0,
+        "close_mosaic": 10,
+        "max_det": 500
+      },
+      "issues": []
+    },
+    {
+      "name": "E0_seed44",
+      "path": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\nscr\\formal_b16_w8\\E0_seed44",
+      "seed": 44,
+      "epochs_recorded": 100,
+      "epochs_requested": 100,
+      "status": "complete",
+      "metric_source": "summary.json (best-model final validation)",
+      "metrics": {
+        "metrics/precision(B)": 0.43922354599560676,
+        "metrics/recall(B)": 0.3333683064665299,
+        "metrics/mAP50(B)": 0.327271116452891,
+        "metrics/mAP50-95(B)": 0.18907939597405055
+      },
+      "best_csv_epoch": 90,
+      "best_csv_metrics": {
+        "metrics/precision(B)": 0.43867,
+        "metrics/recall(B)": 0.33358,
+        "metrics/mAP50(B)": 0.32729,
+        "metrics/mAP50-95(B)": 0.18901
+      },
+      "latest_metrics": {
+        "metrics/precision(B)": 0.43709,
+        "metrics/recall(B)": 0.32856,
+        "metrics/mAP50(B)": 0.32302,
+        "metrics/mAP50-95(B)": 0.18635
+      },
+      "loss_first": {
+        "train/box_loss": 1.80961,
+        "train/cls_loss": 2.01095,
+        "train/dfl_loss": 1.05296,
+        "val/box_loss": 1.80432,
+        "val/cls_loss": 1.56454,
+        "val/dfl_loss": 1.02227
+      },
+      "loss_latest": {
+        "train/box_loss": 1.27385,
+        "train/cls_loss": 0.87042,
+        "train/dfl_loss": 0.89877,
+        "val/box_loss": 1.33744,
+        "val/cls_loss": 0.98707,
+        "val/dfl_loss": 0.91067
+      },
+      "total_csv_seconds": 5262.17,
+      "median_epoch_seconds": 52.51999999999998,
+      "slow_epochs": [],
+      "checkpoints": {
+        "best.pt": {
+          "exists": true,
+          "readable": true,
+          "unchanged_during_read": true,
+          "bytes": 5457498,
+          "epoch_zero_based": -1,
+          "optimizer_present": false,
+          "metrics": {
+            "metrics/precision(B)": 0.43867,
+            "metrics/recall(B)": 0.33358,
+            "metrics/mAP50(B)": 0.32729,
+            "metrics/mAP50-95(B)": 0.18901,
+            "val/box_loss": 1.3333,
+            "val/cls_loss": 0.98253,
+            "val/dfl_loss": 0.90986,
+            "fitness": 0.20284
+          },
+          "best_fitness": null,
+          "parameters": 2591790,
+          "experiment": "E0",
+          "stride": [
+            8.0,
+            16.0,
+            32.0
+          ],
+          "classes": 10
+        },
+        "last.pt": {
+          "exists": true,
+          "readable": true,
+          "unchanged_during_read": true,
+          "bytes": 5457498,
+          "epoch_zero_based": -1,
+          "optimizer_present": false,
+          "metrics": {
+            "metrics/precision(B)": 0.43709,
+            "metrics/recall(B)": 0.32856,
+            "metrics/mAP50(B)": 0.32302,
+            "metrics/mAP50-95(B)": 0.18635,
+            "val/box_loss": 1.33744,
+            "val/cls_loss": 0.98707,
+            "val/dfl_loss": 0.91067,
+            "fitness": 0.20002
+          },
+          "best_fitness": null,
+          "parameters": 2591790,
+          "experiment": "E0",
+          "stride": [
+            8.0,
+            16.0,
+            32.0
+          ],
+          "classes": 10
+        }
+      },
+      "dataset_file_hashes_match": {
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\dataset.yaml": true,
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train.txt": true,
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\val.txt": true,
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\test.txt": true
+      },
+      "changed_implementation_files": [],
+      "label_hashes": {
+        "train": "c32dc036d9279240a5ba76db2c108aeaf6b3269b13484e687aaafbdc1c3e5f13",
+        "val": "44218f06ebedd567e7c5c4a08e7caa5286134f3f7f53b72b1d361257043e242e",
+        "test": "b7932aaab07c370cead797f617f22a8691eb7289d14eed16f52bb1ddf5ac04cc"
+      },
+      "weight_hash": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+      "settings": {
+        "batch": 16,
+        "workers": 8,
+        "imgsz": 640,
+        "optimizer": "AdamW",
+        "lr0": 0.001,
+        "amp": true,
+        "cache": false,
+        "data": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\dataset.yaml",
+        "mosaic": 1.0,
+        "close_mosaic": 10,
+        "max_det": 500
+      },
+      "issues": []
+    },
+    {
+      "name": "E1_seed42",
+      "path": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\nscr\\formal_b16_w8\\E1_seed42",
+      "seed": 42,
+      "epochs_recorded": 13,
+      "epochs_requested": 100,
+      "status": "incomplete",
+      "metric_source": "best-fitness CSV row so far",
+      "metrics": {
+        "metrics/precision(B)": 0.37374,
+        "metrics/recall(B)": 0.29024,
+        "metrics/mAP50(B)": 0.27208,
+        "metrics/mAP50-95(B)": 0.15114
+      },
+      "best_csv_epoch": 12,
+      "best_csv_metrics": {
+        "metrics/precision(B)": 0.37374,
+        "metrics/recall(B)": 0.29024,
+        "metrics/mAP50(B)": 0.27208,
+        "metrics/mAP50-95(B)": 0.15114
+      },
+      "latest_metrics": {
+        "metrics/precision(B)": 0.45379,
+        "metrics/recall(B)": 0.2774,
+        "metrics/mAP50(B)": 0.26485,
+        "metrics/mAP50-95(B)": 0.14871
+      },
+      "loss_first": {
+        "train/box_loss": 2.05671,
+        "train/cls_loss": 2.29385,
+        "train/dfl_loss": 1.15523,
+        "train/spacing_loss": 0.0,
+        "val/box_loss": 1.96687,
+        "val/cls_loss": 2.00206,
+        "val/dfl_loss": 1.15937,
+        "val/spacing_loss": 0.0
+      },
+      "loss_latest": {
+        "train/box_loss": 1.65571,
+        "train/cls_loss": 1.393,
+        "train/dfl_loss": 1.08027,
+        "train/spacing_loss": 0.0,
+        "val/box_loss": 1.61012,
+        "val/cls_loss": 1.38755,
+        "val/dfl_loss": 1.08068,
+        "val/spacing_loss": 0.0
+      },
+      "total_csv_seconds": 9786.38,
+      "median_epoch_seconds": 120.51999999999998,
+      "slow_epochs": [
+        {
+          "epoch": 5,
+          "seconds": 8105.551
+        }
+      ],
+      "checkpoints": {
+        "best.pt": {
+          "exists": true,
+          "readable": true,
+          "unchanged_during_read": true,
+          "bytes": 16786664,
+          "epoch_zero_based": 11,
+          "optimizer_present": true,
+          "metrics": {
+            "metrics/precision(B)": 0.37374,
+            "metrics/recall(B)": 0.29024,
+            "metrics/mAP50(B)": 0.27208,
+            "metrics/mAP50-95(B)": 0.15114,
+            "val/box_loss": 1.62161,
+            "val/cls_loss": 1.372,
+            "val/dfl_loss": 1.08866,
+            "val/spacing_loss": 0.0,
+            "fitness": 0.16323
+          },
+          "best_fitness": 0.16323,
+          "parameters": 2688760,
+          "experiment": "E1",
+          "stride": [
+            4.0,
+            8.0,
+            16.0,
+            32.0
+          ],
+          "classes": 10
+        },
+        "last.pt": {
+          "exists": true,
+          "readable": true,
+          "unchanged_during_read": true,
+          "bytes": 16786792,
+          "epoch_zero_based": 12,
+          "optimizer_present": true,
+          "metrics": {
+            "metrics/precision(B)": 0.45379,
+            "metrics/recall(B)": 0.2774,
+            "metrics/mAP50(B)": 0.26485,
+            "metrics/mAP50-95(B)": 0.14871,
+            "val/box_loss": 1.61012,
+            "val/cls_loss": 1.38755,
+            "val/dfl_loss": 1.08068,
+            "val/spacing_loss": 0.0,
+            "fitness": 0.16032
+          },
+          "best_fitness": 0.16323,
+          "parameters": 2688760,
+          "experiment": "E1",
+          "stride": [
+            4.0,
+            8.0,
+            16.0,
+            32.0
+          ],
+          "classes": 10
+        }
+      },
+      "dataset_file_hashes_match": {
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\dataset.yaml": true,
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\train.txt": true,
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\val.txt": true,
+        "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\test.txt": true
+      },
+      "changed_implementation_files": [],
+      "label_hashes": {
+        "train": "c32dc036d9279240a5ba76db2c108aeaf6b3269b13484e687aaafbdc1c3e5f13",
+        "val": "44218f06ebedd567e7c5c4a08e7caa5286134f3f7f53b72b1d361257043e242e",
+        "test": "b7932aaab07c370cead797f617f22a8691eb7289d14eed16f52bb1ddf5ac04cc"
+      },
+      "weight_hash": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+      "settings": {
+        "batch": 16,
+        "workers": 8,
+        "imgsz": 640,
+        "optimizer": "AdamW",
+        "lr0": 0.001,
+        "amp": true,
+        "cache": false,
+        "data": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\nscr_visdrone\\dataset.yaml",
+        "mosaic": 1.0,
+        "close_mosaic": 10,
+        "max_det": 500
+      },
+      "issues": []
+    }
+  ],
+  "E0_completed_seeds": 3,
+  "E0_aggregate": {
+    "metrics/precision(B)": {
+      "mean": 0.4375959892653186,
+      "sample_std": 0.003471452687198873
+    },
+    "metrics/recall(B)": {
+      "mean": 0.33371781175363346,
+      "sample_std": 0.002694869242540461
+    },
+    "metrics/mAP50(B)": {
+      "mean": 0.32817254117663813,
+      "sample_std": 0.0014647713210004833
+    },
+    "metrics/mAP50-95(B)": {
+      "mean": 0.18953991114604515,
+      "sample_std": 0.0006885501910403315
+    }
+  },
+  "same_epoch_comparisons": [
+    {
+      "seed": 42,
+      "epoch": 13,
+      "E0": {
+        "metrics/precision(B)": 0.39704,
+        "metrics/recall(B)": 0.26444,
+        "metrics/mAP50(B)": 0.24932,
+        "metrics/mAP50-95(B)": 0.13907
+      },
+      "E1": {
+        "metrics/precision(B)": 0.45379,
+        "metrics/recall(B)": 0.2774,
+        "metrics/mAP50(B)": 0.26485,
+        "metrics/mAP50-95(B)": 0.14871
+      },
+      "difference_percentage_points": {
+        "metrics/precision(B)": 5.6750000000000025,
+        "metrics/recall(B)": 1.2959999999999972,
+        "metrics/mAP50(B)": 1.552999999999996,
+        "metrics/mAP50-95(B)": 0.964000000000001
+      }
+    }
+  ],
+  "label_hashes_equal_across_runs": true,
+  "pretraining_hashes_equal_across_runs": true
+}

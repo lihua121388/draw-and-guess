@@ -1,0 +1,247 @@
+{
+  "checkpoint": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\fusion\\formal_100e_b16_s42\\F0_seed42\\weights\\best.pt",
+  "dataset": "VisDrone2019-DET",
+  "split": "val",
+  "images": 548,
+  "ultralytics": {
+    "metrics/precision(B)": 0.45236994397110514,
+    "metrics/recall(B)": 0.34775638190767905,
+    "metrics/mAP50(B)": 0.35088914025035406,
+    "metrics/mAP50-95(B)": 0.20331982120447278,
+    "fitness": 0.21807675310906094
+  },
+  "validation_speed_ms": {
+    "preprocess": 0.11843832122182378,
+    "inference": 1.8222065693514002,
+    "loss": 0.0008775547083491038,
+    "postprocess": 2.9652184308281364
+  },
+  "params": 2688760,
+  "GFLOPs": 11.458201599999999,
+  "fused_params": 2680624,
+  "fused_GFLOPs": 11.238860800000001,
+  "ultralytics_per_class": [
+    {
+      "class_id": 0,
+      "name": "pedestrian",
+      "Precision": 0.4786409596783667,
+      "Recall": 0.40463741759490796,
+      "AP50": 0.4095085879146772,
+      "AP50_95": 0.18120503683400868
+    },
+    {
+      "class_id": 1,
+      "name": "people",
+      "Precision": 0.5013982277072064,
+      "Recall": 0.3096029728143947,
+      "AP50": 0.33467433737426966,
+      "AP50_95": 0.12820741250234227
+    },
+    {
+      "class_id": 2,
+      "name": "bicycle",
+      "Precision": 0.23951022612974107,
+      "Recall": 0.11667971808927173,
+      "AP50": 0.09727501436998709,
+      "AP50_95": 0.03869036429786561
+    },
+    {
+      "class_id": 3,
+      "name": "car",
+      "Precision": 0.6260315372946952,
+      "Recall": 0.7906444460339032,
+      "AP50": 0.7868899119749673,
+      "AP50_95": 0.541197914872814
+    },
+    {
+      "class_id": 4,
+      "name": "van",
+      "Precision": 0.47979452265095573,
+      "Recall": 0.3838742393509128,
+      "AP50": 0.38576965127331386,
+      "AP50_95": 0.2654008003462052
+    },
+    {
+      "class_id": 5,
+      "name": "truck",
+      "Precision": 0.45200514076438864,
+      "Recall": 0.28475935828877,
+      "AP50": 0.28781926210944164,
+      "AP50_95": 0.18751049235423786
+    },
+    {
+      "class_id": 6,
+      "name": "tricycle",
+      "Precision": 0.43408106605152935,
+      "Recall": 0.22126436781609196,
+      "AP50": 0.2184498317777968,
+      "AP50_95": 0.12415855547568103
+    },
+    {
+      "class_id": 7,
+      "name": "awning-tricycle",
+      "Precision": 0.268327740314078,
+      "Recall": 0.14393939393939395,
+      "AP50": 0.12129789252643607,
+      "AP50_95": 0.0761022016468865
+    },
+    {
+      "class_id": 8,
+      "name": "bus",
+      "Precision": 0.541205699965387,
+      "Recall": 0.43724696356275305,
+      "AP50": 0.47136065449548814,
+      "AP50_95": 0.3214874468596651
+    },
+    {
+      "class_id": 9,
+      "name": "motor",
+      "Precision": 0.5027043191547031,
+      "Recall": 0.38491494158639067,
+      "AP50": 0.39584625868716256,
+      "AP50_95": 0.16923798685502128
+    }
+  ],
+  "coco_supplemental": {
+    "mAP50_95": 0.18488651241664997,
+    "mAP50": 0.3228293957023253,
+    "AP_small": 0.10610091071125036,
+    "AR_small": 0.20308056486954856,
+    "AP_medium": 0.2706996745848647,
+    "AP_large": 0.4341269605878294,
+    "max_det": 500,
+    "small_area": "original-image area <= 32^2 pixels",
+    "protocol": "supplemental standard COCO; VisDrone ignored regions approximated as classwise crowds",
+    "per_class": [
+      {
+        "category_id": 1,
+        "name": "pedestrian",
+        "AP50": 0.3977733902204574,
+        "AP50_95": 0.17166452678670274,
+        "AP_small": 0.13895651907519893,
+        "AR_small": 0.2761101012723967
+      },
+      {
+        "category_id": 2,
+        "name": "people",
+        "AP50": 0.3009440530235987,
+        "AP50_95": 0.11150910313125077,
+        "AP_small": 0.10515827463427667,
+        "AR_small": 0.21370129870129867
+      },
+      {
+        "category_id": 3,
+        "name": "bicycle",
+        "AP50": 0.09357274331105735,
+        "AP50_95": 0.03745733413127437,
+        "AP_small": 0.025709606240212148,
+        "AR_small": 0.11754554170661553
+      },
+      {
+        "category_id": 4,
+        "name": "car",
+        "AP50": 0.780611890219584,
+        "AP50_95": 0.5242171496058717,
+        "AP_small": 0.3357032448017481,
+        "AR_small": 0.47257167934464606
+      },
+      {
+        "category_id": 5,
+        "name": "van",
+        "AP50": 0.2914816728968491,
+        "AP50_95": 0.2110970575543109,
+        "AP_small": 0.06360707169790637,
+        "AR_small": 0.10791443850267379
+      },
+      {
+        "category_id": 6,
+        "name": "truck",
+        "AP50": 0.27009775179553935,
+        "AP50_95": 0.1717213581486516,
+        "AP_small": 0.05076972028380078,
+        "AR_small": 0.1229965156794425
+      },
+      {
+        "category_id": 7,
+        "name": "tricycle",
+        "AP50": 0.20228765624246256,
+        "AP50_95": 0.11382534026295606,
+        "AP_small": 0.06872517682078855,
+        "AR_small": 0.17677419354838708
+      },
+      {
+        "category_id": 8,
+        "name": "awning-tricycle",
+        "AP50": 0.0851554008115021,
+        "AP50_95": 0.054566813927917124,
+        "AP_small": 0.034276001072836924,
+        "AR_small": 0.10066006600660067
+      },
+      {
+        "category_id": 9,
+        "name": "bus",
+        "AP50": 0.42124071399797475,
+        "AP50_95": 0.2889970810105188,
+        "AP_small": 0.0914228474529882,
+        "AR_small": 0.1392857142857143
+      },
+      {
+        "category_id": 10,
+        "name": "motor",
+        "AP50": 0.3851286845042272,
+        "AP50_95": 0.16380935960704557,
+        "AP_small": 0.14668064503274708,
+        "AR_small": 0.3032460996477101
+      }
+    ]
+  },
+  "groups": {
+    "dense": {
+      "targets": 24459,
+      "matched": 8255,
+      "recall": 0.3375035774152664,
+      "mean_iou_matched": 0.7392817978582692,
+      "mean_normalized_center_error_matched": 0.10306154555594307,
+      "mean_wide_gate": null
+    },
+    "sparse": {
+      "targets": 1962,
+      "matched": 783,
+      "recall": 0.39908256880733944,
+      "mean_iou_matched": 0.7787141146232404,
+      "mean_normalized_center_error_matched": 0.0776212929931919,
+      "mean_wide_gate": null
+    }
+  },
+  "group_protocol": {
+    "spacing_tau": 2.0,
+    "small_size_original_pixels": 32.0,
+    "confidence": 0.25,
+    "IoU": 0.5,
+    "matching": "class-aware one-to-one"
+  },
+  "forward_benchmark": {
+    "device": "cuda:0",
+    "precision": "FP32",
+    "batch": 1,
+    "imgsz": 640,
+    "warmup": 30,
+    "repeats": 100,
+    "input": "synthetic zero RGB",
+    "scope": "fused model forward only; excludes preprocessing, NMS and IO",
+    "mean_ms": 7.99792896270752,
+    "p50_ms": 7.927808046340942,
+    "p95_ms": 8.500377702713013,
+    "FPS": 125.03236833719919,
+    "gpu": "NVIDIA GeForce RTX 3090"
+  },
+  "visdrone_official": {
+    "status": "exported; official toolkit must be run separately",
+    "predictions": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\fusion\\formal_100e_b16_s42\\F0_seed42\\evaluation\\visdrone_official_predictions",
+    "ground_truth": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\VisDrone2019-DET\\VisDrone2019-DET-val\\VisDrone2019-DET-val\\annotations",
+    "toolkit": "https://github.com/VisDrone/VisDrone2018-DET-toolkit"
+  },
+  "candidate_diagnostics": {
+    "status": "P2 control, no candidate teacher"
+  }
+}

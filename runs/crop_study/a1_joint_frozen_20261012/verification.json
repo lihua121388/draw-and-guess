@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "images": 548,
+  "ROI_count": 935,
+  "ROI_sha256": "659d22fd9f68d1f1639b07a20dc8eabb94222c9363935d8d60606dbaf0f54b01",
+  "unchanged_weights_ROIs_history_and_validation": true,
+  "shared_A1_predictions": true,
+  "actual_full_GPU_timing": true,
+  "no_training": true,
+  "no_selection_recompute": true,
+  "no_parameter_tuning": true,
+  "source_sha256": "510a83975533f1d38e3c5d29351705809c898a7be5bbb2044ea3fd9b3c61deeb",
+  "finished": "2026-10-12T23:02:26.910725"
+}

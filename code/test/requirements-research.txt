@@ -1,0 +1,2 @@
+# Install into the existing Anaconda yolo environment, or use a local --target .research-deps.
+pycocotools==2.0.11

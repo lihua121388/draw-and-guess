@@ -1,0 +1,87 @@
+{
+  "checkpoint": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\candidates\\smoke_b8\\M3_seed42\\weights\\best.pt",
+  "dataset": "VisDrone2019-DET",
+  "split": "val",
+  "images": 8,
+  "ultralytics": {
+    "metrics/precision(B)": 0.018319069373904966,
+    "metrics/recall(B)": 0.017823922966746293,
+    "metrics/mAP50(B)": 0.009706846750832422,
+    "metrics/mAP50-95(B)": 0.004081030715071887,
+    "fitness": 0.0046436123186479415
+  },
+  "validation_speed_ms": {
+    "preprocess": 0.3959125006076647,
+    "inference": 12.029037500724371,
+    "loss": 0.0011874999472638592,
+    "postprocess": 7.1159250001073815
+  },
+  "params": 2694762,
+  "GFLOPs": 11.7801472,
+  "fused_params": 2686482,
+  "fused_GFLOPs": 11.531315200000002,
+  "coco_supplemental": {
+    "mAP50_95": 8.900890089008901e-06,
+    "mAP50": 4.5004500450045e-05,
+    "AP_small": 0.0,
+    "AR_small": 0.0,
+    "AP_medium": 0.0,
+    "AP_large": 0.0004926346293165902,
+    "max_det": 500,
+    "small_area": "original-image area <= 32^2 pixels",
+    "protocol": "supplemental standard COCO; VisDrone ignored regions approximated as classwise crowds"
+  },
+  "groups": {
+    "dense": {
+      "targets": 538,
+      "matched": 0,
+      "recall": 0.0,
+      "mean_iou_matched": null,
+      "mean_normalized_center_error_matched": null,
+      "mean_wide_gate": null
+    },
+    "sparse": {
+      "targets": 27,
+      "matched": 0,
+      "recall": 0.0,
+      "mean_iou_matched": null,
+      "mean_normalized_center_error_matched": null,
+      "mean_wide_gate": null
+    }
+  },
+  "group_protocol": {
+    "spacing_tau": 2.0,
+    "small_size_original_pixels": 32.0,
+    "confidence": 0.25,
+    "IoU": 0.5,
+    "matching": "class-aware one-to-one"
+  },
+  "forward_benchmark": {
+    "device": "cuda:0",
+    "precision": "FP32",
+    "batch": 1,
+    "imgsz": 640,
+    "warmup": 30,
+    "repeats": 100,
+    "input": "synthetic zero RGB",
+    "scope": "fused model forward only; excludes preprocessing, NMS and IO",
+    "mean_ms": 8.518461780548096,
+    "p50_ms": 8.370176315307617,
+    "p95_ms": 9.3922833442688,
+    "FPS": 117.39208624302331,
+    "gpu": "NVIDIA GeForce RTX 3090"
+  },
+  "visdrone_official": {
+    "status": "exported; official toolkit must be run separately",
+    "predictions": "H:\\JZ\\code\\ultralytics-8.3.163\\runs\\candidates\\smoke_b8\\M3_seed42\\evaluation\\visdrone_official_predictions",
+    "ground_truth": "H:\\JZ\\code\\ultralytics-8.3.163\\datasets\\VisDrone2019-DET\\VisDrone2019-DET-val\\VisDrone2019-DET-val\\annotations",
+    "toolkit": "https://github.com/VisDrone/VisDrone2018-DET-toolkit"
+  },
+  "candidate_diagnostics": {
+    "status": "evaluated",
+    "kind": "brr",
+    "images": 8,
+    "mean_unweighted_auxiliary": 0.693147212266922,
+    "protocol": "Held-out GT teacher computed after RGB-only prediction, no augmentation, letterboxed coordinates. Unweighted loss is a mechanism diagnostic; different teachers/loss entropies cannot be compared as detection quality."
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "rows": [
+    {
+      "scope": "E2_local_final_025",
+      "state": "no_observation",
+      "n": 21339,
+      "TP": 13367,
+      "FP": 7972,
+      "geometric_valid": 14981,
+      "share": 0.6931622543446484,
+      "TP_rate": 0.6264117343830545,
+      "FP_rate": 0.3735882656169455,
+      "geometric_valid_rate": 0.7020478935282816
+    },
+    {
+      "scope": "E2_local_final_025",
+      "state": "observed_no_support",
+      "n": 660,
+      "TP": 53,
+      "FP": 607,
+      "geometric_valid": 75,
+      "share": 0.021439012506090628,
+      "TP_rate": 0.0803030303030303,
+      "FP_rate": 0.9196969696969697,
+      "geometric_valid_rate": 0.11363636363636363
+    },
+    {
+      "scope": "E2_local_final_025",
+      "state": "supported",
+      "n": 8786,
+      "TP": 5349,
+      "FP": 3437,
+      "geometric_valid": 6208,
+      "share": 0.285398733149261,
+      "TP_rate": 0.6088094696107443,
+      "FP_rate": 0.3911905303892556,
+      "geometric_valid_rate": 0.7065786478488505
+    },
+    {
+      "scope": "E3_local_final_025",
+      "state": "no_observation",
+      "n": 20358,
+      "TP": 13193,
+      "FP": 7165,
+      "geometric_valid": 14674,
+      "share": 0.7097089070943001,
+      "TP_rate": 0.6480499066705964,
+      "FP_rate": 0.3519500933294037,
+      "geometric_valid_rate": 0.7207977207977208
+    },
+    {
+      "scope": "E3_local_final_025",
+      "state": "observed_no_support",
+      "n": 210,
+      "TP": 44,
+      "FP": 166,
+      "geometric_valid": 53,
+      "share": 0.007320899424786474,
+      "TP_rate": 0.20952380952380953,
+      "FP_rate": 0.7904761904761904,
+      "geometric_valid_rate": 0.2523809523809524
+    },
+    {
+      "scope": "E3_local_final_025",
+      "state": "supported",
+      "n": 8117,
+      "TP": 5078,
+      "FP": 3039,
+      "geometric_valid": 5751,
+      "share": 0.28297019348091335,
+      "TP_rate": 0.6256005913514845,
+      "FP_rate": 0.37439940864851545,
+      "geometric_valid_rate": 0.7085129974128372
+    },
+    {
+      "scope": "raw_local_001",
+      "state": "no_observation",
+      "n": 1027982,
+      "TP": 23800,
+      "FP": 1004182,
+      "geometric_valid": 70782,
+      "share": 0.6082460197056228,
+      "TP_rate": 0.023152156360714486,
+      "FP_rate": 0.9768478436392856,
+      "geometric_valid_rate": 0.0688552912405081
+    },
+    {
+      "scope": "raw_local_001",
+      "state": "observed_no_support",
+      "n": 570358,
+      "TP": 1982,
+      "FP": 568376,
+      "geometric_valid": 11536,
+      "share": 0.3374747644484627,
+      "TP_rate": 0.003475010432044435,
+      "FP_rate": 0.9965249895679555,
+      "geometric_valid_rate": 0.020225893210930677
+    },
+    {
+      "scope": "raw_local_001",
+      "state": "supported",
+      "n": 91736,
+      "TP": 7117,
+      "FP": 84619,
+      "geometric_valid": 37386,
+      "share": 0.05427921584591462,
+      "TP_rate": 0.07758132031045609,
+      "FP_rate": 0.9224186796895439,
+      "geometric_valid_rate": 0.4075390250283422
+    },
+    {
+      "scope": "raw_local_025",
+      "state": "no_observation",
+      "n": 24555,
+      "TP": 15583,
+      "FP": 8972,
+      "geometric_valid": 17449,
+      "share": 0.5836562002329395,
+      "TP_rate": 0.6346161677866015,
+      "FP_rate": 0.3653838322133985,
+      "geometric_valid_rate": 0.7106088373040114
+    },
+    {
+      "scope": "raw_local_025",
+      "state": "observed_no_support",
+      "n": 682,
+      "TP": 63,
+      "FP": 619,
+      "geometric_valid": 82,
+      "share": 0.016210691450167573,
+      "TP_rate": 0.09237536656891496,
+      "FP_rate": 0.907624633431085,
+      "geometric_valid_rate": 0.12023460410557185
+    },
+    {
+      "scope": "raw_local_025",
+      "state": "supported",
+      "n": 16834,
+      "TP": 6117,
+      "FP": 10717,
+      "geometric_valid": 12562,
+      "share": 0.40013310831689286,
+      "TP_rate": 0.3633717476535583,
+      "FP_rate": 0.6366282523464417,
+      "geometric_valid_rate": 0.7462278721634786
+    }
+  ],
+  "image_counts": {
+    "2": 406,
+    "two_ROI_overlap": 371,
+    "1": 123,
+    "0": 19
+  },
+  "mean_two_ROI_intersection_area": 159396.6157635468,
+  "protocol": "Geometry: complete box containment by OTHER ROI with internal8px margin, image edges exempt. Support: same class IoU>=.5 and OTHER local confidence>=.10, preset before diagnosis. Raw pools match local candidates one-to-one; final pools match full global+local output then restrict local source. Individual ignore IoA.5 excluded. geometric_valid counts correct-class IoU>=.5 independently of duplicates. These are retrospective VALIDATION DIAGNOSTICS ONLY, not quality training labels or parameter selection.",
+  "thresholds": {
+    "margin": 8,
+    "support_iou": 0.5,
+    "support_conf": 0.1
+  }
+}

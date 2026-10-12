@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "historical_predictions_unchanged": true,
+  "M0_and_validation_unchanged": true,
+  "frozen_rois_sha256": "659d22fd9f68d1f1639b07a20dc8eabb94222c9363935d8d60606dbaf0f54b01",
+  "B0_exact_S2": true,
+  "fusion_methods": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B_MRU"
+  ],
+  "dataset_crops": 16993,
+  "dataset_verified": true,
+  "dry_run": "passed",
+  "formal_training_started": false,
+  "quality_predictor_trained": false,
+  "source_sha256": {
+    "source_fusion.py": "2ef9ac1f9586b64f7b68a9322432b8a5248a3d68d4ac3448f2188d0e47a61c9c",
+    "run_source_study.py": "a8987a1a0f5c4ee2f455b22651130afbe22f82d41f598dc61897e05d71882a42",
+    "prepare_local_rois.py": "c690a53d15567130b97421104c7b0709e466b51ec2cb87b2f7e2443310139623",
+    "train_local_detector.py": "8613c29d412d1203aabafbbe831b2c84ac6ab0316936e259b43ea73ec1b9dafa",
+    "evaluate_local_factors.py": "0dc37d2fd2f09e4d6c2e589e85b625a23510490094dc41b18dc46ac377261b25",
+    "benchmark_local_factors.py": "fc6208c1fac187a07c34a5cf83656b87b08a6e8917be12fa72ccad2650557292",
+    "run_mru_fusion_control.py": "9099dc58a800933c71ad843d6630a7ec6cc640b85584b01219b584dec5a35f0e",
+    "analyze_source_detail.py": "5a287a4d8579cca29e96c940fb04ebee1e27e12249b5009ec38ac5088d130b35",
+    "report_source_local.py": "b61a5f945af10b57c2745bd68be61668a1e0cb36856da4f22efae9c33d31f692",
+    "test_source_local.py": "edabd5751203278bcfef6865d6aca67e950df360c332fdd825c36544c77aa4dc",
+    "local_dataset_checks.py": "3cec7a396489c54c175da5178f2d7822750f1305f8f4738bf873b22c6c254b6a",
+    "align_local_padding.py": "0c7b140adc9a0e298836a08dabb9d12c1ebc4bbc9794b52f7b8fbe9d4ee7543b"
+  },
+  "finished": "2026-10-12T15:40:20.997151"
+}

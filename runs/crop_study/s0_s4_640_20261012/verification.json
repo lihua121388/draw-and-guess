@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "unchanged_weights_and_data": true,
+  "immutable": {
+    "checkpoint_sha256": "ea7a1f071cfc5e0b4b3dc4016c38f36727b1f0302a9a9bc5c0192da39df1d16f",
+    "label_content_sha256": "7319e005d6c9cad147454b3a5eb042600c5add510611fffd137c25a2932ba65b",
+    "original_annotations_sha256": "b05cf4368c2d3668341f5d8055d78a4fa091bd4a4afb9553c76ebf03186db52e",
+    "image_content_sha256": "abcd3e973ed15c2d39962d7a09606f04bfe7d3e2cb083dd7cd6dd290fe24fe10",
+    "annotation_sha256": "437d6d9f984c3749b456635b884bdef45775a0ca93336f08000d30cd3c932b4a",
+    "val_manifest_sha256": "5bab02f66f40d80fd10494a37e202e8034b76e5abaa153fd512d20bf77c4b044"
+  },
+  "all_schemes": [
+    "S0",
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "source_sha256": {
+    "crop_proposals.py": "36fc9d2824f35d84566f63395ba67323fd4a1e616f764e4649390028f3846649",
+    "run_crop_budget.py": "146dd7063c657a2bf622e872f8a1c1e8c6d84c142d5e7a8191d941df35790d11",
+    "report_crop_budget.py": "83f87a912148b4e23d27c8374a33f1361065e165f3ff3f5f539c8800c297a6aa",
+    "crop_geometry.py": "175394f640a35c9b2d1aa9923f499b611f23c7bd5631b78006e50756ef2ec6da",
+    "crop_infer.py": "b7bd544e94228a0cf4e9f24caebb3900c41189d2bd75e3c3dd7e09936463155c",
+    "crop_evaluate.py": "d8c58f37a75065aef7a85229d55275113dfa14587289f831bfaca0d4e0e84206"
+  },
+  "finished_at": "2026-10-12T05:38:00.847517+00:00"
+}

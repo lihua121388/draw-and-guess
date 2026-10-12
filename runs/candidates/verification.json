@@ -1,0 +1,41 @@
+{
+  "date_local": "2026-10-11",
+  "python": "C:\\Users\\FXQJDYTH\\anaconda3\\envs\\yolo\\python.exe",
+  "unit_tests": {
+    "test_candidates.py": {"passed": 11, "return_code": 0},
+    "test_nscr.py": {"passed": 16, "return_code": 0},
+    "test_dcr.py": {"passed": 11, "return_code": 0}
+  },
+  "CUDA_AMP_stress": {
+    "status": "passed",
+    "models": ["M1", "M2", "M3", "M4", "M5", "M0"],
+    "batch": 8,
+    "imgsz": 640,
+    "instances_per_image": 512,
+    "report": "runs/candidates/stress_b8.json"
+  },
+  "real_training_evaluation_smoke": {
+    "status": "passed",
+    "models": ["M1", "M2", "M3", "M4", "M5", "M0"],
+    "train_images": 16,
+    "val_images": 8,
+    "epochs": 1,
+    "batch": 8,
+    "workers": 4,
+    "report": "runs/candidates/smoke_b8/validation.json"
+  },
+  "full_dataset_manifest_counts": {"train": 6471, "val": 548, "test": 1610},
+  "formal_training": {
+    "status": "not_started_command_requested_by_user",
+    "epochs_per_model": 100,
+    "batch": 8,
+    "seed": 42,
+    "project": "runs/candidates/formal_100e_b8_s42"
+  },
+  "limitations": [
+    "Functional checks do not establish accuracy gains or first-ever originality.",
+    "CUDA grid_sample backward is not guaranteed bitwise deterministic.",
+    "Supplemental COCO evaluation does not replace official VisDrone toolkit evaluation.",
+    "One seed screening does not establish robust mechanism contribution."
+  ]
+}

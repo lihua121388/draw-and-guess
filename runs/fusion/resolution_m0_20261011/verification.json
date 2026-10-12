@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "verified_at": "2026-10-11T08:26:51.934570+00:00",
+  "images_per_resolution": 548,
+  "resolutions": [
+    640,
+    960,
+    1280
+  ],
+  "per_class_mean_matches_main_AP": true,
+  "historical_640_metrics_exactly_reproduced": true,
+  "checkpoint_and_dataset_identity_equal": true,
+  "feature_sensitivity_64_images_preserved": true,
+  "disjoint_miss_and_density_partitions": "asserted in generation",
+  "new_diagnosis_unit_tests": 3,
+  "formal_training_started": false
+}

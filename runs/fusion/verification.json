@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "fusion_tests": 4,
+  "protocol_tests": 4,
+  "existing_candidate_regression_tests": 11,
+  "formal_training_started": false,
+  "old_queue_status": "stopped_by_user",
+  "M4_completed_epochs": 18,
+  "M4_checkpoint_readable": true,
+  "diagnosis_images": 64,
+  "full_offline_evaluation_images": 548,
+  "reference_protocol": "Python reproduction, not MATLAB cross-validated"
+}

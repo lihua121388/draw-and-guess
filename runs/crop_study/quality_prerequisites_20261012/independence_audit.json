@@ -1,0 +1,20 @@
+{
+  "official_train_images": 6471,
+  "M0_gradient_training_images": 6471,
+  "A1_gradient_source_images": 5653,
+  "A1_selection_source_images": 813,
+  "train_images_with_no_A1_crop": 5,
+  "A1_selection_sequences": 21,
+  "proposal_images": {
+    "fit": 454,
+    "early_stop": 278,
+    "calibration": 83
+  },
+  "proposal_source_groups": {
+    "fit": 13,
+    "early_stop": 4,
+    "calibration": 4
+  },
+  "completely_unseen_upstream_sources_within_official_train": 0,
+  "note": "Removing quality-fit/dev overlap does NOT undo M0 full-train exposure or A1 checkpoint-selection exposure. Validation548 is excluded from every proposed quality split. Cross-fitting only a quality MLP does not create out-of-fold M0/A1 predictions. Full detector cross-fitting requires retraining per-fold M0/A1 excluding held-out source from gradient and selection, not authorized or executed."
+}

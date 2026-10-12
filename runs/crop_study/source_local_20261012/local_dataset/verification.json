@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "crops": 16993,
+  "splits": {
+    "train": 15136,
+    "dev": 1857
+  },
+  "all_640_rgb": true,
+  "labels_valid": true,
+  "source_group_leakage": false,
+  "official_val_used_for_training": false,
+  "overlays": 66,
+  "artifacts_sha256": "61b16ca7207d59649c045831f8ce89748f8a24737720fde25f43fe6bc03f85dc"
+}
